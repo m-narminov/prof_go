@@ -75,7 +75,7 @@ class Online extends React.Component {
 
     return (
       <section className={`${s.root} mb-4`}>
-        <h1 className='page-title'>Онлайн мероприятия</h1>
+        <h1 className='page-title'>Специальность</h1>
         <div>
           <button
             type='submit'
@@ -115,18 +115,12 @@ class Online extends React.Component {
                     {meetupTime}
                   </Col>
                   <Col md={2} lg={2} xs={12} className='list-item'>
-                    <a
-                      href='https://rsv.ru/edu/courses/10/185/'
-                      target='_blank'
-                      rel='noopener noreferrer'
-                    >
-                      {meetup.title}
-                    </a>
+                    {meetup.title}
                   </Col>
-                  <Col md={2} lg={2} xs={12} className='list-item'>
-                    Мария Гладышева
+                  <Col md={7} lg={7} xs={12} className='list-item'>
+                    {meetup.fio}
                   </Col>
-                  <Col md={2} lg={2} xs={12} className='list-item'>
+                  {/* <Col md={2} lg={2} xs={12} className='list-item'>
                     <CopyToClipboard
                       text={`${meetup.link}?userFromId=${this.state.user.id}`}
                       onCopy={text => {
@@ -147,16 +141,16 @@ class Online extends React.Component {
                         Создать
                       </button>
                     </CopyToClipboard>
-                  </Col>
-                  <Col
+                  </Col> */}
+                  {/* <Col
                     id={linkCellId}
                     md={3}
                     lg={3}
                     xs={12}
                     className='list-item'
                   >
-                    {}
-                  </Col>
+                    { }
+                  </Col> */}
                 </Row>
               );
             });
@@ -171,16 +165,16 @@ class Online extends React.Component {
                     Время
                   </Col>
                   <Col md={2} lg={2} xs={12} className='list-item'>
-                    Тема
+                    Общий балл
                   </Col>
-                  <Col md={2} lg={2} xs={12} className='list-item'>
-                    Спикер
+                  <Col md={4} lg={4} xs={12} className='list-item'>
+                    ФИО Абитуриента
                   </Col>
-                  <Col md={2} lg={2} xs={12} className='list-item'>
+                  {/* <Col md={2} lg={2} xs={12} className='list-item'>
                     Реферальная ссылка
-                  </Col>
+                  </Col> */}
                   <Col md={3} lg={3} xs={12} className='list-item'>
-                    Ссылка
+                    Статус
                   </Col>
                 </Row>
 
