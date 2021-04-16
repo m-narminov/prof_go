@@ -27,7 +27,7 @@ export const chartData = {
           enabled: false,
         },
         xaxis: {
-          categories: ['Иванов Ф', 'Иванов Р', 'Иванов С', 'Иванов А', 'Иванов Д', 'Иванов П', 'Иванов Н', 'Иванов П'],
+          categories: ['р Верхнекетский', 'р Каргасокский', 'г Томск', 'р Колпашевский', 'г Стрежевой', 'р Чаинский', 'г Кедровый', 'р Зырянский'],
           labels: {
             style: {
               colors: columnColors,
@@ -59,7 +59,7 @@ export const chartData = {
     pie: {
       series: [55, 50, 40, 38, 20, 17],
       options: {
-        labels: ["Программирование", "Дизайн", "Финансы", "Мотивация", "Маркетинг", "SMM"],
+        labels: ["Информационные технологии", "Юридический", "Продавец", "Сварщик", "Бурильщик", "Портной"],
         theme: {
           monochrome: {
             enabled: true,
@@ -95,7 +95,7 @@ export const chartData = {
         }
       },
       legend: {
-        data: ['2019', '2020'],
+        data: ['2020', '2021'],
         textStyle: {
           color: colors.textColor
         }
@@ -119,12 +119,12 @@ export const chartData = {
           axisPointer: {
             label: {
               formatter: function (params) {
-                return 'Количество участников квартал ' + params.value
+                return 'Количество абитуриентов ' + params.value
                   + (params.seriesData.length ? '：' + params.seriesData[0].data : '');
               }
             }
           },
-          data: ["2020-1", "2020-2", "2020-3", "2020-4", "2020-5", "2020-6", "2020-7", "2020-8", "2020-9", "2020-10", "2020-11", "2020-12"]
+          data: ["2021-1", "2021-2", "2021-3", "2021-4", "2021-5", "2021-6", "2021-7", "2021-8", "2021-9", "2021-10", "2021-11", "2021-12"]
         },
         {
           type: 'category',
@@ -145,7 +145,7 @@ export const chartData = {
               }
             }
           },
-          data: ["2019-1", "2019-2", "2019-3", "2019-4", "2019-5", "2019-6", "2019-7", "2019-8", "2019-9", "2019-10", "2019-11", "2019-12"]
+          data: ["2020-1", "2020-2", "2020-3", "2020-4", "2020-5", "2020-6", "2020-7", "2020-8", "2020-9", "2020-10", "2020-11", "2020-12"]
         }
       ],
       yAxis: [
@@ -173,17 +173,17 @@ export const chartData = {
       ],
       series: [
         {
-          name: '2019',
+          name: '2020',
           type: 'line',
           xAxisIndex: 1,
           smooth: true,
-          data: [2.6, 5.9, 9.0, 26.4, 28.7, 70.7, 175.6, 182.2, 48.7, 18.8, 6.0, 2.3]
+          data: [2, 5, 9, 26, 28, 70, 175, 182, 48, 18, 6, 2]
         },
         {
-          name: '2020',
+          name: '2021',
           type: 'line',
           smooth: true,
-          data: [3.9, 5.9, 11.1, 18.7, 48.3, 69.2, 231.6, 46.6, 55.4, 18.4, 10.3, 0.7]
+          data: [3, 5, 11, 18, 48, 69, 231, 46, 55, 18, 10, 0]
         }
       ]
     },
@@ -198,7 +198,7 @@ export const chartData = {
       color: [colors.blue, colors.green, colors.orange, colors.red, colors.purple],
       series: [
         {
-          name: 'Ячейка успеха',
+          name: 'Ячейка',
           type: 'pie',
           radius: ['50%', '70%'],
           avoidLabelOverlap: false,
@@ -221,11 +221,12 @@ export const chartData = {
             }
           },
           data: [
-            { value: 335, name: 'Основная информация' },
-            { value: 310, name: 'Email почта' },
-            { value: 234, name: 'Пройденные курсы' },
-            { value: 135, name: 'Загруженные видео' },
-            { value: 1548, name: 'Работа в проектах' }
+            { value: 30, name: 'Неполная семья' },
+            { value: 335, name: 'Полная семья' },
+            { value: 310, name: 'С инвалидностью' },
+            { value: 234, name: 'Сироты' },
+            { value: 735, name: 'Женский пол' },
+            { value: 748, name: 'Мужской пол' }
           ]
         }
       ]
@@ -346,7 +347,7 @@ export const chartData = {
         enabled: false
       },
       title: {
-        text: 'График роста вашей активности',
+        text: '',
         style: {
           color: colors.textColor
         }
@@ -396,7 +397,7 @@ export const chartData = {
       colors: [colors.green, colors.blue, colors.red],
 
       series: [{
-        name: "Лучший на платформе",
+        name: "График успеваемости",
         data: [
           [Date.UTC(1970, 10, 25), 0],
           [Date.UTC(1970, 11, 6), 0.25],
@@ -427,7 +428,7 @@ export const chartData = {
           [Date.UTC(1971, 6, 4), 0]
         ]
       }, {
-        name: "Ваши показатели",
+        name: "График успеваемости",
         type: 'areaspline',
         data: [
           [Date.UTC(1970, 10, 9), 0],
@@ -455,7 +456,7 @@ export const chartData = {
           [Date.UTC(1971, 5, 7), 0]
         ]
       }, {
-        name: "Средние значение по платформе",
+        name: "График успеваемости",
         type: 'areaspline',
         data: [
           [Date.UTC(1970, 9, 15), 0],

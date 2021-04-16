@@ -7,7 +7,7 @@ import { dismissAlert } from '../../actions/alerts';
 import s from './Sidebar.module.scss';
 import LinksGroup from './LinksGroup';
 
-import elbrus from '../../images/first.svg';
+import logoForm from '../../images/logoForm.png';
 
 import { changeActiveSidebarItem } from '../../actions/navigation';
 
@@ -66,11 +66,11 @@ class Sidebar extends React.Component {
       >
         <header className={s.logo}>
           <a
-            href='https://club-elbrus.ru/'
+            href='http://unpo.tomsk.gov.ru/'
             target='_blank'
             rel='noopener noreferrer'
           >
-            <img src={elbrus} alt='Эльбрус' />
+            <img src={logoForm} width='50%' alt='logoForm' />
           </a>
         </header>
         <ul className={s.nav}>
@@ -113,10 +113,10 @@ class Sidebar extends React.Component {
               this.props.dispatch(changeActiveSidebarItem(activeItem))
             }
             activeItem={this.props.activeItem}
-            header='Эльбрус валюта'
+            header='Приемная комиссия'
             isHeader
             iconName='flaticon-layers'
-            link='/app/elbrus'
+            link='/app/commission'
             index='ui'
           />
           <LinksGroup

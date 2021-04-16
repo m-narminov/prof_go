@@ -6,7 +6,7 @@ import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import Hammer from 'rc-hammerjs';
 
 import OnlineEvent from '../../pages/components/online';
-import UIElbrus from '../../pages/elbrus';
+import UICommission from '../../pages/commission';
 import TablesStatic from '../../pages/tables/static';
 import OfflineEvent from '../../pages/components/offline/offline';
 import Testing from '../../pages/components/testing';
@@ -83,7 +83,7 @@ class Layout extends React.Component {
                     <Route path="/app/main" exact render={() => <Redirect to="/app/main/dashboard" />} />
                     <Route path="/app/main/dashboard" exact component={Dashboard} />
                     <Route path="/app/online" exact component={OnlineEvent} />
-                    <Route path="/app/elbrus" exact component={UIElbrus} />
+                    <Route path="/app/commission" exact component={UICommission} />
                     <Route path="/app/charts" exact component={Charts} />
                     <Route path="/app/tables" exact component={TablesStatic} />
                     <Route path="/app/offline" exact component={OfflineEvent} />
@@ -95,7 +95,7 @@ class Layout extends React.Component {
                 </CSSTransition>
               </TransitionGroup>
               <footer className={s.contentFooter}>
-
+                2021 &copy;<a href="http://unpo.tomsk.gov.ru/" > Департамент профессионального образования Томской области</a>
               </footer>
             </main>
           </Hammer>
