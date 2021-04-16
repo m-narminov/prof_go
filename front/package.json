@@ -4,7 +4,7 @@
     "private": true,
     "scripts": {
         "build": "cross-env PUBLIC_URL='./' node scripts/build.js",
-        "start": "node scripts/start.js",
+        "start": "npm i && node scripts/start.js",
         "test": "node scripts/test.js"
     },
     "browserslist": [
@@ -69,6 +69,7 @@
         "axios": "^0.21.0",
         "bootstrap": "4.5.0",
         "classnames": "^2.2.6",
+        "cross-env": "^7.0.3",
         "echarts": "^4.8.0",
         "echarts-for-react": "^2.0.16",
         "font-awesome": "4.7.0",
