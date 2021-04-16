@@ -233,6 +233,17 @@ table > thead > tr > th {
     }
 }
 
+.table-hover{
+
+
+    tr{
+        cursor: pointer;
+    }
+    tr:hover{
+        background: #fff!important;
+    }
+}
+
 .widget-placeholder {
     background: rgba($white, 0.4);
     border: 1px dashed $gray-600;
