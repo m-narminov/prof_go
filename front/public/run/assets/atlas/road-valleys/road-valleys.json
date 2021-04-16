@@ -1,0 +1,578 @@
+{
+	"textures": [
+		{
+			"image": "assets/atlas/road-valleys/road-valleys-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1954,
+				"h": 1504
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "road-1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1020,
+						"h": 762
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 18,
+						"w": 975,
+						"h": 744
+					},
+					"frame": {
+						"x": 4,
+						"y": 4,
+						"w": 975,
+						"h": 744
+					}
+				},
+				{
+					"filename": "road-2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1020,
+						"h": 762
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 18,
+						"w": 963,
+						"h": 744
+					},
+					"frame": {
+						"x": 987,
+						"y": 4,
+						"w": 963,
+						"h": 744
+					}
+				},
+				{
+					"filename": "road-9",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1020,
+						"h": 762
+					},
+					"spriteSourceSize": {
+						"x": 25,
+						"y": 18,
+						"w": 963,
+						"h": 744
+					},
+					"frame": {
+						"x": 4,
+						"y": 756,
+						"w": 963,
+						"h": 744
+					}
+				},
+				{
+					"filename": "road-22",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1020,
+						"h": 762
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 18,
+						"w": 960,
+						"h": 744
+					},
+					"frame": {
+						"x": 975,
+						"y": 756,
+						"w": 960,
+						"h": 744
+					}
+				}
+			]
+		},
+		{
+			"image": "assets/atlas/road-valleys/road-valleys-4.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1879,
+				"h": 1504
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "road-6",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1020,
+						"h": 762
+					},
+					"spriteSourceSize": {
+						"x": 37,
+						"y": 18,
+						"w": 932,
+						"h": 744
+					},
+					"frame": {
+						"x": 4,
+						"y": 4,
+						"w": 932,
+						"h": 744
+					}
+				},
+				{
+					"filename": "road-7",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1020,
+						"h": 762
+					},
+					"spriteSourceSize": {
+						"x": 42,
+						"y": 18,
+						"w": 931,
+						"h": 744
+					},
+					"frame": {
+						"x": 944,
+						"y": 4,
+						"w": 931,
+						"h": 744
+					}
+				},
+				{
+					"filename": "road-12",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1020,
+						"h": 762
+					},
+					"spriteSourceSize": {
+						"x": 40,
+						"y": 18,
+						"w": 930,
+						"h": 744
+					},
+					"frame": {
+						"x": 4,
+						"y": 756,
+						"w": 930,
+						"h": 744
+					}
+				},
+				{
+					"filename": "road-8",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1020,
+						"h": 762
+					},
+					"spriteSourceSize": {
+						"x": 38,
+						"y": 18,
+						"w": 930,
+						"h": 744
+					},
+					"frame": {
+						"x": 942,
+						"y": 756,
+						"w": 930,
+						"h": 744
+					}
+				}
+			]
+		},
+		{
+			"image": "assets/atlas/road-valleys/road-valleys-5.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1868,
+				"h": 1504
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "road-19",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1020,
+						"h": 762
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 18,
+						"w": 928,
+						"h": 744
+					},
+					"frame": {
+						"x": 4,
+						"y": 4,
+						"w": 928,
+						"h": 744
+					}
+				},
+				{
+					"filename": "road-14",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1020,
+						"h": 762
+					},
+					"spriteSourceSize": {
+						"x": 31,
+						"y": 18,
+						"w": 924,
+						"h": 744
+					},
+					"frame": {
+						"x": 940,
+						"y": 4,
+						"w": 924,
+						"h": 744
+					}
+				},
+				{
+					"filename": "road-13",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1020,
+						"h": 762
+					},
+					"spriteSourceSize": {
+						"x": 37,
+						"y": 18,
+						"w": 919,
+						"h": 744
+					},
+					"frame": {
+						"x": 4,
+						"y": 756,
+						"w": 919,
+						"h": 744
+					}
+				},
+				{
+					"filename": "road-24",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1020,
+						"h": 762
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 18,
+						"w": 919,
+						"h": 744
+					},
+					"frame": {
+						"x": 931,
+						"y": 756,
+						"w": 919,
+						"h": 744
+					}
+				}
+			]
+		},
+		{
+			"image": "assets/atlas/road-valleys/road-valleys-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1930,
+				"h": 1504
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "road-16",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1020,
+						"h": 762
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 18,
+						"w": 958,
+						"h": 744
+					},
+					"frame": {
+						"x": 4,
+						"y": 4,
+						"w": 958,
+						"h": 744
+					}
+				},
+				{
+					"filename": "road-5",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1020,
+						"h": 762
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 18,
+						"w": 956,
+						"h": 744
+					},
+					"frame": {
+						"x": 970,
+						"y": 4,
+						"w": 956,
+						"h": 744
+					}
+				},
+				{
+					"filename": "road-15",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1020,
+						"h": 762
+					},
+					"spriteSourceSize": {
+						"x": 15,
+						"y": 18,
+						"w": 952,
+						"h": 744
+					},
+					"frame": {
+						"x": 4,
+						"y": 756,
+						"w": 952,
+						"h": 744
+					}
+				},
+				{
+					"filename": "road-3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1020,
+						"h": 762
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 18,
+						"w": 950,
+						"h": 744
+					},
+					"frame": {
+						"x": 964,
+						"y": 756,
+						"w": 950,
+						"h": 744
+					}
+				}
+			]
+		},
+		{
+			"image": "assets/atlas/road-valleys/road-valleys-2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1913,
+				"h": 1504
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "road-10",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1020,
+						"h": 762
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 18,
+						"w": 949,
+						"h": 744
+					},
+					"frame": {
+						"x": 4,
+						"y": 4,
+						"w": 949,
+						"h": 744
+					}
+				},
+				{
+					"filename": "road-11",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1020,
+						"h": 762
+					},
+					"spriteSourceSize": {
+						"x": 35,
+						"y": 18,
+						"w": 948,
+						"h": 744
+					},
+					"frame": {
+						"x": 961,
+						"y": 4,
+						"w": 948,
+						"h": 744
+					}
+				},
+				{
+					"filename": "road-18",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1020,
+						"h": 762
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 18,
+						"w": 947,
+						"h": 744
+					},
+					"frame": {
+						"x": 4,
+						"y": 756,
+						"w": 947,
+						"h": 744
+					}
+				},
+				{
+					"filename": "road-20",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1020,
+						"h": 762
+					},
+					"spriteSourceSize": {
+						"x": 28,
+						"y": 18,
+						"w": 945,
+						"h": 744
+					},
+					"frame": {
+						"x": 959,
+						"y": 756,
+						"w": 945,
+						"h": 744
+					}
+				}
+			]
+		},
+		{
+			"image": "assets/atlas/road-valleys/road-valleys-3.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1904,
+				"h": 1504
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "road-23",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1020,
+						"h": 762
+					},
+					"spriteSourceSize": {
+						"x": 16,
+						"y": 18,
+						"w": 945,
+						"h": 744
+					},
+					"frame": {
+						"x": 4,
+						"y": 4,
+						"w": 945,
+						"h": 744
+					}
+				},
+				{
+					"filename": "road-21",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1020,
+						"h": 762
+					},
+					"spriteSourceSize": {
+						"x": 38,
+						"y": 18,
+						"w": 943,
+						"h": 744
+					},
+					"frame": {
+						"x": 957,
+						"y": 4,
+						"w": 943,
+						"h": 744
+					}
+				},
+				{
+					"filename": "road-17",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1020,
+						"h": 762
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 18,
+						"w": 938,
+						"h": 744
+					},
+					"frame": {
+						"x": 4,
+						"y": 756,
+						"w": 938,
+						"h": 744
+					}
+				},
+				{
+					"filename": "road-4",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1020,
+						"h": 762
+					},
+					"spriteSourceSize": {
+						"x": 31,
+						"y": 18,
+						"w": 934,
+						"h": 744
+					},
+					"frame": {
+						"x": 950,
+						"y": 756,
+						"w": 934,
+						"h": 744
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.0"
+	}
+}

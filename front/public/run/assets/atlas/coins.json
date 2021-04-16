@@ -1,0 +1,439 @@
+{
+	"textures": [
+		{
+			"image": "coins.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 497,
+				"h": 2313
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "rus",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 27,
+						"w": 180,
+						"h": 363
+					},
+					"frame": {
+						"x": 192,
+						"y": 1180,
+						"w": 180,
+						"h": 363
+					}
+				},
+				{
+					"filename": "usa",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 6,
+						"w": 181,
+						"h": 384
+					},
+					"frame": {
+						"x": 4,
+						"y": 788,
+						"w": 181,
+						"h": 384
+					}
+				},
+				{
+					"filename": "fr",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 25,
+						"w": 180,
+						"h": 365
+					},
+					"frame": {
+						"x": 4,
+						"y": 1572,
+						"w": 180,
+						"h": 365
+					}
+				},		
+				{
+					"filename": "ch",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 28,
+						"w": 181,
+						"h": 362
+					},
+					"frame": {
+						"x": 192,
+						"y": 1551,
+						"w": 181,
+						"h": 362
+					}
+				},
+				{
+					"filename": "nz",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 6,
+						"w": 180,
+						"h": 384
+					},
+					"frame": {
+						"x": 4,
+						"y": 1180,
+						"w": 180,
+						"h": 384
+					}
+				},
+				{
+					"filename": "jp",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 28,
+						"w": 181,
+						"h": 362
+					},
+					"frame": {
+						"x": 193,
+						"y": 4,
+						"w": 181,
+						"h": 362
+					}
+				},
+				{
+					"filename": "sg",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 6,
+						"w": 181,
+						"h": 384
+					},
+					"frame": {
+						"x": 4,
+						"y": 396,
+						"w": 181,
+						"h": 384
+					}
+				},
+				{
+					"filename": "gb",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 26,
+						"w": 181,
+						"h": 364
+					},
+					"frame": {
+						"x": 4,
+						"y": 1945,
+						"w": 181,
+						"h": 364
+					}
+				},
+				{
+					"filename": "za",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 30,
+						"w": 180,
+						"h": 360
+					},
+					"frame": {
+						"x": 193,
+						"y": 374,
+						"w": 180,
+						"h": 360
+					}
+				},
+				{
+					"filename": "au",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 6,
+						"w": 181,
+						"h": 384
+					},
+					"frame": {
+						"x": 4,
+						"y": 4,
+						"w": 181,
+						"h": 384
+					}
+				},
+				{
+					"filename": "rus_sign",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 222,
+						"h": 238
+					},
+					"spriteSourceSize": {
+						"x": 60,
+						"y": 44,
+						"w": 102,
+						"h": 150
+					},
+					"frame": {
+						"x": 381,
+						"y": 374,
+						"w": 102,
+						"h": 150
+					}
+				},
+				{
+					"filename": "usa_sign",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 238
+					},
+					"spriteSourceSize": {
+						"x": 70,
+						"y": 23,
+						"w": 84,
+						"h": 191
+					},
+					"frame": {
+						"x": 285,
+						"y": 941,
+						"w": 84,
+						"h": 191
+					}
+				},
+				{
+					"filename": "fr_sign",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 222,
+						"h": 238
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 42,
+						"w": 104,
+						"h": 154
+					},
+					"frame": {
+						"x": 377,
+						"y": 742,
+						"w": 104,
+						"h": 154
+					}
+				},
+				{
+					"filename": "ch_sign",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 238
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 45,
+						"w": 106,
+						"h": 148
+					},
+					"frame": {
+						"x": 382,
+						"y": 4,
+						"w": 106,
+						"h": 148
+					}
+				},
+				{
+					"filename": "nz_sign",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 238
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 23,
+						"w": 84,
+						"h": 191
+					},
+					"frame": {
+						"x": 193,
+						"y": 941,
+						"w": 84,
+						"h": 191
+					}
+				},				
+				{
+					"filename": "jp_sign",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 238
+					},
+					"spriteSourceSize": {
+						"x": 56,
+						"y": 45,
+						"w": 112,
+						"h": 148
+					},
+					"frame": {
+						"x": 381,
+						"y": 532,
+						"w": 112,
+						"h": 148
+					}
+				},
+				{
+					"filename": "sg_sign",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 222,
+						"h": 238
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 23,
+						"w": 84,
+						"h": 191
+					},
+					"frame": {
+						"x": 285,
+						"y": 742,
+						"w": 84,
+						"h": 191
+					}
+				},
+				{
+					"filename": "gb_sign",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 238
+					},
+					"spriteSourceSize": {
+						"x": 66,
+						"y": 43,
+						"w": 91,
+						"h": 151
+					},
+					"frame": {
+						"x": 377,
+						"y": 904,
+						"w": 91,
+						"h": 151
+					}
+				},
+				{
+					"filename": "za_sign",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 222,
+						"h": 238
+					},
+					"spriteSourceSize": {
+						"x": 60,
+						"y": 47,
+						"w": 102,
+						"h": 144
+					},
+					"frame": {
+						"x": 382,
+						"y": 160,
+						"w": 102,
+						"h": 144
+					}
+				},
+				{
+					"filename": "au_sign",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 223,
+						"h": 238
+					},
+					"spriteSourceSize": {
+						"x": 69,
+						"y": 23,
+						"w": 84,
+						"h": 191
+					},
+					"frame": {
+						"x": 193,
+						"y": 742,
+						"w": 84,
+						"h": 191
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.0"
+	}
+}

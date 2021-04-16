@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<html id="all-html">
+
+<head>
+	
+
+	<title>Эльбрус ловец валют‎</title>
+
+	<script src="lib/phaser.min.js"></script>
+	<script src="lib/Phaser3Swipe.min.js"></script>
+
+		
+		
+	<style>
+		
+		body {		
+			margin: 0;
+			padding: 0;
+			overflow-y: auto;		
+
+		}	
+		.myText{
+			background: transparent;
+			padding-left: 25px;
+			color: #ffffff;
+			border-right: 0;;
+			font-family: GLI-Light;
+			font-size: 25px;
+			display: none;
+			z-index: 5;
+			
+		}
+		.myName{
+			background: transparent;
+			padding-left: 0px;
+			color: #ffffff;
+			border-right: 0;
+			border-top: 0;
+			border-left: 0;
+			font-family: GLI-Light;
+			font-size: 35px;
+			display: none;
+			z-index: 5;
+		}
+		#pause-game{
+			display: none;
+		}		
+		.pause-game{
+			position: absolute;
+			margin: 0;
+			padding: 0;
+			height: auto;
+			width: 100%;
+			background-color: #020a29;
+			background-image: url('assets/img/bg-rotate.jpg'); 
+			background-size: cover;
+			background-position: center center;
+			background-repeat: no-repeat;
+			z-index:7;
+			overflow: scroll;
+			overflow-y: scroll;
+			justify-content: center;
+			flex-direction: column;			
+		}	
+		.img-logo-city{
+			width: 6vh;
+			position: absolute;
+			left: 0;
+			top: 0;	
+		}
+		.img-logo-vertical{
+			margin: 2vh auto;
+			width: 45vh;
+			max-width: 300px;
+		}
+		.text-verical{
+			font-family: GLI-Light;
+			font-size: 4vw;
+			line-height: 1.5em;
+			color: #000000;
+			margin-left: 10%;
+			margin-right: 10%;
+		}
+		.block-rotate{
+			display: flex;
+		}
+		.text-verical-rout{			
+			display: block;		
+			width: 100%;	
+			font-family: GLI-Light;
+			font-size: 4vw;
+			line-height: 1.5em;
+			color: #046DAD;
+			opacity: 0.7;
+			margin-left: 10%;
+			text-align: left;
+		}
+		.img-rout-vertical{
+			display: block;
+			width: 20%;
+			object-fit: contain;
+			float: left;
+			margin-top: 4%;
+			margin-left: 15%;
+			margin-bottom: 5%;
+		}
+		.bottom-txt{
+			text-align: center;
+			width: 90%;
+			margin-left: 5%;
+			font-size: 3vw;
+			color: rgba(0,0,0, 0.33);
+		 	padding-bottom: 1%;
+			margin: 0 auto;
+		}		
+		.airplane{
+			margin-bottom: -2%;
+			width: 10vw;
+			max-width: 70px;
+		}
+
+		.fb-pause{
+			position: absolute;
+			display: none;
+			top: 0;			
+			z-index: 1000;
+			width: 100%;
+		}
+
+
+	</style>
+
+
+</head>
+
+<body id="body">
+	<div class="font_preload hidden" style='font-family: "GLI-Light"'>		  	
+	</div>
+
+	<div id="pause-game" class="pause-game">
+		<img src="assets/img/fb.png" class="fb-pause" />
+
+		</br></br> 	
+		<div class="block-rotate">		
+			<img src="assets/img/ico-rotate.png" class="img-rout-vertical" />
+			<p class="text-verical-rout" >Поверните телефон,<br>для продолжения</p>
+		</div>
+					
+	</div>
+	
+	<div id="game-container"></div>
+	
+
+<script type="text/javascript" src="assets/js/vendors.353571bb9788eab44719.js"></script><script type="text/javascript" src="assets/js/app.353571bb9788eab44719.js"></script></body>
+
+<script>
+	function isFacebookApp() {
+    var ua = navigator.userAgent || navigator.vendor || window.opera;
+    return (ua.indexOf("FBAN") > -1) || (ua.indexOf("FBAV") > -1) || (ua.indexOf("Instagram") > -1);			
+	}	
+		
+		if (isFacebookApp()){ 
+			document.querySelector(".fb-pause").style.display = 'block';		
+	}	
+
+</script>
+
+</html>

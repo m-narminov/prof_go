@@ -1,0 +1,28 @@
+{
+  "section1": {"files": [
+    {
+      "type": "sceneFile",
+      "key": "first",
+      "url": "assets/scenes/first.js"
+    },
+    {
+      "type": "sceneFile",
+      "key": "finalgame",
+      "url": "assets/scenes/finalgame.js"
+    },
+    {
+      "type": "sceneFile",
+      "key": "game",
+      "url": "assets/scenes/game.js"
+    },
+    {
+      "type": "multiatlas",
+      "key": "boy",
+      "url": "assets/atlas/boy.json",
+      "path": "assets/atlas"
+    }
+  ]},
+  "meta": {
+    "version": "2"
+  }
+}

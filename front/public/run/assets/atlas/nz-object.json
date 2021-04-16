@@ -1,0 +1,250 @@
+{
+	"textures": [
+		{
+			"image": "nz-object.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2019,
+				"h": 1408
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Artboard-1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 643,
+						"h": 483
+					},
+					"spriteSourceSize": {
+						"x": 37,
+						"y": 40,
+						"w": 561,
+						"h": 381
+					},
+					"frame": {
+						"x": 4,
+						"y": 4,
+						"w": 561,
+						"h": 381
+					}
+				},
+				{
+					"filename": "Artboard-2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 559,
+						"h": 535
+					},
+					"spriteSourceSize": {
+						"x": 42,
+						"y": 93,
+						"w": 489,
+						"h": 375
+					},
+					"frame": {
+						"x": 573,
+						"y": 4,
+						"w": 489,
+						"h": 375
+					}
+				},
+				{
+					"filename": "Artboard-3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 488,
+						"h": 621
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 25,
+						"w": 408,
+						"h": 550
+					},
+					"frame": {
+						"x": 1070,
+						"y": 4,
+						"w": 408,
+						"h": 550
+					}
+				},
+				{
+					"filename": "Artboard-4",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 534,
+						"h": 668
+					},
+					"spriteSourceSize": {
+						"x": 50,
+						"y": 57,
+						"w": 403,
+						"h": 535
+					},
+					"frame": {
+						"x": 573,
+						"y": 387,
+						"w": 403,
+						"h": 535
+					}
+				},
+				{
+					"filename": "Artboard-5",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 482,
+						"h": 668
+					},
+					"spriteSourceSize": {
+						"x": 41,
+						"y": 95,
+						"w": 372,
+						"h": 507
+					},
+					"frame": {
+						"x": 4,
+						"y": 393,
+						"w": 372,
+						"h": 507
+					}
+				},
+				{
+					"filename": "Artboard-6",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 222,
+						"h": 178
+					},
+					"spriteSourceSize": {
+						"x": 42,
+						"y": 17,
+						"w": 128,
+						"h": 120
+					},
+					"frame": {
+						"x": 384,
+						"y": 393,
+						"w": 128,
+						"h": 120
+					}
+				},
+				{
+					"filename": "Artboard-7",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 222,
+						"h": 178
+					},
+					"spriteSourceSize": {
+						"x": 46,
+						"y": 19,
+						"w": 120,
+						"h": 119
+					},
+					"frame": {
+						"x": 384,
+						"y": 521,
+						"w": 120,
+						"h": 119
+					}
+				},
+				{
+					"filename": "Artboard-8",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 222,
+						"h": 178
+					},
+					"spriteSourceSize": {
+						"x": 64,
+						"y": 10,
+						"w": 94,
+						"h": 132
+					},
+					"frame": {
+						"x": 384,
+						"y": 648,
+						"w": 94,
+						"h": 132
+					}
+				},
+				{
+					"filename": "Artboard-9",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 442,
+						"h": 668
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 103,
+						"w": 336,
+						"h": 496
+					},
+					"frame": {
+						"x": 4,
+						"y": 908,
+						"w": 336,
+						"h": 496
+					}
+				},
+				{
+					"filename": "Artboard-10",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 370,
+						"h": 311
+					},
+					"spriteSourceSize": {
+						"x": 34,
+						"y": 25,
+						"w": 292,
+						"h": 246
+					},
+					"frame": {
+						"x": 1486,
+						"y": 4,
+						"w": 292,
+						"h": 246
+					}
+				},
+				{
+					"filename": "Artboard-11",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 319,
+						"h": 268
+					},
+					"spriteSourceSize": {
+						"x": 43,
+						"y": 28,
+						"w": 229,
+						"h": 191
+					},
+					"frame": {
+						"x": 1786,
+						"y": 4,
+						"w": 229,
+						"h": 191
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.0"
+	}
+}

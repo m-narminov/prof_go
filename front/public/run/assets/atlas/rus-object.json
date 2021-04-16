@@ -1,0 +1,271 @@
+{
+	"textures": [
+		{
+			"image": "rus-object.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1059,
+				"h": 2231
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Artboard-8",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 638,
+						"h": 705
+					},
+					"spriteSourceSize": {
+						"x": 35,
+						"y": 60,
+						"w": 588,
+						"h": 576
+					},
+					"frame": {
+						"x": 4,
+						"y": 4,
+						"w": 588,
+						"h": 576
+					}
+				},
+				{
+					"filename": "Artboard-7",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 502,
+						"h": 658
+					},
+					"spriteSourceSize": {
+						"x": 68,
+						"y": 22,
+						"w": 329,
+						"h": 549
+					},
+					"frame": {
+						"x": 4,
+						"y": 588,
+						"w": 329,
+						"h": 549
+					}
+				},
+				{
+					"filename": "Artboard-3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 442,
+						"h": 668
+					},
+					"spriteSourceSize": {
+						"x": 43,
+						"y": 22,
+						"w": 286,
+						"h": 546
+					},
+					"frame": {
+						"x": 4,
+						"y": 1145,
+						"w": 286,
+						"h": 546
+					}
+				},
+				{
+					"filename": "Artboard-2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 414,
+						"h": 654
+					},
+					"spriteSourceSize": {
+						"x": 60,
+						"y": 54,
+						"w": 292,
+						"h": 528
+					},
+					"frame": {
+						"x": 4,
+						"y": 1699,
+						"w": 292,
+						"h": 528
+					}
+				},
+				{
+					"filename": "Artboard-6",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 556,
+						"h": 605
+					},
+					"spriteSourceSize": {
+						"x": 47,
+						"y": 47,
+						"w": 483,
+						"h": 512
+					},
+					"frame": {
+						"x": 298,
+						"y": 1145,
+						"w": 483,
+						"h": 512
+					}
+				},
+				{
+					"filename": "Artboard-5",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 502,
+						"h": 605
+					},
+					"spriteSourceSize": {
+						"x": 89,
+						"y": 65,
+						"w": 323,
+						"h": 473
+					},
+					"frame": {
+						"x": 341,
+						"y": 588,
+						"w": 323,
+						"h": 473
+					}
+				},
+				{
+					"filename": "Artboard 14 copy",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 375,
+						"h": 528
+					},
+					"spriteSourceSize": {
+						"x": 53,
+						"y": 48,
+						"w": 256,
+						"h": 371
+					},
+					"frame": {
+						"x": 672,
+						"y": 588,
+						"w": 256,
+						"h": 371
+					}
+				},
+				{
+					"filename": "Artboard 22 copy 8",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 208
+					},
+					"spriteSourceSize": {
+						"x": 43,
+						"y": 38,
+						"w": 209,
+						"h": 125
+					},
+					"frame": {
+						"x": 672,
+						"y": 967,
+						"w": 209,
+						"h": 125
+					}
+				},
+				{
+					"filename": "Artboard-4",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 316,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 43,
+						"y": 52,
+						"w": 207,
+						"h": 278
+					},
+					"frame": {
+						"x": 600,
+						"y": 4,
+						"w": 207,
+						"h": 278
+					}
+				},
+				{
+					"filename": "Artboard 43",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 382,
+						"h": 254
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 40,
+						"w": 327,
+						"h": 177
+					},
+					"frame": {
+						"x": 600,
+						"y": 290,
+						"w": 327,
+						"h": 177
+					}
+				},
+				{
+					"filename": "Artboard 22 copy 9",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 297,
+						"h": 208
+					},
+					"spriteSourceSize": {
+						"x": 32,
+						"y": 38,
+						"w": 240,
+						"h": 117
+					},
+					"frame": {
+						"x": 815,
+						"y": 4,
+						"w": 240,
+						"h": 117
+					}
+				},
+				{
+					"filename": "Artboard 22 copy 7",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 287,
+						"h": 208
+					},
+					"spriteSourceSize": {
+						"x": 36,
+						"y": 49,
+						"w": 219,
+						"h": 106
+					},
+					"frame": {
+						"x": 815,
+						"y": 129,
+						"w": 219,
+						"h": 106
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.0"
+	}
+}

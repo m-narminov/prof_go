@@ -1,0 +1,229 @@
+{
+	"textures": [
+		{
+			"image": "boy.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 671,
+				"h": 3252
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "boy00",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 400,
+						"h": 725
+					},
+					"spriteSourceSize": {
+						"x": 126,
+						"y": 29,
+						"w": 181,
+						"h": 657
+					},
+					"frame": {
+						"x": 4,
+						"y": 4,
+						"w": 181,
+						"h": 657
+					}
+				},
+				{
+					"filename": "boy01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 400,
+						"h": 725
+					},
+					"spriteSourceSize": {
+						"x": 128,
+						"y": 56,
+						"w": 167,
+						"h": 623
+					},
+					"frame": {
+						"x": 4,
+						"y": 2625,
+						"w": 167,
+						"h": 623
+					}
+				},
+				{
+					"filename": "boy02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 400,
+						"h": 725
+					},
+					"spriteSourceSize": {
+						"x": 116,
+						"y": 72,
+						"w": 151,
+						"h": 617
+					},
+					"frame": {
+						"x": 516,
+						"y": 2625,
+						"w": 151,
+						"h": 617
+					}
+				},
+				{
+					"filename": "boy03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 400,
+						"h": 725
+					},
+					"spriteSourceSize": {
+						"x": 125,
+						"y": 80,
+						"w": 150,
+						"h": 607
+					},
+					"frame": {
+						"x": 165,
+						"y": 1946,
+						"w": 150,
+						"h": 607
+					}
+				},
+				{
+					"filename": "boy04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 400,
+						"h": 725
+					},
+					"spriteSourceSize": {
+						"x": 123,
+						"y": 49,
+						"w": 153,
+						"h": 640
+					},
+					"frame": {
+						"x": 4,
+						"y": 1330,
+						"w": 153,
+						"h": 640
+					}
+				},
+				{
+					"filename": "boy05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 400,
+						"h": 725
+					},
+					"spriteSourceSize": {
+						"x": 97,
+						"y": 30,
+						"w": 181,
+						"h": 653
+					},
+					"frame": {
+						"x": 4,
+						"y": 669,
+						"w": 181,
+						"h": 653
+					}
+				},				
+				{
+					"filename": "boy06",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 400,
+						"h": 725
+					},
+					"spriteSourceSize": {
+						"x": 113,
+						"y": 56,
+						"w": 167,
+						"h": 623
+					},
+					"frame": {
+						"x": 179,
+						"y": 2625,
+						"w": 167,
+						"h": 623
+					}
+				},
+				{
+					"filename": "boy07",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 400,
+						"h": 725
+					},
+					"spriteSourceSize": {
+						"x": 141,
+						"y": 72,
+						"w": 154,
+						"h": 617
+					},
+					"frame": {
+						"x": 354,
+						"y": 2625,
+						"w": 154,
+						"h": 617
+					}
+				},
+				{
+					"filename": "boy08",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 400,
+						"h": 725
+					},
+					"spriteSourceSize": {
+						"x": 136,
+						"y": 80,
+						"w": 150,
+						"h": 608
+					},
+					"frame": {
+						"x": 165,
+						"y": 1330,
+						"w": 150,
+						"h": 608
+					}
+				},
+				{
+					"filename": "boy09",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 400,
+						"h": 725
+					},
+					"spriteSourceSize": {
+						"x": 135,
+						"y": 49,
+						"w": 153,
+						"h": 639
+					},
+					"frame": {
+						"x": 4,
+						"y": 1978,
+						"w": 153,
+						"h": 639
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.0"
+	}
+}

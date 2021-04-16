@@ -1,0 +1,208 @@
+{
+	"textures": [
+		{
+			"image": "fr-object.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 841,
+				"h": 2184
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Artboard-1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 550,
+						"h": 833
+					},
+					"spriteSourceSize": {
+						"x": 119,
+						"y": 35,
+						"w": 316,
+						"h": 656
+					},
+					"frame": {
+						"x": 4,
+						"y": 4,
+						"w": 316,
+						"h": 656
+					}
+				},
+				{
+					"filename": "Artboard-2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 671,
+						"h": 728
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 56,
+						"w": 475,
+						"h": 592
+					},
+					"frame": {
+						"x": 4,
+						"y": 668,
+						"w": 475,
+						"h": 592
+					}
+				},
+				{
+					"filename": "Artboard-3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 563,
+						"h": 575
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 49,
+						"w": 509,
+						"h": 467
+					},
+					"frame": {
+						"x": 328,
+						"y": 4,
+						"w": 509,
+						"h": 467
+					}
+				},
+				{
+					"filename": "Artboard-4",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 203,
+						"h": 201
+					},
+					"spriteSourceSize": {
+						"x": 55,
+						"y": 22,
+						"w": 94,
+						"h": 131
+					},
+					"frame": {
+						"x": 328,
+						"y": 479,
+						"w": 94,
+						"h": 131
+					}
+				},
+				{
+					"filename": "Artboard-5",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 203,
+						"h": 201
+					},
+					"spriteSourceSize": {
+						"x": 36,
+						"y": 33,
+						"w": 128,
+						"h": 119
+					},
+					"frame": {
+						"x": 430,
+						"y": 479,
+						"w": 128,
+						"h": 119
+					}
+				},
+				{
+					"filename": "Artboard-6",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 472,
+						"h": 575
+					},
+					"spriteSourceSize": {
+						"x": 46,
+						"y": 63,
+						"w": 387,
+						"h": 455
+					},
+					"frame": {
+						"x": 4,
+						"y": 1268,
+						"w": 387,
+						"h": 455
+					}
+				},
+				{
+					"filename": "Artboard-7",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 472,
+						"h": 575
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 47,
+						"w": 437,
+						"h": 449
+					},
+					"frame": {
+						"x": 4,
+						"y": 1731,
+						"w": 437,
+						"h": 449
+					}
+				},
+				{
+					"filename": "Artboard-8",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 366,
+						"h": 460
+					},
+					"spriteSourceSize": {
+						"x": 42,
+						"y": 69,
+						"w": 289,
+						"h": 339
+					},
+					"frame": {
+						"x": 399,
+						"y": 1268,
+						"w": 289,
+						"h": 339
+					}
+				},
+				{
+					"filename": "Artboard-9",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 203,
+						"h": 201
+					},
+					"spriteSourceSize": {
+						"x": 35,
+						"y": 31,
+						"w": 120,
+						"h": 119
+					},
+					"frame": {
+						"x": 487,
+						"y": 606,
+						"w": 120,
+						"h": 119
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.0"
+	}
+}

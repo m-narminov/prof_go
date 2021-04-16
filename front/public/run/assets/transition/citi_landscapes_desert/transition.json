@@ -1,0 +1,776 @@
+{
+	"textures": [
+		{
+			"image":"assets/transition/citi_landscapes_desert/transition-0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1920,
+				"h": 1080
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "transition-0",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					}
+				}
+			]
+		},
+		{
+			"image":"assets/transition/citi_landscapes_desert/transition-1.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1920,
+				"h": 1080
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "transition-1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					}
+				}
+			]
+		},
+		{
+			"image":"assets/transition/citi_landscapes_desert/transition-2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1920,
+				"h": 1080
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "transition-2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					}
+				}
+			]
+		},
+		{
+			"image":"assets/transition/citi_landscapes_desert/transition-3.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1920,
+				"h": 1080
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "transition-3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					}
+				}
+			]
+		},
+		{
+			"image":"assets/transition/citi_landscapes_desert/transition-4.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1920,
+				"h": 1080
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "transition-4",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					}
+				}
+			]
+		},
+		{
+			"image":"assets/transition/citi_landscapes_desert/transition-5.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1920,
+				"h": 1080
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "transition-5",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					}
+				}
+			]
+		},
+		{
+			"image":"assets/transition/citi_landscapes_desert/transition-6.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1920,
+				"h": 1080
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "transition-6",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					}
+				}
+			]
+		},
+		{
+			"image":"assets/transition/citi_landscapes_desert/transition-7.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1920,
+				"h": 1080
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "transition-7",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					}
+				}
+			]
+		},
+		{
+			"image":"assets/transition/citi_landscapes_desert/transition-8.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1920,
+				"h": 1080
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "transition-8",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					}
+				}
+			]
+		},
+		{
+			"image":"assets/transition/citi_landscapes_desert/transition-9.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1920,
+				"h": 1080
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "transition-9",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					}
+				}
+			]
+		},
+		{
+			"image":"assets/transition/citi_landscapes_desert/transition-10.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1920,
+				"h": 1080
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "transition-10",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					}
+				}
+			]
+		},
+		{
+			"image":"assets/transition/citi_landscapes_desert/transition-11.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1920,
+				"h": 1080
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "transition-11",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					}
+				}
+			]
+		},
+		{
+			"image":"assets/transition/citi_landscapes_desert/transition-12.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1920,
+				"h": 1080
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "transition-12",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					}
+				}
+			]
+		},
+		{
+			"image":"assets/transition/citi_landscapes_desert/transition-13.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1920,
+				"h": 1080
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "transition-13",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					}
+				}
+			]
+		},
+		{
+			"image":"assets/transition/citi_landscapes_desert/transition-14.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1920,
+				"h": 1080
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "transition-14",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					}
+				}
+			]
+		},
+		{
+			"image":"assets/transition/citi_landscapes_desert/transition-15.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1920,
+				"h": 1080
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "transition-15",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					}
+				}
+			]
+		},
+		{
+			"image":"assets/transition/citi_landscapes_desert/transition-16.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1920,
+				"h": 1080
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "transition-16",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					}
+				}
+			]
+		},
+		{
+			"image":"assets/transition/citi_landscapes_desert/transition-17.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1920,
+				"h": 1080
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "transition-17",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					}
+				}
+			]
+		},
+		{
+			"image":"assets/transition/citi_landscapes_desert/transition-18.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1920,
+				"h": 1080
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "transition-18",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					}
+				}
+			]
+		},
+		{
+			"image":"assets/transition/citi_landscapes_desert/transition-19.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1920,
+				"h": 1080
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "transition-19",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					}
+				}
+			]
+		},
+		{
+			"image":"assets/transition/citi_landscapes_desert/transition-20.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1920,
+				"h": 1080
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "transition-20",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					}
+				}
+			]
+		},
+		{
+			"image":"assets/transition/citi_landscapes_desert/transition-21.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1920,
+				"h": 1080
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "transition-21",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					}
+				}
+			]
+		},
+		{
+			"image":"assets/transition/citi_landscapes_desert/transition-22.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1920,
+				"h": 1080
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "transition-22",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					}
+				}
+			]
+		},
+		{
+			"image":"assets/transition/citi_landscapes_desert/transition-23.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1920,
+				"h": 1080
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "transition-23",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1920,
+						"h": 1080
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					},
+					"frame": {
+						"x": 0,
+						"y": 0,
+						"w": 1920,
+						"h": 1080
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.0"
+	}
+}

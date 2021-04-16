@@ -1,0 +1,7 @@
+@font-face {
+	font-family: "GLI-Light";
+	font-style: normal;
+	font-weight: 400;
+	src: url('fonts/GLInterstate-Light.otf') format("woff"), /* все современные браузеры, IE9+ */
+		 url('fonts/GLInterstate-Light.ttf') format("truetype"); /* все современные браузеры */
+}

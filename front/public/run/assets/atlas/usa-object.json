@@ -1,0 +1,250 @@
+{
+	"textures": [
+		{
+			"image": "usa-object.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 787,
+				"h": 3746
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "Artboard-1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 459,
+						"h": 825
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 15,
+						"w": 389,
+						"h": 759
+					},
+					"frame": {
+						"x": 4,
+						"y": 4,
+						"w": 389,
+						"h": 759
+					}
+				},
+				{
+					"filename": "Artboard-2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 485,
+						"h": 801
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 42,
+						"w": 407,
+						"h": 696
+					},
+					"frame": {
+						"x": 4,
+						"y": 771,
+						"w": 407,
+						"h": 696
+					}
+				},
+				{
+					"filename": "Artboard-3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 437,
+						"h": 725
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 19,
+						"w": 382,
+						"h": 687
+					},
+					"frame": {
+						"x": 401,
+						"y": 4,
+						"w": 382,
+						"h": 687
+					}
+				},
+				{
+					"filename": "Artboard-4",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 493,
+						"h": 721
+					},
+					"spriteSourceSize": {
+						"x": 45,
+						"y": 19,
+						"w": 404,
+						"h": 661
+					},
+					"frame": {
+						"x": 4,
+						"y": 1475,
+						"w": 404,
+						"h": 661
+					}
+				},
+				{
+					"filename": "Artboard-5",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 437,
+						"h": 711
+					},
+					"spriteSourceSize": {
+						"x": 82,
+						"y": 27,
+						"w": 292,
+						"h": 626
+					},
+					"frame": {
+						"x": 4,
+						"y": 2144,
+						"w": 292,
+						"h": 626
+					}
+				},
+				{
+					"filename": "Artboard-6",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 504,
+						"h": 621
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 58,
+						"w": 409,
+						"h": 521
+					},
+					"frame": {
+						"x": 4,
+						"y": 2778,
+						"w": 409,
+						"h": 521
+					}
+				},
+				{
+					"filename": "Artboard-7",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 481,
+						"h": 626
+					},
+					"spriteSourceSize": {
+						"x": 34,
+						"y": 41,
+						"w": 356,
+						"h": 515
+					},
+					"frame": {
+						"x": 304,
+						"y": 2144,
+						"w": 356,
+						"h": 515
+					}
+				},
+				{
+					"filename": "Artboard-8",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 424,
+						"h": 314
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 76,
+						"w": 327,
+						"h": 177
+					},
+					"frame": {
+						"x": 4,
+						"y": 3307,
+						"w": 327,
+						"h": 177
+					}
+				},
+				{
+					"filename": "Artboard-9",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 281,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 25,
+						"y": 47,
+						"w": 210,
+						"h": 125
+					},
+					"frame": {
+						"x": 4,
+						"y": 3492,
+						"w": 210,
+						"h": 125
+					}
+				},
+				{
+					"filename": "Artboard-10",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 281,
+						"h": 217
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 53,
+						"w": 241,
+						"h": 117
+					},
+					"frame": {
+						"x": 4,
+						"y": 3625,
+						"w": 241,
+						"h": 117
+					}
+				},
+				{
+					"filename": "Artboard-11",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 281,
+						"h": 216
+					},
+					"spriteSourceSize": {
+						"x": 31,
+						"y": 48,
+						"w": 220,
+						"h": 106
+					},
+					"frame": {
+						"x": 222,
+						"y": 3492,
+						"w": 220,
+						"h": 106
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "http://free-tex-packer.com",
+		"version": "0.6.0"
+	}
+}
