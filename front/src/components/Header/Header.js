@@ -81,7 +81,7 @@ class Header extends React.Component {
         phone: '',
         telegram: '',
         surname: '',
-        name: '',
+        name: 'asdf',
         patronymic: '',
         scores: '',
         statusStudy: '',
@@ -90,11 +90,11 @@ class Header extends React.Component {
   }
 
   componentDidMount() {
-    let res = data.users.find(
-      item => item.email === localStorage.getItem('ElbrusEmail')
-    );
+    // let res = data.users.find(
+    //   item => item.email === localStorage.getItem('ElbrusEmail')
+    // );
 
-    this.setState({ user: res });
+    // this.setState({ user: res });
   }
 
   toggleNotifications = () => {

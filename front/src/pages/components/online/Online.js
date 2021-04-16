@@ -79,7 +79,7 @@ class Online extends React.Component {
         <div>
           <button
             type='submit'
-            class='btn btn-default input-group-no-border btn btn-secondary'
+            className='btn btn-default input-group-no-border btn btn-secondary'
             style={{ color: 'rgb(0, 0, 0)', float: 'right' }}
             onClick={() => {
               this.update();
