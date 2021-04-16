@@ -6,6 +6,8 @@
   "scripts": {
     "preinstall": "cd front && npm i",
     "install": "cd back && npm i",
+    "front": "cd front && npm i && npm start",
+    "back": "cd back && npm i && npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
