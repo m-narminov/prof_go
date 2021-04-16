@@ -14,8 +14,8 @@ class Calendar extends Component {
     selectedDay: moment().startOf('day'),
     selectedMonthEvents: [
       {
-        title: 'Мастер-класс',
-        info: 'Посетить мастер-класс',
+        title: 'Отправить приказ',
+        info: 'о зачислении',
         itemStyle: '#1870dc',
         date: moment(
           `${moment().year()}-${moment().month() + 1}-02`,
@@ -23,7 +23,7 @@ class Calendar extends Component {
         ),
       },
       {
-        title: 'Пройти тест',
+        title: 'Совещание',
         info: 'В кабинете 123',
         itemStyle: '#f0b518',
         date: moment(
@@ -32,8 +32,8 @@ class Calendar extends Component {
         ),
       },
       {
-        title: 'Событие 123',
-        info: 'Созвониться за 3 часа до события',
+        title: 'День открытых дверей',
+        info: 'Промышленно-коммерческий техникум',
         itemStyle: '#58d777',
         date: moment(
           `${moment().year()}-${moment().month() + 1}-18`,

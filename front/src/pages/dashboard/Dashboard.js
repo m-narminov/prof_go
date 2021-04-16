@@ -221,8 +221,12 @@ class Dashboard extends React.Component {
                   <p className='value'>Томск</p>
                 </div>
                 <div className='stat-item'>
-                  <h6 className='name'>Итого</h6>
-                  <p className='value'>10</p>
+                  <h6 className='name'>Всего</h6>
+                  <p className='value'>100</p>
+                </div>
+                <div className='stat-item'>
+                  <h6 className='name'>Устроены</h6>
+                  <p className='value'>43</p>
                 </div>
               </div>
             </Widget>
@@ -278,10 +282,9 @@ class Dashboard extends React.Component {
                       <i className='status status-bottom bg-success' />
                     </span>
                     <div>
-                      <h6 className='m-0'>Админ</h6>
+                      <h6 className='m-0'>Калинюк Юрий Владимирович</h6>
                       <p className='help-block text-ellipsis m-0'>
-                        Добрый день! Пожалуйста, подтвердите свое участие в
-                        вебинаре.
+                        Добрый день! Пожалуйста, не забудьте проверять почту!
                       </p>
                     </div>
                   </button>
@@ -295,9 +298,9 @@ class Dashboard extends React.Component {
                       <i className='status status-bottom bg-success' />
                     </span>
                     <div>
-                      <h6 className='m-0'>Василий Егоров</h6>
+                      <h6 className='m-0'>Щербаков Василий Николаевич</h6>
                       <p className='help-block text-ellipsis m-0'>
-                        Здравствуйте, хочу с вами посоветоваться
+                        Здравствуйте, отправил нововедения по приемной кампании всем учреждениям
                       </p>
                     </div>
                   </button>
@@ -311,9 +314,9 @@ class Dashboard extends React.Component {
                       <i className='status status-bottom bg-default' />
                     </span>
                     <div>
-                      <h6 className='m-0'>Анна Захарова</h6>
+                      <h6 className='m-0'>Ларионова Надежда Анатольевна</h6>
                       <p className='help-block text-ellipsis m-0'>
-                        Приходи на встречу завтра к 13:30!
+                        Завтра жду в деканате всех.
                       </p>
                     </div>
                   </button>
@@ -327,9 +330,9 @@ class Dashboard extends React.Component {
                       <i className='status status-bottom bg-danger' />
                     </span>
                     <div>
-                      <h6 className='m-0'>Артур Новиков</h6>
+                      <h6 className='m-0'>Микляева Оксана Владимировна</h6>
                       <p className='help-block text-ellipsis m-0'>
-                        Привет, как твои успехи?
+                        Привет, как ваши успехи?
                       </p>
                     </div>
                   </button>
@@ -427,15 +430,15 @@ class Dashboard extends React.Component {
               <div className='list-group fs-mini'>
                 <button className='list-group-item text-ellipsis'>
                   <span className='badge badge-pill badge-primary float-right'>
-                    6:45
+                    7:45
                   </span>
-                  Записать цели на неделю
+                  Записать задачи на неделю
                 </button>
                 <button className='list-group-item text-ellipsis'>
                   <span className='badge badge-pill badge-success float-right'>
-                    9:41
+                    9:40
                   </span>
-                  Просмотреть новый курс
+                  Еженедельная планерка
                 </button>
               </div>
             </Widget>
