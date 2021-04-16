@@ -16,11 +16,7 @@ import {
 import Widget from '../../components/Widget';
 import { loginUser } from '../../actions/user';
 
-import vkLogo from '../../images/social/vkLogo.png';
-import facebookLogo from '../../images/social/facebookLogo.png';
-import googleLogo from '../../images/social/googleLogo.png';
-import rsvLogo from '../../images/social/rsvLogo.png';
-import liderLogo from '../../images/social/liderLogo.png';
+import gos from '../../images/social/gos.png';
 import logoForm from '../../images/logoForm.png';
 
 import data from '../../data.json';
@@ -38,7 +34,7 @@ class Login extends React.Component {
     super(props);
 
     this.state = {
-      email: 'admin@elbrus.ru',
+      email: 'admin@tomsk.ru',
       password: 'password',
     };
 
@@ -89,7 +85,7 @@ class Login extends React.Component {
     return (
       <div className='auth-page'>
         <a
-          href='https://club-elbrus.ru/'
+          href='http://unpo.tomsk.gov.ru/'
           target='_blank'
           rel='noopener noreferrer'
         >
@@ -164,33 +160,21 @@ class Login extends React.Component {
                   Создать аккаунт
                 </Link>
                 <div className='blockLink'>
-                  <img src={vkLogo} className='socialIcon' alt='logoVk' />
-                  <span className='socialMargin'>
-                    <img
-                      src={facebookLogo}
-                      className='socialIcon'
-                      alt='logoFacebook'
-                    />
-                  </span>
-                  <img
-                    src={googleLogo}
-                    className='socialIcon'
-                    alt='logoGooglePlus'
-                  />
-                  <span className='socialMargin'>
-                    <img
-                      src={liderLogo}
-                      className='socialIcon'
-                      alt='liderLogo'
-                    />
-                  </span>
-                  <img src={rsvLogo} className='socialIcon' alt='rsvLogo' />
+                  {/* <img src={gos} className='socialIcon' alt='gos' /> */}
+                  <Button
+                    type='submit'
+                    className='auth-btn'
+                    size='sm'
+                    style={{ color: '#fff' }}
+                  >
+                    Войти через ГосУслуги
+                  </Button>
                 </div>
               </div>
             </form>
           </Widget>
         </Container>
-        <footer className='auth-footer'>2020 &copy; web.elbrus.ru</footer>
+        <footer className='auth-footer'>2021 &copy; Департамент профессионального образования Томской области</footer>
       </div>
     );
   }

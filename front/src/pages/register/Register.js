@@ -17,11 +17,6 @@ import Widget from '../../components/Widget';
 import { registerUser, registerError } from '../../actions/register';
 import Login from '../login';
 
-import vkLogo from '../../images/social/vkLogo.png';
-import facebookLogo from '../../images/social/facebookLogo.png';
-import googleLogo from '../../images/social/googleLogo.png';
-import rsvLogo from '../../images/social/rsvLogo.png';
-import liderLogo from '../../images/social/liderLogo.png';
 import logoForm from '../../images/logoForm.png';
 
 class Register extends React.Component {
@@ -208,33 +203,20 @@ class Register extends React.Component {
                   value='Войти в систему'
                 />
                 <div className='blockLink'>
-                  <img src={vkLogo} className='socialIcon' alt='logoVk' />
-                  <span className='socialMargin'>
-                    <img
-                      src={facebookLogo}
-                      className='socialIcon'
-                      alt='logoFacebook'
-                    />
-                  </span>
-                  <img
-                    src={googleLogo}
-                    className='socialIcon'
-                    alt='logoGooglePlus'
-                  />
-                  <span className='socialMargin'>
-                    <img
-                      src={liderLogo}
-                      className='socialIcon'
-                      alt='liderLogo'
-                    />
-                  </span>
-                  <img src={rsvLogo} className='socialIcon' alt='rsvLogo' />
+                  <Button
+                    type='submit'
+                    className='auth-btn'
+                    size='sm'
+                    style={{ color: '#fff' }}
+                  >
+                    Войти через ГосУслуги
+                  </Button>
                 </div>
               </div>
             </form>
           </Widget>
         </Container>
-        <footer className='auth-footer'>2020 &copy; web.elbrus.ru</footer>
+        <footer className='auth-footer'>2021 &copy; Департамент профессионального образования Томской области</footer>
       </div>
     );
   }

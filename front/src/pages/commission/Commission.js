@@ -7,7 +7,7 @@ import uuid from 'uuid/v4';
 import Widget from '../../components/Widget/Widget';
 import s from './Notifications.module.scss';
 
-class Elbrus extends React.Component {
+class Commission extends React.Component {
   state = {
     options: {
       position: 'top-right',
@@ -106,4 +106,4 @@ class Elbrus extends React.Component {
   }
 }
 
-export default Elbrus;
+export default Commission;

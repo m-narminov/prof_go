@@ -67,12 +67,12 @@ class Charts extends React.Component {
     const { cd, ld, initEchartsOptions, sparklineData } = this.state
     return (
       <div className={s.root}>
-        <h1 className="page-title">Статистика участников</h1>
+        <h1 className="page-title">Сводная статистика</h1>
         <div>
           <Row>
             <Col lg={7} xs={12}>
               <Widget
-                title={<h5>Топ 8 участнков</h5>}
+                title={<h5>Прием по населенным пунктам</h5>}
                 close collapse
               >
                 <ApexChart
@@ -86,7 +86,7 @@ class Charts extends React.Component {
             </Col>
             <Col lg={5} xs={12}>
               <Widget
-                title={<h5>Количество пользователей</h5>}
+                title={<h5>Количество абитуриентов</h5>}
                 close collapse
               >
                 <ReactEchartsCore
@@ -99,7 +99,7 @@ class Charts extends React.Component {
             </Col>
             <Col lg={5} xs={12}>
               <Widget
-                title={<h5>Ваш график <span className='fw-semi-bold'>успеха</span></h5>}
+                title={<h5>Средний график успеваемости студентов</h5>}
                 close collapse
               >
                 <HighchartsReact options={cd.highcharts.mixed} />
@@ -108,8 +108,8 @@ class Charts extends React.Component {
                   <Col md={6} xs={12}>
                     <div className="stats-row">
                       <div className="stat-item">
-                        <p className="value5 fw-thin">34 567</p>
-                        <h6 className="name text-muted m0 fs-mini">Участников</h6>
+                        <p className="value5 fw-thin">2 567</p>
+                        <h6 className="name text-muted m0 fs-mini">Зачисленных студентов</h6>
                       </div>
                       <div className="stat-item stat-item-mini-chart">
                         <Sparklines
@@ -124,8 +124,8 @@ class Charts extends React.Component {
                   <Col md={6} xs={12}>
                     <div className="stats-row">
                       <div className="stat-item">
-                        <p className="value5 fw-thin">1 567</p>
-                        <h6 className="name text-muted m0 fs-mini">Новые пользователи</h6>
+                        <p className="value5 fw-thin">567</p>
+                        <h6 className="name text-muted m0 fs-mini">Очисленых студентов</h6>
                       </div>
                       <div className="stat-item stat-item-mini-chart">
                         <Sparklines
@@ -144,7 +144,7 @@ class Charts extends React.Component {
               <Row>
                 <Col lg={6} xs={12}>
                   <Widget
-                    title={<h5>Соотношение записей на онлайн встречи</h5>}
+                    title={<h5>Обучающиеся по определенной профессии</h5>}
                     close collapse
                   >
                     <ApexChart
@@ -158,7 +158,7 @@ class Charts extends React.Component {
                 </Col>
                 <Col lg={6} xs={12}>
                   <Widget
-                    title={<h5>Заполнение анкеты участника</h5>}
+                    title={<h5>Студенты</h5>}
                     close collapse
                   >
                     <ReactEchartsCore
@@ -171,7 +171,7 @@ class Charts extends React.Component {
                 </Col>
                 <Col lg={12} xs={12}>
                   <Widget
-                    title={<h5>Количество новых заявок</h5>}
+                    title={<h5>Количество новых заявлений</h5>}
                     close collapse
                   >
                     <HighchartsReact options={ld} />

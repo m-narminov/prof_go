@@ -163,9 +163,8 @@ class Header extends React.Component {
           isOpen={this.state.searchOpen}
         >
           <InputGroup
-            className={`${s.navbarForm} ${
-              this.state.searchFocused ? s.navbarFormFocused : ''
-            }`}
+            className={`${s.navbarForm} ${this.state.searchFocused ? s.navbarFormFocused : ''
+              }`}
           >
             <InputGroupAddon addonType='prepend' className={s.inputAddon}>
               <InputGroupText>
