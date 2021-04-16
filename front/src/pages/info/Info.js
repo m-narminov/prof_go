@@ -251,21 +251,6 @@ const Info = props => {
               </InputGroup>
             </FormGroup>
           </Widget>
-
-          <Widget title={<h5>Прочее</h5>} close collapse>
-            <FormGroup>
-              <Label for='scores'>Эльбрус Коины</Label>
-              <InputGroup className='input-group-no-border'>
-                <Input
-                  id='scores'
-                  className='input-transparent pl-3'
-                  value={user.scores}
-                  onChange={changeField}
-                  name='scores'
-                />
-              </InputGroup>
-            </FormGroup>
-          </Widget>
         </Col>
       </Row>
     </div>

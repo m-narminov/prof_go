@@ -91,10 +91,10 @@ class Sidebar extends React.Component {
               this.props.dispatch(changeActiveSidebarItem(activeItem))
             }
             activeItem={this.props.activeItem}
-            header='Вебинары'
+            header='Документы'
             isHeader
             iconName='flaticon-network'
-            link='/app/webinar'
+            link='/app/docs'
             index='core'
           />
           <LinksGroup
@@ -102,7 +102,7 @@ class Sidebar extends React.Component {
               this.props.dispatch(changeActiveSidebarItem(t))
             }
             activeItem={this.props.activeItem}
-            header='Пользователи'
+            header='Студенты'
             isHeader
             iconName='flaticon-layers'
             link='/app/tables'
@@ -135,10 +135,10 @@ class Sidebar extends React.Component {
               this.props.dispatch(changeActiveSidebarItem(activeItem))
             }
             activeItem={this.props.activeItem}
-            header='Игра'
+            header='Кадры'
             isHeader
             iconName='flaticon-layers'
-            link='/app/game'
+            link='/app/staff'
             index='ui'
           />
           <LinksGroup
@@ -160,14 +160,14 @@ class Sidebar extends React.Component {
                 header: 'Направления',
                 link: '/app/online',
               },
-              {
-                header: 'Офлайн',
-                link: '/app/offline',
-              },
-              {
-                header: 'Тестирование',
-                link: '/app/testing',
-              },
+              // {
+              //   header: 'Офлайн',
+              //   link: '/app/offline',
+              // },
+              // {
+              //   header: 'Тестирование',
+              //   link: '/app/testing',
+              // },
             ]}
           />
         </ul>

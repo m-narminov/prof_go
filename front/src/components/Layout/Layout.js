@@ -10,9 +10,9 @@ import UICommission from '../../pages/commission';
 import TablesStatic from '../../pages/tables/static';
 import OfflineEvent from '../../pages/components/offline/offline';
 import Testing from '../../pages/components/testing';
-import CoreWebinar from '../../pages/webinar';
+import CoreDocs from '../../pages/docs';
 import CoreInfo from '../../pages/info';
-import CoreGame from '../../pages/game';
+import CoreStaff from '../../pages/staff';
 import Charts from '../../pages/components/charts/Charts';
 import Dashboard from '../../pages/dashboard';
 
@@ -88,9 +88,9 @@ class Layout extends React.Component {
                     <Route path="/app/tables" exact component={TablesStatic} />
                     <Route path="/app/offline" exact component={OfflineEvent} />
                     <Route path="/app/testing" exact component={Testing} />
-                    <Route path="/app/webinar" exact component={CoreWebinar} />
+                    <Route path="/app/docs" exact component={CoreDocs} />
                     <Route path="/app/info" exact component={CoreInfo} />
-                    <Route path="/app/game" exact component={CoreGame} />
+                    <Route path="/app/staff" exact component={CoreStaff} />
                   </Switch>
                 </CSSTransition>
               </TransitionGroup>

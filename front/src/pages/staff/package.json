@@ -1,6 +1,6 @@
 {
-    "name": "Game",
+    "name": "Staff",
     "version": "1.0.0",
-    "main": "Game.js",
+    "main": "Staff.js",
     "license": "MIT"
 }

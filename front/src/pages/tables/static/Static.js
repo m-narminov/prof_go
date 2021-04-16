@@ -48,7 +48,7 @@ const Static = () => {
   const [isOpen, setIsOpen] = useState(false)
   const [activeNomber, setActiveNomber] = useState(users[0])
 
-  const change = (e) => setActiveNomber(users[e-1])
+  const change = (e) => setActiveNomber(users[e - 1])
   const toggle = () => setIsOpen(!isOpen)
 
   return (
@@ -67,7 +67,7 @@ const Static = () => {
                 {/* eslint-disable */}
                 <tbody>
                   {users.map(user =>
-                    <tr key={user.id} onClick={()=> {change(user.id); toggle();}}>
+                    <tr key={user.id} onClick={() => { change(user.id); toggle(); }}>
                       <td>{user.id}</td>
                       <td>{user.fio}</td>
                       <td>{user.phone}</td>
@@ -75,39 +75,45 @@ const Static = () => {
                         <a href='#'>{user.email}</a>
                       </td>
                       <td>{user.isInvalid ? 'Да' : 'Нет'}</td>
-                      <td>{user.largeFamily ? 'Да' : 'Нет'}</td>                      
+                      <td>{user.largeFamily ? 'Да' : 'Нет'}</td>
                     </tr>
-                  )}                  
+                  )}
                 </tbody>
                 {/* eslint-enable */}
               </Table>
 
               {
-                  <Modal isOpen={isOpen} toggle={toggle} style={{maxWidth: "1100px"}}>                        
-                        <ModalBody>
-                          <img src="/static/media/a5.jpg" style={{width:"30%", height:"auto", objectFit:"contain"}}></img>
-                          <Table className='table-hover' style={{marginTop: '40px'}}>
-                            <thead>
-                              <tr>
-                                {thead.map((el, index) => <th key={index}>{el}</th>)}
-                              </tr>
-                            </thead>
-                            <tbody>
-                              <tr>
-                                <td>{activeNomber.id}</td>
-                                <td>{activeNomber.fio}</td>
-                                <td>{activeNomber.phone}</td>
-                                <td>
-                                  <a href='#'>{activeNomber.email}</a>
-                                </td>
-                                <td>{activeNomber.isInvalid ? 'Да' : 'Нет'}</td>
-                                <td>{activeNomber.largeFamily ? 'Да' : 'Нет'}</td>   
-                              </tr>
-                            </tbody>
-                          </Table>                        
-                        </ModalBody>                        
-                      </Modal>
-                  }
+                <Modal isOpen={isOpen} toggle={toggle} style={{ maxWidth: "1100px" }}>
+                  <ModalBody>
+                    <Row>
+                      <Col xs={12} md={1}>
+                        <img src="/static/media/a5.jpg" style={{ width: "170%", height: "auto", objectFit: "contain" }}></img>
+                      </Col>
+                      <Col xs={12} md={11}>
+                        <Table className='table-hover'>
+                          <thead>
+                            <tr>
+                              {thead.map((el, index) => <th key={index}>{el}</th>)}
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <td>{activeNomber.id}</td>
+                              <td>{activeNomber.fio}</td>
+                              <td>{activeNomber.phone}</td>
+                              <td>
+                                <a href='#'>{activeNomber.email}</a>
+                              </td>
+                              <td>{activeNomber.isInvalid ? 'Да' : 'Нет'}</td>
+                              <td>{activeNomber.largeFamily ? 'Да' : 'Нет'}</td>
+                            </tr>
+                          </tbody>
+                        </Table>
+                      </Col>
+                    </Row>
+                  </ModalBody>
+                </Modal>
+              }
             </div>
           </Widget>
         </Col>

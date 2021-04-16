@@ -1,6 +1,6 @@
 {
-    "name": "Webinar",
+    "name": "Docs",
     "version": "1.0.0",
-    "main": "Webinar.js",
+    "main": "Docs.js",
     "license": "MIT"
 }

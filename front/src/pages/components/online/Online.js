@@ -108,7 +108,7 @@ class Online extends React.Component {
 
               return (
                 <Row className='icon-list' key={`meetup${tab.id}-${meetup.id}`}>
-                  <Col md={2} lg={2} xs={12} className='list-item'>
+                  <Col md={1} lg={1} xs={12} className='list-item'>
                     {moment(meetupDate).format('L')}
                   </Col>
                   <Col md={1} lg={1} xs={12} className='list-item'>
@@ -120,7 +120,11 @@ class Online extends React.Component {
                   <Col md={4} lg={4} xs={12} className='list-item'>
                     {meetup.fio}
                   </Col>
-                  <Col md={1} lg={1} xs={12} className='list-item'>
+                  <Col md={2} lg={2} xs={12} className='list-item'>
+                    {meetup.phone}
+                    {/* <a href="`tel:${meetup.phone}`"></a> */}
+                  </Col>
+                  <Col md={2} lg={2} xs={12} className='list-item'>
                     <Badge pill>{meetup.status}</Badge>
                   </Col>
                 </Row>
@@ -130,7 +134,7 @@ class Online extends React.Component {
             return (
               <TabPane tabId={`${tab.id}`} key={`tab-pane-${tab.id}`}>
                 <Row className='icon-list' key={`${tab.id}-header`}>
-                  <Col md={2} lg={2} xs={12} className='list-item'>
+                  <Col md={1} lg={1} xs={12} className='list-item'>
                     Дата
                   </Col>
                   <Col md={1} lg={1} xs={12} className='list-item'>
@@ -142,10 +146,10 @@ class Online extends React.Component {
                   <Col md={4} lg={4} xs={12} className='list-item'>
                     ФИО Абитуриента
                   </Col>
-                  {/* <Col md={2} lg={2} xs={12} className='list-item'>
-                    Реферальная ссылка
-                  </Col> */}
-                  <Col md={3} lg={3} xs={12} className='list-item'>
+                  <Col md={2} lg={2} xs={12} className='list-item'>
+                    Контактный номер
+                  </Col>
+                  <Col md={2} lg={2} xs={12} className='list-item'>
                     Статус
                   </Col>
                 </Row>
