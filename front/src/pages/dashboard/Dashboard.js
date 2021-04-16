@@ -71,7 +71,7 @@ class Dashboard extends React.Component {
               className='bg-transparent'
               title={
                 <h5>
-                  <span className='fw-semi-bold'>Статистика по городам</span>
+                  <span className='fw-semi-bold'>Статистика по Томской области</span>
                 </h5>
               }
               settings
@@ -82,11 +82,11 @@ class Dashboard extends React.Component {
                 <span className='circle bg-default text-white'>
                   <i className='fa fa-map-marker' />
                 </span>{' '}
-                &nbsp; 87 регионов, 2759 городов
+                &nbsp; 6 городов, 17 районов
               </p>
               <div className='row progress-stats'>
                 <div className='col-md-9 col-12'>
-                  <h6 className='name fw-semi-bold'>Элиста</h6>
+                  <h6 className='name fw-semi-bold'>Кедровый</h6>
                   <Progress
                     color='primary'
                     value='40'
@@ -103,7 +103,7 @@ class Dashboard extends React.Component {
               </div>
               <div className='row progress-stats'>
                 <div className='col-md-9 col-12'>
-                  <h6 className='name fw-semi-bold'>Краснодар</h6>
+                  <h6 className='name fw-semi-bold'>Стрежевой</h6>
                   <Progress
                     color='danger'
                     value='36'
@@ -120,10 +120,64 @@ class Dashboard extends React.Component {
               </div>
               <div className='row progress-stats'>
                 <div className='col-md-9 col-12'>
-                  <h6 className='name fw-semi-bold'>Саратов</h6>
+                  <h6 className='name fw-semi-bold'>Томск</h6>
 
                   <Progress
                     color='success'
+                    value='24'
+                    className='bg-custom-dark progress-xs'
+                  />
+                </div>
+                <div className='col-md-3 col-12 text-center'>
+                  <span className='status rounded rounded-lg bg-default text-light'>
+                    <small>
+                      <AnimateNumber value={24} />%
+                    </small>
+                  </span>
+                </div>
+              </div>
+              <div className='row progress-stats'>
+                <div className='col-md-9 col-12'>
+                  <h6 className='name fw-semi-bold'>Северск</h6>
+
+                  <Progress
+                    color='secondary'
+                    value='24'
+                    className='bg-custom-dark progress-xs'
+                  />
+                </div>
+                <div className='col-md-3 col-12 text-center'>
+                  <span className='status rounded rounded-lg bg-default text-light'>
+                    <small>
+                      <AnimateNumber value={24} />%
+                    </small>
+                  </span>
+                </div>
+              </div>
+              <div className='row progress-stats'>
+                <div className='col-md-9 col-12'>
+                  <h6 className='name fw-semi-bold'>Асино</h6>
+
+                  <Progress
+                    color='info'
+                    value='24'
+                    className='bg-custom-dark progress-xs'
+                  />
+                </div>
+                <div className='col-md-3 col-12 text-center'>
+                  <span className='status rounded rounded-lg bg-default text-light'>
+                    <small>
+                      <AnimateNumber value={24} />%
+                    </small>
+                  </span>
+                </div>
+              </div>
+              <div className='row progress-stats'>
+                <div className='col-md-9 col-12'>
+                  <h6 className='name fw-semi-bold'>Колпашево</h6>
+
+                  <Progress
+                    color='warning'
                     value='24'
                     className='bg-custom-dark progress-xs'
                   />
@@ -142,67 +196,59 @@ class Dashboard extends React.Component {
 
         <Row>
           <Col lg={4} xs={12}>
-            <Widget title={<h6> Запланированное событие </h6>} close settings>
+            <Widget title={<h6>Информация об образовательной программе</h6>} close settings>
               <div className='stats-row'>
                 <div className='stat-item'>
-                  <h6 className='name'>Дата</h6>
-                  <p className='value'>17 Ноября 2020</p>
+                  <h6 className='name'>Специальность</h6>
+                  <p className='value'>Сетевое и системное администрирование</p>
                 </div>
                 <div className='stat-item'>
-                  <h6 className='name'>Время</h6>
-                  <p className='value'>13:30</p>
+                  <h6 className='name'>Принято документов</h6>
+                  <p className='value'>181</p>
                 </div>
                 <div className='stat-item'>
-                  <h6 className='name'>Формат</h6>
-                  <p className='value'>Офлайн</p>
-                </div>
-                <div className='stat-item'>
-                  <h6 className='name'>Название</h6>
-                  <p className='value'>Финансовая грамотность</p>
+                  <h6 className='name'>Средний балл аттестата</h6>
+                  <p className='value'>4,02</p>
                 </div>
               </div>
             </Widget>
           </Col>
           <Col lg={4} xs={12}>
-            <Widget title={<h6> Следующее событие </h6>} close settings>
+            <Widget title={<h6>Количество трудоустроенных студентов</h6>} close settings>
               <div className='stats-row'>
                 <div className='stat-item'>
-                  <h6 className='name'>Дата</h6>
-                  <p className='value'>30 Октября 2020</p>
+                  <h6 className='name'>Населенный пункт</h6>
+                  <p className='value'>Томск</p>
                 </div>
                 <div className='stat-item'>
-                  <h6 className='name'>Время</h6>
-                  <p className='value'>10:38</p>
-                </div>
-                <div className='stat-item'>
-                  <h6 className='name'>Формат</h6>
-                  <p className='value'>Офлайн</p>
-                </div>
-                <div className='stat-item'>
-                  <h6 className='name'>Название</h6>
-                  <p className='value'>Лидерство</p>
+                  <h6 className='name'>Итого</h6>
+                  <p className='value'>10</p>
                 </div>
               </div>
             </Widget>
           </Col>
           <Col lg={4} xs={12}>
-            <Widget title={<h6>Статистика событий</h6>} close settings>
+            <Widget title={<h6>Статистика приемной кампании</h6>} close settings>
               <div className='stats-row'>
                 <div className='stat-item'>
                   <h6 className='name'>Всего</h6>
                   <p className='value'>30</p>
                 </div>
                 <div className='stat-item'>
-                  <h6 className='name'>Пройдено</h6>
+                  <h6 className='name'>Поступивших</h6>
                   <p className='value'>10</p>
                 </div>
                 <div className='stat-item'>
-                  <h6 className='name'>Предстоящие</h6>
-                  <p className='value'>17</p>
+                  <h6 className='name'>Средний балл</h6>
+                  <p className='value'>4,07</p>
                 </div>
                 <div className='stat-item'>
-                  <h6 className='name'>Отменено</h6>
-                  <p className='value'>3</p>
+                  <h6 className='name'>Бюджет</h6>
+                  <p className='value'>8</p>
+                </div>
+                <div className='stat-item'>
+                  <h6 className='name'>Коммерция</h6>
+                  <p className='value'>2</p>
                 </div>
               </div>
             </Widget>
@@ -303,39 +349,66 @@ class Dashboard extends React.Component {
             <Widget
               title={
                 <h6>
-                  <span className='fw-semi-bold'>История операций</span>
+                  <span className='fw-semi-bold'>Информация о приеме</span>
                 </h6>
               }
               close
             >
               <div className='widget-body'>
-                <h3>Баланс: 5232 Эльбрус коинов</h3>
-                <p className='fs-mini text-muted mb mt-sm'>
-                  Эльбрусы можно потратить для покупки скидок у наших{' '}
-                  <span className='fw-semi-bold'>
-                    <a href='http://leadersofdigital.ru' target="_blank"> партнеров</a>
-                  </span>
-                </p>
               </div>
               <div className={`widget-table-overflow ${s.table}`}>
                 <Table striped size='sm'>
                   <thead className='no-bd'>
                     <tr>
-                      <th>Дата</th>
-                      <th>Поступление</th>
-                      <th>Списание</th>
+                      <th>Населенный пункт</th>
+                      <th>ППКРС (бюджет)</th>
+                      <th>ППСС3 (бюджет)</th>
+                      <th>ППКРС (внебюджет)</th>
+                      <th>ППСС3 (внебюджет)</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      <td>12:33 23 Октября 2020</td>
-                      <td className='text-align-right fw-semi-bold'>460 Э</td>
-                      <td className='text-align-right fw-semi-bold'>0 Э</td>
+                      <td>Верхнекетский</td>
+                      <td className='text-align-right fw-semi-bold'>4</td>
+                      <td className='text-align-right fw-semi-bold'>40</td>
+                      <td className='text-align-right fw-semi-bold'>0</td>
+                      <td className='text-align-right fw-semi-bold'>1</td>
                     </tr>
                     <tr>
-                      <td>11:14 30 Октября 2020</td>
-                      <td className='text-align-right fw-semi-bold'>0 Э</td>
-                      <td className='text-align-right fw-semi-bold'>34 Э</td>
+                      <td>Каргасокский</td>
+                      <td className='text-align-right fw-semi-bold'>1</td>
+                      <td className='text-align-right fw-semi-bold'>7</td>
+                      <td className='text-align-right fw-semi-bold'>0</td>
+                      <td className='text-align-right fw-semi-bold'>1</td>
+                    </tr>
+                    <tr>
+                      <td>Томск</td>
+                      <td className='text-align-right fw-semi-bold'>70</td>
+                      <td className='text-align-right fw-semi-bold'>673</td>
+                      <td className='text-align-right fw-semi-bold'>16</td>
+                      <td className='text-align-right fw-semi-bold'>98</td>
+                    </tr>
+                    <tr>
+                      <td>Северск</td>
+                      <td className='text-align-right fw-semi-bold'>8</td>
+                      <td className='text-align-right fw-semi-bold'>70</td>
+                      <td className='text-align-right fw-semi-bold'>0</td>
+                      <td className='text-align-right fw-semi-bold'>15</td>
+                    </tr>
+                    <tr>
+                      <td>Стрежевой</td>
+                      <td className='text-align-right fw-semi-bold'>0</td>
+                      <td className='text-align-right fw-semi-bold'>2</td>
+                      <td className='text-align-right fw-semi-bold'>0</td>
+                      <td className='text-align-right fw-semi-bold'>0</td>
+                    </tr>
+                    <tr>
+                      <td>Из других областей РФ</td>
+                      <td className='text-align-right fw-semi-bold'>17</td>
+                      <td className='text-align-right fw-semi-bold'>248</td>
+                      <td className='text-align-right fw-semi-bold'>5</td>
+                      <td className='text-align-right fw-semi-bold'>34</td>
                     </tr>
                   </tbody>
                 </Table>

@@ -49,7 +49,7 @@ const Info = props => {
             <form
               onSubmit={() => {
                 console.log(data.users[user.id - 1]);
-                data.users[user.id - 1].surname = 'остоевский';
+                data.users[user.id - 1].surname = 'Достоевский';
               }}
             >
               {props.errorMessage && (

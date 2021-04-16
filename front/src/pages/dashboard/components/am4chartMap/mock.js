@@ -1,33 +1,33 @@
 export default [
   {
-    latitude: 58.000000,
-    longitude: 56.316666,
+    latitude: 58.2651,
+    longitude: 85.0210,
     size: 6,
-    tooltip: 'Пермь',
+    tooltip: 'Белый Яр',
     fill: "#F00"
   },
   {
-    latitude: 47.233334,
-    longitude: 39.700001,
+    latitude: 55.3333300,
+    longitude: 86.0833300,
     size: 7,
-    tooltip: 'Ростов на дону',
+    tooltip: 'Кемерово',
   },
   {
-    latitude: 	55.751244,
-    longitude: 37.618423,
+    latitude: 56.2919,
+    longitude: 84.5708,
     size: 12,
-    tooltip: 'Москва',
+    tooltip: 'Томск',
   },
   {
-    latitude: 	44.030000,
-    longitude: 43.033600,
+    latitude: 58.5540,
+    longitude: 81.3546,
     size: 9,
-    tooltip: 'Пятигорск',
+    tooltip: 'Нарым',
   },
   {
-    latitude: 	46.313000,
+    latitude: 46.313000,
     longitude: 44.253500,
     size: 6,
     tooltip: 'Элиста',
-  }  
+  }
 ]
