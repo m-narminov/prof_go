@@ -1,0 +1,1469 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "birthday": "1990-06-04",
+      "location": "г. Ростов-на-Дону",
+      "email": "123@mail.ru",
+      "password": "123",
+      "genders": "male",
+      "events": 11,
+      "organization": "МГУ",
+      "link": {
+        "vk": "vk.com/123",
+        "instagram": "123.com"
+      },
+      "phone": "79995558866",
+      "telegram": "@2323123",
+      "surname": "Достоевский",
+      "name": "Федор",
+      "patronymic": "Михайлович",
+      "scores": 123,
+      "statusStudy": 1
+    },
+    {
+      "id": 2,
+      "birthday": "1996-02-09",
+      "location": "г. Екатеринбург",
+      "email": "ivanov_ivan@mail.ru",
+      "genders": "male",
+      "password": "123",
+      "events": 3,
+      "organization": "КГУ",
+      "link": {
+        "vk": "vk.com/ivanv",
+        "instagram": "instagram.com/ivanov.i"
+      },
+      "phone": "79995558866",
+      "telegram": "@ivnvn",
+      "surname": "Иванов",
+      "name": "Иван",
+      "patronymic": "Иванович",
+      "scores": 33,
+      "statusStudy": 2
+    },
+    {
+      "id": 3,
+      "birthday": "2002-05-22",
+      "location": "г. Москва",
+      "email": "petrov@yandex.ru",
+      "password": "password",
+      "genders": "male",
+      "events": 11,
+      "organization": "РГУ",
+      "link": {
+        "vk": "vk.com/petr",
+        "instagram": "instagram.com/ptrv"
+      },
+      "phone": "79995558866",
+      "telegram": "@pert.a",
+      "surname": "Петров",
+      "name": "Сергей",
+      "patronymic": "Андреевич",
+      "scores": 123,
+      "statusStudy": 3
+    },
+    {
+      "id": 4,
+      "birthday": "1998-01-29",
+      "location": "г. Волгоград",
+      "description": "Краткое описание ведущего",
+      "email": "nickt@google.com",
+      "password": "password",
+      "genders": "male",
+      "events": 222,
+      "organization": "СГУ",
+      "link": {
+        "vk": "vk.com/nick",
+        "instagram": "instagram.com/nicki"
+      },
+      "inviteLink": "elbrus.ru/nickit",
+      "phone": "71115558866",
+      "telegram": "@2323123",
+      "surname": "Никитин",
+      "name": "Руслан",
+      "patronymic": "Кириллович",
+      "scores": 1222,
+      "statusStudy": 4
+    },
+    {
+      "id": 5,
+      "birthday": "1994-02-09",
+      "location": "г. Москва",
+      "email": "admin@elbrus.ru",
+      "password": "password",
+      "genders": "male",
+      "events": 11,
+      "organization": "ПГУ",
+      "link": {
+        "vk": "vk.com/123",
+        "instagram": "123.com"
+      },
+      "phone": "79995558866",
+      "telegram": "@2323123",
+      "surname": "Достоевский",
+      "name": "Федор",
+      "patronymic": "Михайлович",
+      "scores": 123,
+      "statusStudy": 5
+    }
+  ],
+  "pages": {
+    "online": {
+      "tabs": [
+        {
+          "id": 1,
+          "name": "Деловые игры",
+          "meetups": [
+            {
+              "id": 1,
+              "title": "Урок памяти и славы",
+              "link": "https://rsv.ru/edu/courses/2/269/",
+              "speaker": "Борис Изюмов",
+              "startDate": "2020-11-15T11:00",
+              "endDate": "2020-11-30T23:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 2,
+              "title": "Финансовая грамотность",
+              "link": "https://rsv.ru/edu/courses/9/189/",
+              "speaker": "Олег Демиденко",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 3,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Светлана Грохотова",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 4,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Инна Анисимова",
+              "startDate": "2020-10-30T14:20",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 5,
+              "title": "Уроки лидерства",
+              "link": "https://rsv.ru/edu/courses/10/185/",
+              "speaker": "Мария Гладышева",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Аналитика",
+          "meetups": [
+            {
+              "id": 1,
+              "title": "Урок памяти и славы",
+              "link": "https://rsv.ru/edu/courses/2/269/",
+              "speaker": "Борис Изюмов",
+              "startDate": "2020-11-15T11:00",
+              "endDate": "2020-11-30T23:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 2,
+              "title": "Финансовая грамотность",
+              "link": "https://rsv.ru/edu/courses/9/189/",
+              "speaker": "Олег Демиденко",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 3,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Светлана Грохотова",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 4,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Инна Анисимова",
+              "startDate": "2020-10-30T14:20",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 5,
+              "title": "Уроки лидерства",
+              "link": "https://rsv.ru/edu/courses/10/185/",
+              "speaker": "Мария Гладышева",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Программирование",
+          "meetups": [
+            {
+              "id": 1,
+              "title": "Урок памяти и славы",
+              "link": "https://rsv.ru/edu/courses/2/269/",
+              "speaker": "Борис Изюмов",
+              "startDate": "2020-11-15T11:00",
+              "endDate": "2020-11-30T23:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 2,
+              "title": "Финансовая грамотность",
+              "link": "https://rsv.ru/edu/courses/9/189/",
+              "speaker": "Олег Демиденко",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 3,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Светлана Грохотова",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 4,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Инна Анисимова",
+              "startDate": "2020-10-30T14:20",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 5,
+              "title": "Уроки лидерства",
+              "link": "https://rsv.ru/edu/courses/10/185/",
+              "speaker": "Мария Гладышева",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Дизайн",
+          "meetups": [
+            {
+              "id": 1,
+              "title": "Урок памяти и славы",
+              "link": "https://rsv.ru/edu/courses/2/269/",
+              "speaker": "Борис Изюмов",
+              "startDate": "2020-11-15T11:00",
+              "endDate": "2020-11-30T23:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 2,
+              "title": "Финансовая грамотность",
+              "link": "https://rsv.ru/edu/courses/9/189/",
+              "speaker": "Олег Демиденко",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 3,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Светлана Грохотова",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 4,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Инна Анисимова",
+              "startDate": "2020-10-30T14:20",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 5,
+              "title": "Уроки лидерства",
+              "link": "https://rsv.ru/edu/courses/10/185/",
+              "speaker": "Мария Гладышева",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Финансы",
+          "meetups": [
+            {
+              "id": 1,
+              "title": "Урок памяти и славы",
+              "link": "https://rsv.ru/edu/courses/2/269/",
+              "speaker": "Борис Изюмов",
+              "startDate": "2020-11-15T11:00",
+              "endDate": "2020-11-30T23:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 2,
+              "title": "Финансовая грамотность",
+              "link": "https://rsv.ru/edu/courses/9/189/",
+              "speaker": "Олег Демиденко",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 3,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Светлана Грохотова",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 4,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Инна Анисимова",
+              "startDate": "2020-10-30T14:20",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 5,
+              "title": "Уроки лидерства",
+              "link": "https://rsv.ru/edu/courses/10/185/",
+              "speaker": "Мария Гладышева",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Мотивация",
+          "meetups": [
+            {
+              "id": 1,
+              "title": "Урок памяти и славы",
+              "link": "https://rsv.ru/edu/courses/2/269/",
+              "speaker": "Борис Изюмов",
+              "startDate": "2020-11-15T11:00",
+              "endDate": "2020-11-30T23:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 2,
+              "title": "Финансовая грамотность",
+              "link": "https://rsv.ru/edu/courses/9/189/",
+              "speaker": "Олег Демиденко",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 3,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Светлана Грохотова",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 4,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Инна Анисимова",
+              "startDate": "2020-10-30T14:20",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 5,
+              "title": "Уроки лидерства",
+              "link": "https://rsv.ru/edu/courses/10/185/",
+              "speaker": "Мария Гладышева",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Маркетинг",
+          "meetups": [
+            {
+              "id": 1,
+              "title": "Урок памяти и славы",
+              "link": "https://rsv.ru/edu/courses/2/269/",
+              "speaker": "Борис Изюмов",
+              "startDate": "2020-11-15T11:00",
+              "endDate": "2020-11-30T23:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 2,
+              "title": "Финансовая грамотность",
+              "link": "https://rsv.ru/edu/courses/9/189/",
+              "speaker": "Олег Демиденко",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 3,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Светлана Грохотова",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 4,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Инна Анисимова",
+              "startDate": "2020-10-30T14:20",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 5,
+              "title": "Уроки лидерства",
+              "link": "https://rsv.ru/edu/courses/10/185/",
+              "speaker": "Мария Гладышева",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "SMM",
+          "meetups": [
+            {
+              "id": 1,
+              "title": "Урок памяти и славы",
+              "link": "https://rsv.ru/edu/courses/2/269/",
+              "speaker": "Борис Изюмов",
+              "startDate": "2020-11-15T11:00",
+              "endDate": "2020-11-30T23:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 2,
+              "title": "Финансовая грамотность",
+              "link": "https://rsv.ru/edu/courses/9/189/",
+              "speaker": "Олег Демиденко",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 3,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Светлана Грохотова",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 4,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Инна Анисимова",
+              "startDate": "2020-10-30T14:20",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 5,
+              "title": "Уроки лидерства",
+              "link": "https://rsv.ru/edu/courses/10/185/",
+              "speaker": "Мария Гладышева",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            }
+          ]
+        }
+      ]
+    },
+    "offline": {
+      "tabs": [
+        {
+          "id": 1,
+          "name": "Деловые игры",
+          "meetups": [
+            {
+              "id": 1,
+              "title": "Урок памяти и славы",
+              "link": "https://rsv.ru/edu/courses/2/269/",
+              "speaker": "Борис Изюмов",
+              "startDate": "2020-11-15T11:00",
+              "endDate": "2020-11-30T23:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 2,
+              "title": "Финансовая грамотность",
+              "link": "https://rsv.ru/edu/courses/9/189/",
+              "speaker": "Олег Демиденко",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 3,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Светлана Грохотова",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 4,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Инна Анисимова",
+              "startDate": "2020-10-30T14:20",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 5,
+              "title": "Уроки лидерства",
+              "link": "https://rsv.ru/edu/courses/10/185/",
+              "speaker": "Мария Гладышева",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Аналитика",
+          "meetups": [
+            {
+              "id": 1,
+              "title": "Урок памяти и славы",
+              "link": "https://rsv.ru/edu/courses/2/269/",
+              "speaker": "Борис Изюмов",
+              "startDate": "2020-11-15T11:00",
+              "endDate": "2020-11-30T23:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 2,
+              "title": "Финансовая грамотность",
+              "link": "https://rsv.ru/edu/courses/9/189/",
+              "speaker": "Олег Демиденко",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 3,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Светлана Грохотова",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 4,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Инна Анисимова",
+              "startDate": "2020-10-30T14:20",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 5,
+              "title": "Уроки лидерства",
+              "link": "https://rsv.ru/edu/courses/10/185/",
+              "speaker": "Мария Гладышева",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Программирование",
+          "meetups": [
+            {
+              "id": 1,
+              "title": "Урок памяти и славы",
+              "link": "https://rsv.ru/edu/courses/2/269/",
+              "speaker": "Борис Изюмов",
+              "startDate": "2020-11-15T11:00",
+              "endDate": "2020-11-30T23:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 2,
+              "title": "Финансовая грамотность",
+              "link": "https://rsv.ru/edu/courses/9/189/",
+              "speaker": "Олег Демиденко",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 3,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Светлана Грохотова",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 4,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Инна Анисимова",
+              "startDate": "2020-10-30T14:20",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 5,
+              "title": "Уроки лидерства",
+              "link": "https://rsv.ru/edu/courses/10/185/",
+              "speaker": "Мария Гладышева",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Дизайн",
+          "meetups": [
+            {
+              "id": 1,
+              "title": "Урок памяти и славы",
+              "link": "https://rsv.ru/edu/courses/2/269/",
+              "speaker": "Борис Изюмов",
+              "startDate": "2020-11-15T11:00",
+              "endDate": "2020-11-30T23:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 2,
+              "title": "Финансовая грамотность",
+              "link": "https://rsv.ru/edu/courses/9/189/",
+              "speaker": "Олег Демиденко",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 3,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Светлана Грохотова",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 4,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Инна Анисимова",
+              "startDate": "2020-10-30T14:20",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 5,
+              "title": "Уроки лидерства",
+              "link": "https://rsv.ru/edu/courses/10/185/",
+              "speaker": "Мария Гладышева",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Финансы",
+          "meetups": [
+            {
+              "id": 1,
+              "title": "Урок памяти и славы",
+              "link": "https://rsv.ru/edu/courses/2/269/",
+              "speaker": "Борис Изюмов",
+              "startDate": "2020-11-15T11:00",
+              "endDate": "2020-11-30T23:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 2,
+              "title": "Финансовая грамотность",
+              "link": "https://rsv.ru/edu/courses/9/189/",
+              "speaker": "Олег Демиденко",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 3,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Светлана Грохотова",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 4,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Инна Анисимова",
+              "startDate": "2020-10-30T14:20",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 5,
+              "title": "Уроки лидерства",
+              "link": "https://rsv.ru/edu/courses/10/185/",
+              "speaker": "Мария Гладышева",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Мотивация",
+          "meetups": [
+            {
+              "id": 1,
+              "title": "Урок памяти и славы",
+              "link": "https://rsv.ru/edu/courses/2/269/",
+              "speaker": "Борис Изюмов",
+              "startDate": "2020-11-15T11:00",
+              "endDate": "2020-11-30T23:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 2,
+              "title": "Финансовая грамотность",
+              "link": "https://rsv.ru/edu/courses/9/189/",
+              "speaker": "Олег Демиденко",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 3,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Светлана Грохотова",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 4,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Инна Анисимова",
+              "startDate": "2020-10-30T14:20",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 5,
+              "title": "Уроки лидерства",
+              "link": "https://rsv.ru/edu/courses/10/185/",
+              "speaker": "Мария Гладышева",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Маркетинг",
+          "meetups": [
+            {
+              "id": 1,
+              "title": "Урок памяти и славы",
+              "link": "https://rsv.ru/edu/courses/2/269/",
+              "speaker": "Борис Изюмов",
+              "startDate": "2020-11-15T11:00",
+              "endDate": "2020-11-30T23:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 2,
+              "title": "Финансовая грамотность",
+              "link": "https://rsv.ru/edu/courses/9/189/",
+              "speaker": "Олег Демиденко",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 3,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Светлана Грохотова",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 4,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Инна Анисимова",
+              "startDate": "2020-10-30T14:20",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 5,
+              "title": "Уроки лидерства",
+              "link": "https://rsv.ru/edu/courses/10/185/",
+              "speaker": "Мария Гладышева",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "SMM",
+          "meetups": [
+            {
+              "id": 1,
+              "title": "Урок памяти и славы",
+              "link": "https://rsv.ru/edu/courses/2/269/",
+              "speaker": "Борис Изюмов",
+              "startDate": "2020-11-15T11:00",
+              "endDate": "2020-11-30T23:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 2,
+              "title": "Финансовая грамотность",
+              "link": "https://rsv.ru/edu/courses/9/189/",
+              "speaker": "Олег Демиденко",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 3,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Светлана Грохотова",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 4,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Инна Анисимова",
+              "startDate": "2020-10-30T14:20",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 5,
+              "title": "Уроки лидерства",
+              "link": "https://rsv.ru/edu/courses/10/185/",
+              "speaker": "Мария Гладышева",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            }
+          ]
+        }
+      ]
+    },
+    "testing": {
+      "tabs": [
+        {
+          "id": 1,
+          "name": "Деловые игры",
+          "meetups": [
+            {
+              "id": 1,
+              "title": "Урок памяти и славы",
+              "link": "https://rsv.ru/edu/courses/2/269/",
+              "speaker": "Борис Изюмов",
+              "startDate": "2020-11-15T11:00",
+              "endDate": "2020-11-30T23:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 2,
+              "title": "Финансовая грамотность",
+              "link": "https://rsv.ru/edu/courses/9/189/",
+              "speaker": "Олег Демиденко",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 3,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Светлана Грохотова",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 4,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Инна Анисимова",
+              "startDate": "2020-10-30T14:20",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 5,
+              "title": "Уроки лидерства",
+              "link": "https://rsv.ru/edu/courses/10/185/",
+              "speaker": "Мария Гладышева",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Аналитика",
+          "meetups": [
+            {
+              "id": 1,
+              "title": "Урок памяти и славы",
+              "link": "https://rsv.ru/edu/courses/2/269/",
+              "speaker": "Борис Изюмов",
+              "startDate": "2020-11-15T11:00",
+              "endDate": "2020-11-30T23:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 2,
+              "title": "Финансовая грамотность",
+              "link": "https://rsv.ru/edu/courses/9/189/",
+              "speaker": "Олег Демиденко",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 3,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Светлана Грохотова",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 4,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Инна Анисимова",
+              "startDate": "2020-10-30T14:20",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 5,
+              "title": "Уроки лидерства",
+              "link": "https://rsv.ru/edu/courses/10/185/",
+              "speaker": "Мария Гладышева",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Программирование",
+          "meetups": [
+            {
+              "id": 1,
+              "title": "Урок памяти и славы",
+              "link": "https://rsv.ru/edu/courses/2/269/",
+              "speaker": "Борис Изюмов",
+              "startDate": "2020-11-15T11:00",
+              "endDate": "2020-11-30T23:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 2,
+              "title": "Финансовая грамотность",
+              "link": "https://rsv.ru/edu/courses/9/189/",
+              "speaker": "Олег Демиденко",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 3,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Светлана Грохотова",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 4,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Инна Анисимова",
+              "startDate": "2020-10-30T14:20",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 5,
+              "title": "Уроки лидерства",
+              "link": "https://rsv.ru/edu/courses/10/185/",
+              "speaker": "Мария Гладышева",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "name": "Дизайн",
+          "meetups": [
+            {
+              "id": 1,
+              "title": "Урок памяти и славы",
+              "link": "https://rsv.ru/edu/courses/2/269/",
+              "speaker": "Борис Изюмов",
+              "startDate": "2020-11-15T11:00",
+              "endDate": "2020-11-30T23:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 2,
+              "title": "Финансовая грамотность",
+              "link": "https://rsv.ru/edu/courses/9/189/",
+              "speaker": "Олег Демиденко",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 3,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Светлана Грохотова",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 4,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Инна Анисимова",
+              "startDate": "2020-10-30T14:20",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 5,
+              "title": "Уроки лидерства",
+              "link": "https://rsv.ru/edu/courses/10/185/",
+              "speaker": "Мария Гладышева",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Финансы",
+          "meetups": [
+            {
+              "id": 1,
+              "title": "Урок памяти и славы",
+              "link": "https://rsv.ru/edu/courses/2/269/",
+              "speaker": "Борис Изюмов",
+              "startDate": "2020-11-15T11:00",
+              "endDate": "2020-11-30T23:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 2,
+              "title": "Финансовая грамотность",
+              "link": "https://rsv.ru/edu/courses/9/189/",
+              "speaker": "Олег Демиденко",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 3,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Светлана Грохотова",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 4,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Инна Анисимова",
+              "startDate": "2020-10-30T14:20",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 5,
+              "title": "Уроки лидерства",
+              "link": "https://rsv.ru/edu/courses/10/185/",
+              "speaker": "Мария Гладышева",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Мотивация",
+          "meetups": [
+            {
+              "id": 1,
+              "title": "Урок памяти и славы",
+              "link": "https://rsv.ru/edu/courses/2/269/",
+              "speaker": "Борис Изюмов",
+              "startDate": "2020-11-15T11:00",
+              "endDate": "2020-11-30T23:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 2,
+              "title": "Финансовая грамотность",
+              "link": "https://rsv.ru/edu/courses/9/189/",
+              "speaker": "Олег Демиденко",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 3,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Светлана Грохотова",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 4,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Инна Анисимова",
+              "startDate": "2020-10-30T14:20",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 5,
+              "title": "Уроки лидерства",
+              "link": "https://rsv.ru/edu/courses/10/185/",
+              "speaker": "Мария Гладышева",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "name": "Маркетинг",
+          "meetups": [
+            {
+              "id": 1,
+              "title": "Урок памяти и славы",
+              "link": "https://rsv.ru/edu/courses/2/269/",
+              "speaker": "Борис Изюмов",
+              "startDate": "2020-11-15T11:00",
+              "endDate": "2020-11-30T23:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 2,
+              "title": "Финансовая грамотность",
+              "link": "https://rsv.ru/edu/courses/9/189/",
+              "speaker": "Олег Демиденко",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 3,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Светлана Грохотова",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 4,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Инна Анисимова",
+              "startDate": "2020-10-30T14:20",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 5,
+              "title": "Уроки лидерства",
+              "link": "https://rsv.ru/edu/courses/10/185/",
+              "speaker": "Мария Гладышева",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "name": "SMM",
+          "meetups": [
+            {
+              "id": 1,
+              "title": "Урок памяти и славы",
+              "link": "https://rsv.ru/edu/courses/2/269/",
+              "speaker": "Борис Изюмов",
+              "startDate": "2020-11-15T11:00",
+              "endDate": "2020-11-30T23:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 2,
+              "title": "Финансовая грамотность",
+              "link": "https://rsv.ru/edu/courses/9/189/",
+              "speaker": "Олег Демиденко",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 3,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Светлана Грохотова",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 4,
+              "title": "Женщина-Лидер",
+              "link": "https://rsv.ru/edu/courses/1/334/",
+              "speaker": "Инна Анисимова",
+              "startDate": "2020-10-30T14:20",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            },
+            {
+              "id": 5,
+              "title": "Уроки лидерства",
+              "link": "https://rsv.ru/edu/courses/10/185/",
+              "speaker": "Мария Гладышева",
+              "startDate": "2020-10-30T13:00",
+              "endDate": "2020-10-30T16:00",
+              "latitude": "46.034079",
+              "longitude": "51.541787"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

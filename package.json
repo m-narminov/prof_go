@@ -1,0 +1,21 @@
+{
+  "name": "prof_go",
+  "version": "1.0.0",
+  "description": "Prof education",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "cd front && npm i",
+    "install": "cd back && npm i",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m-narminov/prof_go.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m-narminov/prof_go/issues"
+  },
+  "homepage": "https://github.com/m-narminov/prof_go#readme"
+}

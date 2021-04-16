@@ -1,0 +1,6 @@
+{
+    "name": "OfflineEvent",
+    "version": "0.0.0",
+    "private": true,
+    "main": "Offline.js"
+}

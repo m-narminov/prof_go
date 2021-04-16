@@ -1,0 +1,15 @@
+@import '../../../../styles/app';
+
+.root {
+    :global {
+        .icon-list {
+            margin-top: $spacer;
+        }
+
+        .list-item {
+            height: 32px;
+            font-size: 14px;
+            line-height: 32px;
+        }
+    }
+}
