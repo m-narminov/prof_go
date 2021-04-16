@@ -135,7 +135,7 @@ class Sidebar extends React.Component {
               this.props.dispatch(changeActiveSidebarItem(activeItem))
             }
             activeItem={this.props.activeItem}
-            header='Кадры'
+            header='Заявления'
             isHeader
             iconName='flaticon-layers'
             link='/app/staff'
