@@ -4,7 +4,7 @@
     "private": true,
     "scripts": {
         "build": "cross-env PUBLIC_URL='./' node scripts/build.js",
-        "start": "node scripts/start.js",
+        "start": "npm i && node scripts/start.js",
         "test": "node scripts/test.js"
     },
     "browserslist": [
@@ -68,10 +68,13 @@
         "awesome-bootstrap-checkbox": "1.0.1",
         "axios": "^0.21.0",
         "bootstrap": "4.5.0",
+        "chalk": "^4.1.0",
         "classnames": "^2.2.6",
+        "cross-env": "^7.0.3",
         "echarts": "^4.8.0",
         "echarts-for-react": "^2.0.16",
         "font-awesome": "4.7.0",
+        "fs-extra": "^9.1.0",
         "glyphicons-halflings": "^1.9.1",
         "highcharts": "^8.1.2",
         "highcharts-react-official": "^3.0.0",
@@ -115,7 +118,6 @@
         "bfj": "6.1.1",
         "bundle-loader": "0.5.6",
         "case-sensitive-paths-webpack-plugin": "2.2.0",
-        "chalk": "4.1.0",
         "css-loader": "2.1.1",
         "dotenv": "8.0.0",
         "dotenv-expand": "5.1.0",
@@ -129,7 +131,6 @@
         "eslint-plugin-react-hooks": "1.6.0",
         "expose-loader": "0.7.5",
         "file-loader": "3.0.1",
-        "fs-extra": "7.0.1",
         "html-webpack-plugin": "4.0.0-alpha.2",
         "identity-obj-proxy": "3.0.0",
         "imports-loader": "0.8.0",
