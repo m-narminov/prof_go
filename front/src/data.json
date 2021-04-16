@@ -117,49 +117,58 @@
                     "meetups": [
                         {
                             "id": 1,
-                            "title": "286",
-                            "fio": "Иванов Александ Петрович",
-                            "speaker": "Борис Изюмов",
+                            "scores": 286,
+                            "fio": "Иванов Александр Петрович",
                             "startDate": "2020-11-15T11:00",
                             "endDate": "2020-11-30T23:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "Зачислен"
                         },
                         {
                             "id": 2,
-                            "title": "Финансовая грамотность",
-                            "speaker": "Олег Демиденко",
+                            "scores": 240,
+                            "fio": "Демиденко Олег Владимирович",
                             "startDate": "2020-10-30T13:00",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "Зачислен"
                         },
                         {
                             "id": 3,
-                            "title": "Женщина-Лидер",
-                            "speaker": "Светлана Грохотова",
+                            "scores": 221,
+                            "fio": "Грохотова Светлана Васильевна",
                             "startDate": "2020-10-30T13:00",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "Зачислен"
                         },
                         {
                             "id": 4,
-                            "title": "Женщина-Лидер",
-                            "speaker": "Инна Анисимова",
+                            "scores": 190,
+                            "fio": "Анисимова Инна Александровна",
                             "startDate": "2020-10-30T14:20",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "На рассмотрении"
                         },
                         {
                             "id": 5,
-                            "title": "Уроки лидерства",
-                            "speaker": "Мария Гладышева",
+                            "scores": 201,
+                            "fio": "Гладышева Мария Евгеньевна",
                             "startDate": "2020-10-30T13:00",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "На рассмотрении"
                         }
                     ]
                 },
@@ -169,48 +178,58 @@
                     "meetups": [
                         {
                             "id": 1,
-                            "title": "Урок памяти и славы",
-                            "speaker": "Борис Изюмов",
+                            "scores": 286,
+                            "fio": "Иванов Александр Петрович",
                             "startDate": "2020-11-15T11:00",
                             "endDate": "2020-11-30T23:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "Зачислен"
                         },
                         {
                             "id": 2,
-                            "title": "Финансовая грамотность",
-                            "speaker": "Олег Демиденко",
+                            "scores": 240,
+                            "fio": "Демиденко Олег Владимирович",
                             "startDate": "2020-10-30T13:00",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "Зачислен"
                         },
                         {
                             "id": 3,
-                            "title": "Женщина-Лидер",
-                            "speaker": "Светлана Грохотова",
+                            "scores": 221,
+                            "fio": "Грохотова Светлана Васильевна",
                             "startDate": "2020-10-30T13:00",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "Зачислен"
                         },
                         {
                             "id": 4,
-                            "title": "Женщина-Лидер",
-                            "speaker": "Инна Анисимова",
+                            "scores": 190,
+                            "fio": "Анисимова Инна Александровна",
                             "startDate": "2020-10-30T14:20",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "На рассмотрении"
                         },
                         {
                             "id": 5,
-                            "title": "Уроки лидерства",
-                            "speaker": "Мария Гладышева",
+                            "scores": 201,
+                            "fio": "Гладышева Мария Евгеньевна",
                             "startDate": "2020-10-30T13:00",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "На рассмотрении"
                         }
                     ]
                 },
@@ -220,48 +239,58 @@
                     "meetups": [
                         {
                             "id": 1,
-                            "title": "Урок памяти и славы",
-                            "speaker": "Борис Изюмов",
+                            "scores": 286,
+                            "fio": "Иванов Александр Петрович",
                             "startDate": "2020-11-15T11:00",
                             "endDate": "2020-11-30T23:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "Зачислен"
                         },
                         {
                             "id": 2,
-                            "title": "Финансовая грамотность",
-                            "speaker": "Олег Демиденко",
+                            "scores": 240,
+                            "fio": "Демиденко Олег Владимирович",
                             "startDate": "2020-10-30T13:00",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "Зачислен"
                         },
                         {
                             "id": 3,
-                            "title": "Женщина-Лидер",
-                            "speaker": "Светлана Грохотова",
+                            "scores": 221,
+                            "fio": "Грохотова Светлана Васильевна",
                             "startDate": "2020-10-30T13:00",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "Зачислен"
                         },
                         {
                             "id": 4,
-                            "title": "Женщина-Лидер",
-                            "speaker": "Инна Анисимова",
+                            "scores": 190,
+                            "fio": "Анисимова Инна Александровна",
                             "startDate": "2020-10-30T14:20",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "На рассмотрении"
                         },
                         {
                             "id": 5,
-                            "title": "Уроки лидерства",
-                            "speaker": "Мария Гладышева",
+                            "scores": 201,
+                            "fio": "Гладышева Мария Евгеньевна",
                             "startDate": "2020-10-30T13:00",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "На рассмотрении"
                         }
                     ]
                 },
@@ -271,48 +300,58 @@
                     "meetups": [
                         {
                             "id": 1,
-                            "title": "Урок памяти и славы",
-                            "speaker": "Борис Изюмов",
+                            "scores": 286,
+                            "fio": "Иванов Александр Петрович",
                             "startDate": "2020-11-15T11:00",
                             "endDate": "2020-11-30T23:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "Зачислен"
                         },
                         {
                             "id": 2,
-                            "title": "Финансовая грамотность",
-                            "speaker": "Олег Демиденко",
+                            "scores": 240,
+                            "fio": "Демиденко Олег Владимирович",
                             "startDate": "2020-10-30T13:00",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "Зачислен"
                         },
                         {
                             "id": 3,
-                            "title": "Женщина-Лидер",
-                            "speaker": "Светлана Грохотова",
+                            "scores": 221,
+                            "fio": "Грохотова Светлана Васильевна",
                             "startDate": "2020-10-30T13:00",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "Зачислен"
                         },
                         {
                             "id": 4,
-                            "title": "Женщина-Лидер",
-                            "speaker": "Инна Анисимова",
+                            "scores": 190,
+                            "fio": "Анисимова Инна Александровна",
                             "startDate": "2020-10-30T14:20",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "На рассмотрении"
                         },
                         {
                             "id": 5,
-                            "title": "Уроки лидерства",
-                            "speaker": "Мария Гладышева",
+                            "scores": 201,
+                            "fio": "Гладышева Мария Евгеньевна",
                             "startDate": "2020-10-30T13:00",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "На рассмотрении"
                         }
                     ]
                 },
@@ -322,48 +361,58 @@
                     "meetups": [
                         {
                             "id": 1,
-                            "title": "Урок памяти и славы",
-                            "speaker": "Борис Изюмов",
+                            "scores": 286,
+                            "fio": "Иванов Александр Петрович",
                             "startDate": "2020-11-15T11:00",
                             "endDate": "2020-11-30T23:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "Зачислен"
                         },
                         {
                             "id": 2,
-                            "title": "Финансовая грамотность",
-                            "speaker": "Олег Демиденко",
+                            "scores": 240,
+                            "fio": "Демиденко Олег Владимирович",
                             "startDate": "2020-10-30T13:00",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "Зачислен"
                         },
                         {
                             "id": 3,
-                            "title": "Женщина-Лидер",
-                            "speaker": "Светлана Грохотова",
+                            "scores": 221,
+                            "fio": "Грохотова Светлана Васильевна",
                             "startDate": "2020-10-30T13:00",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "Зачислен"
                         },
                         {
                             "id": 4,
-                            "title": "Женщина-Лидер",
-                            "speaker": "Инна Анисимова",
+                            "scores": 190,
+                            "fio": "Анисимова Инна Александровна",
                             "startDate": "2020-10-30T14:20",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "На рассмотрении"
                         },
                         {
                             "id": 5,
-                            "title": "Уроки лидерства",
-                            "speaker": "Мария Гладышева",
+                            "scores": 201,
+                            "fio": "Гладышева Мария Евгеньевна",
                             "startDate": "2020-10-30T13:00",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "На рассмотрении"
                         }
                     ]
                 },
@@ -373,48 +422,58 @@
                     "meetups": [
                         {
                             "id": 1,
-                            "title": "Урок памяти и славы",
-                            "speaker": "Борис Изюмов",
+                            "scores": 286,
+                            "fio": "Иванов Александр Петрович",
                             "startDate": "2020-11-15T11:00",
                             "endDate": "2020-11-30T23:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "Зачислен"
                         },
                         {
                             "id": 2,
-                            "title": "Финансовая грамотность",
-                            "speaker": "Олег Демиденко",
+                            "scores": 240,
+                            "fio": "Демиденко Олег Владимирович",
                             "startDate": "2020-10-30T13:00",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "Зачислен"
                         },
                         {
                             "id": 3,
-                            "title": "Женщина-Лидер",
-                            "speaker": "Светлана Грохотова",
+                            "scores": 221,
+                            "fio": "Грохотова Светлана Васильевна",
                             "startDate": "2020-10-30T13:00",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "Зачислен"
                         },
                         {
                             "id": 4,
-                            "title": "Женщина-Лидер",
-                            "speaker": "Инна Анисимова",
+                            "scores": 190,
+                            "fio": "Анисимова Инна Александровна",
                             "startDate": "2020-10-30T14:20",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "На рассмотрении"
                         },
                         {
                             "id": 5,
-                            "title": "Уроки лидерства",
-                            "speaker": "Мария Гладышева",
+                            "scores": 201,
+                            "fio": "Гладышева Мария Евгеньевна",
                             "startDate": "2020-10-30T13:00",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "На рассмотрении"
                         }
                     ]
                 },
@@ -424,48 +483,58 @@
                     "meetups": [
                         {
                             "id": 1,
-                            "title": "Урок памяти и славы",
-                            "speaker": "Борис Изюмов",
+                            "scores": 286,
+                            "fio": "Иванов Александр Петрович",
                             "startDate": "2020-11-15T11:00",
                             "endDate": "2020-11-30T23:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "Зачислен"
                         },
                         {
                             "id": 2,
-                            "title": "Финансовая грамотность",
-                            "speaker": "Олег Демиденко",
+                            "scores": 240,
+                            "fio": "Демиденко Олег Владимирович",
                             "startDate": "2020-10-30T13:00",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "Зачислен"
                         },
                         {
                             "id": 3,
-                            "title": "Женщина-Лидер",
-                            "speaker": "Светлана Грохотова",
+                            "scores": 221,
+                            "fio": "Грохотова Светлана Васильевна",
                             "startDate": "2020-10-30T13:00",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "Зачислен"
                         },
                         {
                             "id": 4,
-                            "title": "Женщина-Лидер",
-                            "speaker": "Инна Анисимова",
+                            "scores": 190,
+                            "fio": "Анисимова Инна Александровна",
                             "startDate": "2020-10-30T14:20",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "На рассмотрении"
                         },
                         {
                             "id": 5,
-                            "title": "Уроки лидерства",
-                            "speaker": "Мария Гладышева",
+                            "scores": 201,
+                            "fio": "Гладышева Мария Евгеньевна",
                             "startDate": "2020-10-30T13:00",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "На рассмотрении"
                         }
                     ]
                 },
@@ -475,48 +544,58 @@
                     "meetups": [
                         {
                             "id": 1,
-                            "title": "Урок памяти и славы",
-                            "speaker": "Борис Изюмов",
+                            "scores": 286,
+                            "fio": "Иванов Александр Петрович",
                             "startDate": "2020-11-15T11:00",
                             "endDate": "2020-11-30T23:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "Зачислен"
                         },
                         {
                             "id": 2,
-                            "title": "Финансовая грамотность",
-                            "speaker": "Олег Демиденко",
+                            "scores": 240,
+                            "fio": "Демиденко Олег Владимирович",
                             "startDate": "2020-10-30T13:00",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "Зачислен"
                         },
                         {
                             "id": 3,
-                            "title": "Женщина-Лидер",
-                            "speaker": "Светлана Грохотова",
+                            "scores": 221,
+                            "fio": "Грохотова Светлана Васильевна",
                             "startDate": "2020-10-30T13:00",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "Зачислен"
                         },
                         {
                             "id": 4,
-                            "title": "Женщина-Лидер",
-                            "speaker": "Инна Анисимова",
+                            "scores": 190,
+                            "fio": "Анисимова Инна Александровна",
                             "startDate": "2020-10-30T14:20",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "На рассмотрении"
                         },
                         {
                             "id": 5,
-                            "title": "Уроки лидерства",
-                            "speaker": "Мария Гладышева",
+                            "scores": 201,
+                            "fio": "Гладышева Мария Евгеньевна",
                             "startDate": "2020-10-30T13:00",
                             "endDate": "2020-10-30T16:00",
                             "latitude": "46.034079",
-                            "longitude": "51.541787"
+                            "longitude": "51.541787",
+                            "militaryAge": false,
+                            "status": "На рассмотрении"
                         }
                     ]
                 }

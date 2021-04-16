@@ -1,10 +1,46 @@
 import React from 'react';
-import { Row, Col, Table, Badge } from 'reactstrap';
+import { Row, Col, Table, Badge, Modal } from 'reactstrap';
 
 import Widget from '../../../components/Widget';
 import s from './Static.module.scss';
 
 class Static extends React.Component {
+  thead = ['#', 'ФИО', 'Телефон', 'Email', 'Инвалидность', 'Из многодетной семьи']
+  users = [
+    {
+      id: 1,
+      fio: 'Достоевский Федор Михайлович',
+      phone: '9992221155',
+      email: 'sam@example.com',
+      isInvalid: false,
+      largeFamily: false
+    },
+    {
+      id: 2,
+      fio: 'Раскольников Родион Романович',
+      phone: '9992221155',
+      email: 'fat.thor@example.com',
+      isInvalid: false,
+      largeFamily: true
+    },
+    {
+      id: 3,
+      fio: 'Мармеладова Соня Семеновна',
+      phone: '9992221155',
+      email: 'larry@example.com',
+      isInvalid: true,
+      largeFamily: false
+    },
+    {
+      id: 4,
+      fio: 'Раскольникова Авдотья Романовна',
+      phone: '9992221155',
+      email: 'peter@example.com',
+      isInvalid: false,
+      largeFamily: false
+    }
+  ]
+
   render() {
     return (
       <div className={s.root}>
@@ -16,72 +52,24 @@ class Static extends React.Component {
                 <Table className='table-hover'>
                   <thead>
                     <tr>
-                      <th>#</th>
-                      <th>Фамилия</th>
-                      <th>Имя</th>
-                      <th>Отчество</th>
-                      <th>Email</th>
-                      <th>Status</th>
+                      {this.thead.map(el => <th>{el}</th>)}
                     </tr>
                   </thead>
                   {/* eslint-disable */}
                   <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>Достоевский</td>
-                      <td>Федор</td>
-                      <td>Михайлович</td>
-                      <td>
-                        <a href='#'>sam@example.com</a>
-                      </td>
-                      <td>
-                        <Badge color='gray' className='text-secondary' pill>
-                          Приглашенный
-                        </Badge>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>2</td>
-                      <td>Раскольникв</td>
-                      <td>Родион</td>
-                      <td>Романович</td>
-                      <td>
-                        <a href='#'>fat.thor@example.com</a>
-                      </td>
-                      <td>
-                        <Badge color='gray' className='text-secondary' pill>
-                          Не подтвержденный
-                        </Badge>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>3</td>
-                      <td>Мармеладова</td>
-                      <td>Соня</td>
-                      <td>Семеновна</td>
-                      <td>
-                        <a href='#'>larry@example.com</a>
-                      </td>
-                      <td>
-                        <Badge color='primary' className='text-secondary' pill>
-                          Новый
-                        </Badge>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>4</td>
-                      <td>Раскольникова</td>
-                      <td>Авдотья</td>
-                      <td>Романовна</td>
-                      <td>
-                        <a href='#'>peter@example.com</a>
-                      </td>
-                      <td>
-                        <Badge color='success' className='text-secondary' pill>
-                          Активный
-                        </Badge>
-                      </td>
-                    </tr>
+                    {this.users.map(user =>
+                      <tr>
+                        <td>{user.id}</td>
+                        <td>{user.fio}</td>
+                        <td>{user.phone}</td>
+                        <td>
+                          <a href='#'>{user.email}</a>
+                        </td>
+                        <td>{user.isInvalid ? 'Да' : 'Нет'}</td>
+                        <td>{user.largeFamily ? 'Да' : 'Нет'}</td>
+                        <Modal></Modal>
+                      </tr>
+                    )}
                   </tbody>
                   {/* eslint-enable */}
                 </Table>

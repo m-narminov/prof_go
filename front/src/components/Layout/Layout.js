@@ -95,7 +95,7 @@ class Layout extends React.Component {
                 </CSSTransition>
               </TransitionGroup>
               <footer className={s.contentFooter}>
-                2020 &copy;<a href="https://club-elbrus.ru/" > web.elbrus.ru</a>
+
               </footer>
             </main>
           </Hammer>

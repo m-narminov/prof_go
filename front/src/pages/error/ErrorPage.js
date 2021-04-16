@@ -35,7 +35,7 @@ class ErrorPage extends React.Component {
             </Form>
           </div>
           <footer className={s.pageFooter}>
-            2020 &copy; web.elbrus.ru
+
           </footer>
         </Container>
       </div>

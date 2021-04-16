@@ -115,42 +115,14 @@ class Online extends React.Component {
                     {meetupTime}
                   </Col>
                   <Col md={2} lg={2} xs={12} className='list-item'>
-                    {meetup.title}
+                    {meetup.scores}
                   </Col>
-                  <Col md={7} lg={7} xs={12} className='list-item'>
+                  <Col md={4} lg={4} xs={12} className='list-item'>
                     {meetup.fio}
                   </Col>
-                  {/* <Col md={2} lg={2} xs={12} className='list-item'>
-                    <CopyToClipboard
-                      text={`${meetup.link}?userFromId=${this.state.user.id}`}
-                      onCopy={text => {
-                        const linkCell = document.getElementById(linkCellId);
-
-                        linkCell.textContent = text;
-
-                        toast.success('Ссылка скопирована в буфер обмена', {
-                          position: 'bottom-right',
-                          autoClose: 5000,
-                          closeOnClick: true,
-                          pauseOnHover: false,
-                          draggable: true,
-                        });
-                      }}
-                    >
-                      <button className='mr-1 btn btn-success btn-xs'>
-                        Создать
-                      </button>
-                    </CopyToClipboard>
-                  </Col> */}
-                  {/* <Col
-                    id={linkCellId}
-                    md={3}
-                    lg={3}
-                    xs={12}
-                    className='list-item'
-                  >
-                    { }
-                  </Col> */}
+                  <Col md={1} lg={1} xs={12} className='list-item'>
+                    <Badge pill>{meetup.status}</Badge>
+                  </Col>
                 </Row>
               );
             });

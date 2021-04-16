@@ -190,7 +190,7 @@ class Login extends React.Component {
             </form>
           </Widget>
         </Container>
-        <footer className='auth-footer'>2020 &copy; web.elbrus.ru</footer>
+        <footer className='auth-footer'></footer>
       </div>
     );
   }
