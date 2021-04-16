@@ -40,9 +40,9 @@ $gray-light: $gray-100 !default;
 
 $bg-custom-dark: #040620;
 $main-gradient: radial-gradient(
-  farthest-side ellipse at 10% 0,
-  #333867 20%,
-  #17193b
+    farthest-side ellipse at 10% 0,
+    #333867 20%,
+    #535c63
 );
 
 $lime: #8cbf26 !default;
@@ -61,22 +61,22 @@ $inverse: #30314e !default;
 $violet_deep: #1b1e3c !default;
 
 $theme-colors: (
-  primary: $blue,
-  secondary: rgba($white, 0.9),
-  success: $green,
-  info: $teal,
-  warning: $orange,
-  danger: $red,
-  dark: $gray-700,
-  inverse: $inverse,
-  gray: $gray,
-  light: $gray-100,
-  default: $subtle-blue,
-  primary-light: #dee4ee,
-  success-light: #ecfaec,
-  info-light: #f2fafa,
-  warning-light: #fdf7e6,
-  danger-light: #fff2ef,
+    primary: $blue,
+    secondary: rgba($white, 0.9),
+    success: $green,
+    info: $teal,
+    warning: $orange,
+    danger: $red,
+    dark: $gray-700,
+    inverse: $inverse,
+    gray: $gray,
+    light: $gray-100,
+    default: $subtle-blue,
+    primary-light: #dee4ee,
+    success-light: #ecfaec,
+    info-light: #f2fafa,
+    warning-light: #fdf7e6,
+    danger-light: #fff2ef,
 );
 
 $link-color: #1870dc;
@@ -143,7 +143,7 @@ $widget-bg-color: rgba(0, 0, 0, 0.24);
 
 $widget-title-color: #fff;
 $widget-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.1),
-  0 0 15px rgba(0, 0, 0, 0.06);
+    0 0 15px rgba(0, 0, 0, 0.06);
 $widget-shadow-designated: -1px 0 8px $gray-400;
 
 $text-transparent: opacify($widget-bg-color, 0.07);
