@@ -86,7 +86,7 @@ class Charts extends React.Component {
             </Col>
             <Col lg={5} xs={12}>
               <Widget
-                title={<h5>Количество абитуриентов</h5>}
+                title={<h5>Количество студентов</h5>}
                 close collapse
               >
                 <ReactEchartsCore
