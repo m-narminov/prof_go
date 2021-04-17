@@ -23,6 +23,17 @@
   }
 }
 
+.form{
+  display: flex;
+  flex-direction: row;
+  margin-top: 2.5%;
+  
+}
+
+.formgroup{
+  margin-right: 2.5%;
+}
+
 .table {
   :global(.table.table-sm) {
     td {
