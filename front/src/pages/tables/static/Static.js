@@ -156,6 +156,15 @@ const Static = () => {
               </Input>
             </FormGroup>
           </Col>
+          <Col sm={2} lg={2}>
+            <FormGroup>
+              <Label for="exampleSelect">Форма обучения</Label>
+              <Input type="select" name="select1" id="exampleSelect">
+                <option>Очная</option>
+                <option>Заочная</option>
+              </Input>
+            </FormGroup>
+          </Col>
         </Row>
         <Button style={{ background: 'rgba(0,0,0,0.6)', float: 'right' }}>Фильтровать</Button>
       </Widget>
