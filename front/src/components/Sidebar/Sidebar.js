@@ -119,7 +119,7 @@ class Sidebar extends React.Component {
             link='/app/commission'
             index='ui'
           />
-          <LinksGroup
+          {/* <LinksGroup
             onActiveSidebarItemChange={activeItem =>
               this.props.dispatch(changeActiveSidebarItem(activeItem))
             }
@@ -129,7 +129,7 @@ class Sidebar extends React.Component {
             iconName='flaticon-layers'
             link='/app/info'
             index='ui'
-          />
+          /> */}
           <LinksGroup
             onActiveSidebarItemChange={activeItem =>
               this.props.dispatch(changeActiveSidebarItem(activeItem))

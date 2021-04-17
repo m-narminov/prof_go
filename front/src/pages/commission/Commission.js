@@ -44,13 +44,15 @@ class Commission extends React.Component {
     const lastName = this.state.data.lastName
     const firstName = this.state.data.firstName
     const middleName = this.state.data.middleName
+    const spo = this.state.data.spo
+    const phone = this.state.data.phone
     const toSendData = {
       ...this.state.data,
       fio: `${lastName} ${firstName} ${middleName}`
     }
     const data = JSON.stringify(toSendData)
 
-    fetch(`https://flask-hak.herokuapp.com/setmsg?msg=Новый абитуриет у вуза ${event.target.select1.value}! ${event.target.family.value} ${event.target.name.value} ${event.target.nameO.value}, телефон: ${event.target.phone.value}`)
+    fetch(`https://flask-hak.herokuapp.com/setmsg?msg=Новый абитуриент в ${spo}! ${lastName} ${firstName} ${middleName}, телефон: ${phone}`)
       .then(response => {
         return response.json()
       })
@@ -70,19 +72,19 @@ class Commission extends React.Component {
         console.log(data);
         this.setState({
           ...this.state, data: {
-            lastName: '',
-            firstName: '',
-            middleName: '',
-            birthday: '',
-            spo: '',
-            specialization: '',
-            phone: '',
+            lastName: 'Петров',
+            firstName: 'Василий',
+            middleName: 'Василиевич',
+            birthday: '19.05.1999',
+            spo: 'Асиновский техникум промышленной индустрии и сервиса',
+            specialization: 'Информационные технологии',
+            phone: '+7 999 999 99 99',
             home_phone: '',
-            school: '',
-            certificate: '',
+            school: 'МОУ СОШ, Муниципальное общеобразовательное учреждение гимназия №1 имени А.С. Пушкина города Томска Томской области',
+            certificate: '70 АБ 002004',
             isParent: false,
             certificate_scan: '',
-            education_form: ''
+            education_form: 'Очная'
           }
         })
       })
@@ -162,7 +164,7 @@ class Commission extends React.Component {
             </FormGroup>
             <FormGroup>
               <Label for="spo">Среднее профессиональное образование</Label>
-              <Input type="select" name="select1" id="spo" name="spo" onChange={this.onChange}>
+              <Input type="select" id="spo" name="spo" onChange={this.onChange}>
                 <option>Асиновский техникум промышленной индустрии и сервиса</option>
                 <option>Каргасокский техникум промышленности и речного транспорта</option>
                 <option>Кожевниковский техникум агробизнеса</option>
@@ -173,7 +175,7 @@ class Commission extends React.Component {
             <FormGroup>
               <Label for="specialization">Специализация</Label>
               <Input type="select" name="specialization" id="specialization" onChange={this.onChange}>
-                <option>информационные технологии</option>
+                <option>Информационные технологии</option>
                 <option>Менеджмент</option>
                 <option>Фермер и слесарь</option>
                 <option>Математика и естественные науки</option>

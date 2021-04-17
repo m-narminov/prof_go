@@ -11,10 +11,6 @@ import AnimateNumber from 'react-animated-number';
 
 import s from './Dashboard.module.scss';
 
-import peopleA1 from '../../images/people/a1.jpg';
-import peopleA2 from '../../images/people/a2.jpg';
-import peopleA5 from '../../images/people/a5.jpg';
-import peopleA4 from '../../images/people/a4.jpg';
 
 class Dashboard extends React.Component {
   constructor(props) {
@@ -94,7 +90,9 @@ class Dashboard extends React.Component {
   
   
 
-  render() {   
+
+
+  render() {
 
     return (
       <div className={s.root}>
@@ -239,9 +237,9 @@ class Dashboard extends React.Component {
         <Row>
           <Col lg={12} xs={12}>
             <Widget title={<h6>Форма приведения и фильтры</h6>} close settings>
-                <div>
-                <Dropdown isOpen={this.state.dropdownOpen} toggle={() => this.setState({dropdownOpen: !this.state.dropdownOpen})}>  
-                  <DropdownToggle style={{background: 'rgba(0, 0, 0, 0.24)'}}  caret>
+              <div>
+                <Dropdown isOpen={this.state.dropdownOpen} toggle={() => this.setState({ dropdownOpen: !this.state.dropdownOpen })}>
+                  <DropdownToggle style={{ background: 'rgba(0, 0, 0, 0.24)' }} caret>
                     Тип формы
                   </DropdownToggle>
                   <DropdownMenu>
@@ -277,16 +275,16 @@ class Dashboard extends React.Component {
                       <Input type="checkbox" />{' '}
                       Наличие водительских прав
                     </Label>
-                  </FormGroup>
-                  <FormGroup className={s.formgroup} check>
-                    <Label check>
-                      <Input type="checkbox" />{' '}
+                </FormGroup>
+                <FormGroup className={s.formgroup} check>
+                  <Label check>
+                    <Input type="checkbox" />{' '}
                       Сироты
                     </Label>
-                  </FormGroup>
-                  <FormGroup className={s.formgroup} check>
-                    <Label check>
-                      <Input type="checkbox" />{' '}
+                </FormGroup>
+                <FormGroup className={s.formgroup} check>
+                  <Label check>
+                    <Input type="checkbox" />{' '}
                       Инвалиды
                     </Label>
                   </FormGroup>
@@ -381,37 +379,37 @@ class Dashboard extends React.Component {
             <Widget
               title={
                 <h6>
-                  <span className='badge badge-success'>%</span> трудоустроенных выпускников 
+                  <span className='badge badge-success'>%</span> трудоустроенных выпускников
                 </h6>
               }
               refresh
               close
             >
 
-<div className={`widget-table-overflow ${s.table}`}>
+              <div className={`widget-table-overflow ${s.table}`}>
                 <Table striped size='sm'>
                   <thead className='no-bd'>
                     <tr>
                       <th>Населенный пункт</th>
                       <th>ППКРС (бюджет)%</th>
-                      <th>ППСС3 (бюджет)%</th>                      
+                      <th>ППСС3 (бюджет)%</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>Верхнекетский</td>
                       <td className='text-align-right fw-semi-bold'>4</td>
-                      <td className='text-align-right fw-semi-bold'>40</td>                      
+                      <td className='text-align-right fw-semi-bold'>40</td>
                     </tr>
                     <tr>
                       <td>Каргасокский</td>
                       <td className='text-align-right fw-semi-bold'>1</td>
-                      <td className='text-align-right fw-semi-bold'>7</td>                      
-                    </tr>                    
+                      <td className='text-align-right fw-semi-bold'>7</td>
+                    </tr>
                   </tbody>
                 </Table>
               </div>
-              
+
             </Widget>
           </Col>
 
@@ -433,7 +431,7 @@ class Dashboard extends React.Component {
                       <th>Населенный пункт</th>
                       <th>ППКРС (бюджет)</th>
                       <th>ППСС3 (бюджет)</th>
-                      <th>ППКРС (внебюджет)</th>                      
+                      <th>ППКРС (внебюджет)</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -441,32 +439,32 @@ class Dashboard extends React.Component {
                       <td>Кожевниковский техникум агробизнеса</td>
                       <td className='text-align-right fw-semi-bold'>4</td>
                       <td className='text-align-right fw-semi-bold'>40</td>
-                      <td className='text-align-right fw-semi-bold'>0</td>                      
+                      <td className='text-align-right fw-semi-bold'>0</td>
                     </tr>
                     <tr>
                       <td>Северский промышленный колледж</td>
                       <td className='text-align-right fw-semi-bold'>1</td>
                       <td className='text-align-right fw-semi-bold'>7</td>
-                      <td className='text-align-right fw-semi-bold'>0</td>                    
+                      <td className='text-align-right fw-semi-bold'>0</td>
                     </tr>
                     <tr>
                       <td>Асиновский техникум промышленной индустрии и сервиса</td>
                       <td className='text-align-right fw-semi-bold'>70</td>
                       <td className='text-align-right fw-semi-bold'>673</td>
-                      <td className='text-align-right fw-semi-bold'>16</td>                    
+                      <td className='text-align-right fw-semi-bold'>16</td>
                     </tr>
                     <tr>
                       <td>Молчановский техникум отраслевых технологий</td>
                       <td className='text-align-right fw-semi-bold'>8</td>
                       <td className='text-align-right fw-semi-bold'>70</td>
-                      <td className='text-align-right fw-semi-bold'>0</td>                    
+                      <td className='text-align-right fw-semi-bold'>0</td>
                     </tr>
                     <tr>
                       <td>Томский государственный педагогический колледж</td>
                       <td className='text-align-right fw-semi-bold'>0</td>
                       <td className='text-align-right fw-semi-bold'>2</td>
-                      <td className='text-align-right fw-semi-bold'>0</td>                    
-                    </tr>                    
+                      <td className='text-align-right fw-semi-bold'>0</td>
+                    </tr>
                   </tbody>
                 </Table>
               </div>
@@ -480,7 +478,7 @@ class Dashboard extends React.Component {
               close
               bodyClass={'pt-2 px-0 py-0'}
             >
-              <Calendar />              
+              <Calendar />
             </Widget>
           </Col>
 
@@ -490,7 +488,7 @@ class Dashboard extends React.Component {
               settings
               close
               bodyClass={'pt-2 px-0 py-0'}
-            >              
+            >
               <div className='list-group fs-mini'>
                 <button className='list-group-item text-ellipsis' onClick={() => this.generateExcel()}>
                   <span className='badge badge-pill badge-primary float-right'>
