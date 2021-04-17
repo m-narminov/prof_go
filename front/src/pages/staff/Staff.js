@@ -4,7 +4,7 @@ import ModalBody from 'reactstrap/lib/ModalBody';
 import Widget from '../../components/Widget';
 import s from '../tables/static/Static.module.scss';
 
-const thead = ['#', 'ФИО', 'Телефон', 'Email', 'Дата рождения', 'Среднее профессиональное образование']
+const thead = ['#', 'ФИО', 'Телефон', 'Дата рождения', 'Среднее профессиональное образование']
 
 const Staff = () => {
   const [statements, setStatements] = useState([])
@@ -126,11 +126,8 @@ const Staff = () => {
                       <td>{user.id}</td>
                       <td>{user.fio}</td>
                       <td>{user.phone}</td>
-                      <td>
-                        <a href='#'>{user.email}</a>
-                      </td>
-                      <td>{user.DateBirth}</td>
-                      <td>{user.education}</td>
+                      <td>{user.birthday}</td>
+                      <td>{user.spo}</td>
                     </tr>
                   )}
                 </tbody>
@@ -160,11 +157,9 @@ const Staff = () => {
                               <td>{activeNumber.id}</td>
                               <td>{activeNumber.fio}</td>
                               <td>{activeNumber.phone}</td>
-                              <td>
-                                <a href='#'>{activeNumber.email}</a>
-                              </td>
                               <td>{activeNumber.birthday}</td>
-                              <td>{activeNumber.education_form}</td>
+                              <td>{activeNumber.spo}</td>
+                              <td>{activeNumber.specialization}</td>
                             </tr>
                           }
                         </tbody>
