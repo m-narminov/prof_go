@@ -10,6 +10,9 @@ const { Statement } = require('./models')
 app.use(cors())
 app.use(express.json())
 
+const frontDir = path.join('../', 'front', 'build')
+app.use(express.static(frontDir));
+
 //простой тест сервера
 app.get('/ping', (req, res) => res.send('pong'));
 
