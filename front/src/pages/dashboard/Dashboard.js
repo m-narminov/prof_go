@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Row, Col, Progress, Table, Dropdown, DropdownToggle, DropdownMenu, DropdownItem, Button, Form, FormGroup, Label, Input, FormText  } from 'reactstrap';
-import {Document, Paragraph, TextRun, Packer} from 'docx';
+import { TemplateHandler } from 'easy-template-x';
+
 
 import Widget from '../../components/Widget';
 
@@ -10,6 +11,8 @@ import Map from './components/am4chartMap/am4chartMap';
 import AnimateNumber from 'react-animated-number';
 
 import s from './Dashboard.module.scss';
+
+const xl = require('excel4node');
 
 
 class Dashboard extends React.Component {
@@ -52,39 +55,24 @@ class Dashboard extends React.Component {
     });
   }
 
-  generate() {
-    const doc = new Document({
-      sections: [
-        {
-          properties: {},
-          children: [
-            new Paragraph({
-              children: [
-                new TextRun("Сформиированный отчёт по " + Date.now()),
-                new TextRun({
-                  text: "Количество пользователей ....",
-                  bold: true
-                }),
-                new TextRun({
-                  text: "\t шаблон будет тут",
-                  bold: true
-                })
-              ]
-            })
-          ]
-        }
-      ]
-    });
-  
-    Packer.toBlob(doc).then((blob) => {
-      console.log(blob);
-      window.saveAs(blob, "отчёт"+Date.now()+".docx");
-      console.log("Document created successfully");
-    });
+  async generate() {
+    const response = await fetch('/doc/template.docx');
+    const templateFile = await response.blob();
+      const data = {
+         org: 'Томский колледж', 
+         adres: 'Адрес', 
+         god: '2021'         
+    };
+
+    const handler = new TemplateHandler();
+    const doc = await handler.process(templateFile, data);
+
+    window.saveFile('отчёт-'+Date.now()+'.docx', doc);
+
   }
 
   generateExcel() {
-    window.open('https://cloud.mail.ru/public/mKy8/yizKcYBc9/%D0%A3%D1%87%D1%91%D1%82%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B8%D0%BD%D0%B3%D0%B5%D0%BD%D1%82%D0%B0.xls', '_blank');
+    window.open('/doc/template.xls','_blank')
   }
 
   
