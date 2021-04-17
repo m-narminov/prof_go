@@ -91,7 +91,7 @@ class Header extends React.Component {
 
   componentDidMount() {
     // let res = data.users.find(
-    //   item => item.email === localStorage.getItem('ElbrusEmail')
+    //   item => item.email === localStorage.getItem('email')
     // );
 
     // this.setState({ user: res });

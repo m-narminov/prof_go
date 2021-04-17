@@ -33,7 +33,7 @@ const Info = props => {
 
   useEffect(() => {
     let res = data.users.find(
-      item => item.email === localStorage.getItem('ElbrusEmail')
+      item => item.email === localStorage.getItem('email')
     );
     setUser(res);
     document.getElementById('gender').value = res && res.genders;

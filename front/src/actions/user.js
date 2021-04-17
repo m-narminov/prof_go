@@ -44,7 +44,7 @@ export function loginUser(creds) {
 
         if (creds.email.length > 0 && creds.password.length > 0) {
             localStorage.setItem('authenticated', true)
-            localStorage.setItem('ElbrusEmail', creds.email)
+            localStorage.setItem('email', creds.email)
         } else {
             dispatch(loginError('Something was wrong. Try again'));
         }
