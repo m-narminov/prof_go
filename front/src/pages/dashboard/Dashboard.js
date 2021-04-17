@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import { Row, Col, Progress, Table, Dropdown, DropdownToggle, DropdownMenu, DropdownItem, Button, Form, FormGroup, Label, Input, FormText  } from 'reactstrap';
-import {Document, Paragraph, TextRun, Packer} from 'docx';
+import { Row, Col, Progress, Table, Dropdown, DropdownToggle, DropdownMenu, DropdownItem, Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import { Document, Paragraph, TextRun, Packer } from 'docx';
 
 import Widget from '../../components/Widget';
 
@@ -75,10 +75,10 @@ class Dashboard extends React.Component {
         }
       ]
     });
-  
+
     Packer.toBlob(doc).then((blob) => {
       console.log(blob);
-      window.saveAs(blob, "отчёт"+Date.now()+".docx");
+      window.saveAs(blob, "отчёт" + Date.now() + ".docx");
       console.log("Document created successfully");
     });
   }
@@ -87,8 +87,8 @@ class Dashboard extends React.Component {
     window.open('https://cloud.mail.ru/public/mKy8/yizKcYBc9/%D0%A3%D1%87%D1%91%D1%82%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B8%D0%BD%D0%B3%D0%B5%D0%BD%D1%82%D0%B0.xls', '_blank');
   }
 
-  
-  
+
+
 
 
 
@@ -253,26 +253,26 @@ class Dashboard extends React.Component {
                     <DropdownItem>Трудоустройство ОВЗ</DropdownItem>
                   </DropdownMenu>
                 </Dropdown>
-                </div>
-                <Form className={s.form}>                  
-                  <FormGroup className={s.formgroup}>
-                    <Label for="exampleSelect">Количество обучающихся</Label>
-                    <Input type="select" name="select" id="exampleSelect">
-                      <option>Максимальное</option>
-                      <option>Минимальное</option>
-                      <option>По регионам</option>                      
-                    </Input>
-                  </FormGroup>                 
-                  <FormGroup className={s.formgroup}>
-                    <Label for="exampleSelectMulti">Выбор пола</Label>
-                    <Input className={s.formselect} type="select" name="selectMulti" id="exampleSelectMulti" multiple>
-                      <option>Мужской</option>
-                      <option>Женский</option>
-                    </Input>
-                  </FormGroup>                  
-                  <FormGroup className={s.formgroup} check>
-                    <Label check>
-                      <Input type="checkbox" />{' '}
+              </div>
+              <Form className={s.form}>
+                <FormGroup className={s.formgroup}>
+                  <Label for="exampleSelect">Количество обучающихся</Label>
+                  <Input type="select" name="select" id="exampleSelect">
+                    <option>Максимальное</option>
+                    <option>Минимальное</option>
+                    <option>По регионам</option>
+                  </Input>
+                </FormGroup>
+                <FormGroup className={s.formgroup}>
+                  <Label for="exampleSelectMulti">Выбор пола</Label>
+                  <Input className={s.formselect} type="select" name="selectMulti" id="exampleSelectMulti" multiple>
+                    <option>Мужской</option>
+                    <option>Женский</option>
+                  </Input>
+                </FormGroup>
+                <FormGroup className={s.formgroup} check>
+                  <Label check>
+                    <Input type="checkbox" />{' '}
                       Наличие водительских прав
                     </Label>
                 </FormGroup>
@@ -287,24 +287,24 @@ class Dashboard extends React.Component {
                     <Input type="checkbox" />{' '}
                       Инвалиды
                     </Label>
-                  </FormGroup>
-                  <FormGroup className={s.formgroup} check>
-                    <Label>Период</Label>
-                    <Input type="text" placeholder="2019" />
-                    <Input type="text" placeholder="2021" />
-                  </FormGroup>
-                  <FormGroup className={s.formgroup}>
-                    <Label for="exampleSelect">Форма обучения</Label>
-                    <Input type="select" name="select" id="exampleSelect">
-                      <option>Очная</option>
-                      <option>Заочная</option>
-                      <option>Очно-Заочная</option>                      
-                    </Input>
-                  </FormGroup>   
-                  {/* <Button>Submit</Button> */}
-                </Form>
-                <div className={s.more}>
-                  Большей фильтров
+                </FormGroup>
+                <FormGroup className={s.formgroup} check>
+                  <Label>Период</Label>
+                  <Input type="text" placeholder="2019" />
+                  <Input type="text" placeholder="2021" />
+                </FormGroup>
+                <FormGroup className={s.formgroup}>
+                  <Label for="exampleSelect">Форма обучения</Label>
+                  <Input type="select" name="select" id="exampleSelect">
+                    <option>Очная</option>
+                    <option>Заочная</option>
+                    <option>Очно-Заочная</option>
+                  </Input>
+                </FormGroup>
+                {/* <Button>Submit</Button> */}
+              </Form>
+              <div className={s.more}>
+                Большей фильтров
                 </div>
             </Widget>
           </Col>
@@ -428,7 +428,7 @@ class Dashboard extends React.Component {
                 <Table striped size='sm'>
                   <thead className='no-bd'>
                     <tr>
-                      <th>Населенный пункт</th>
+                      <th>Учебное учреждение</th>
                       <th>ППКРС (бюджет)</th>
                       <th>ППСС3 (бюджет)</th>
                       <th>ППКРС (внебюджет)</th>
