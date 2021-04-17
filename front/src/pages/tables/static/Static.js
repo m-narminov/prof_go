@@ -138,15 +138,6 @@ const Static = () => {
         <Row>
           <Col sm={2} lg={2}>
             <FormGroup>
-              <Label for="exampleSelect">Инвалидность</Label>
-              <Input type="select" name="select1" id="exampleSelect">
-                <option>Нет</option>
-                <option>Да</option>
-              </Input>
-            </FormGroup>
-          </Col>
-          <Col sm={2} lg={2}>
-            <FormGroup>
               <Label for="exampleSelect">Многодентная семья</Label>
               <Input type="select" name="select1" id="exampleSelect">
                 <option>Нет</option>
