@@ -29,7 +29,7 @@ import {
   changeSidebarVisibility,
 } from '../../actions/navigation';
 
-import data from '../../data.json';
+// import data from '../../data.json';
 import sender1 from '../../images/1.png';
 import sender2 from '../../images/2.png';
 import sender3 from '../../images/3.png';

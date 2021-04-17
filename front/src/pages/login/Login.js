@@ -16,7 +16,6 @@ import {
 import Widget from '../../components/Widget';
 import { loginUser } from '../../actions/user';
 
-import gos from '../../images/social/gos.png';
 import logoForm from '../../images/logoForm.png';
 
 import data from '../../data.json';
