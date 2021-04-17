@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Row, Col, Progress, Table, Dropdown, DropdownToggle, DropdownMenu, DropdownItem, Button, Form, FormGroup, Label, Input, FormText  } from 'reactstrap';
+import {Document, Paragraph, TextRun, Packer} from 'docx';
 
 import Widget from '../../components/Widget';
 
@@ -55,6 +56,41 @@ class Dashboard extends React.Component {
     });
   }
 
+  generate() {
+    const doc = new Document({
+      sections: [
+        {
+          properties: {},
+          children: [
+            new Paragraph({
+              children: [
+                new TextRun("Сформиированный отчёт по " + Date.now()),
+                new TextRun({
+                  text: "Количество пользователей ....",
+                  bold: true
+                }),
+                new TextRun({
+                  text: "\t шаблон будет тут",
+                  bold: true
+                })
+              ]
+            })
+          ]
+        }
+      ]
+    });
+  
+    Packer.toBlob(doc).then((blob) => {
+      console.log(blob);
+      window.saveAs(blob, "отчёт"+Date.now()+".docx");
+      console.log("Document created successfully");
+    });
+  }
+
+  generateExcel() {
+    window.open('https://cloud.mail.ru/public/mKy8/yizKcYBc9/%D0%A3%D1%87%D1%91%D1%82%20%D0%BA%D0%BE%D0%BD%D1%82%D0%B8%D0%BD%D0%B3%D0%B5%D0%BD%D1%82%D0%B0.xls', '_blank');
+  }
+
   
   
 
@@ -93,7 +129,7 @@ class Dashboard extends React.Component {
               </p>
               <div className='row progress-stats'>
                 <div className='col-md-9 col-12'>
-                  <h6 className='name fw-semi-bold'>Кедровый</h6>
+                  <h6 className='name fw-semi-bold'>Асиновский техникум </h6>
                   <Progress
                     color='primary'
                     value='40'
@@ -110,7 +146,7 @@ class Dashboard extends React.Component {
               </div>
               <div className='row progress-stats'>
                 <div className='col-md-9 col-12'>
-                  <h6 className='name fw-semi-bold'>Стрежевой</h6>
+                  <h6 className='name fw-semi-bold'>Каргасокский техникум</h6>
                   <Progress
                     color='danger'
                     value='36'
@@ -127,7 +163,7 @@ class Dashboard extends React.Component {
               </div>
               <div className='row progress-stats'>
                 <div className='col-md-9 col-12'>
-                  <h6 className='name fw-semi-bold'>Томск</h6>
+                  <h6 className='name fw-semi-bold'>Кожевниковский техникум </h6>
 
                   <Progress
                     color='success'
@@ -145,7 +181,7 @@ class Dashboard extends React.Component {
               </div>
               <div className='row progress-stats'>
                 <div className='col-md-9 col-12'>
-                  <h6 className='name fw-semi-bold'>Северск</h6>
+                  <h6 className='name fw-semi-bold'>Северский промышленный колледж</h6>
 
                   <Progress
                     color='secondary'
@@ -163,7 +199,7 @@ class Dashboard extends React.Component {
               </div>
               <div className='row progress-stats'>
                 <div className='col-md-9 col-12'>
-                  <h6 className='name fw-semi-bold'>Асино</h6>
+                  <h6 className='name fw-semi-bold'>Молчановский техникум </h6>
 
                   <Progress
                     color='info'
@@ -181,7 +217,7 @@ class Dashboard extends React.Component {
               </div>
               <div className='row progress-stats'>
                 <div className='col-md-9 col-12'>
-                  <h6 className='name fw-semi-bold'>Колпашево</h6>
+                  <h6 className='name fw-semi-bold'>Томский гос пед колледж</h6>
 
                   <Progress
                     color='warning'
@@ -231,7 +267,7 @@ class Dashboard extends React.Component {
                   </FormGroup>                 
                   <FormGroup className={s.formgroup}>
                     <Label for="exampleSelectMulti">Выбор пола</Label>
-                    <Input type="select" name="selectMulti" id="exampleSelectMulti" multiple>
+                    <Input className={s.formselect} type="select" name="selectMulti" id="exampleSelectMulti" multiple>
                       <option>Мужской</option>
                       <option>Женский</option>
                     </Input>
@@ -269,7 +305,9 @@ class Dashboard extends React.Component {
                   </FormGroup>   
                   {/* <Button>Submit</Button> */}
                 </Form>
-
+                <div className={s.more}>
+                  Большей фильтров
+                </div>
             </Widget>
           </Col>
         </Row>
@@ -400,31 +438,31 @@ class Dashboard extends React.Component {
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Верхнекетский</td>
+                      <td>Кожевниковский техникум агробизнеса</td>
                       <td className='text-align-right fw-semi-bold'>4</td>
                       <td className='text-align-right fw-semi-bold'>40</td>
                       <td className='text-align-right fw-semi-bold'>0</td>                      
                     </tr>
                     <tr>
-                      <td>Каргасокский</td>
+                      <td>Северский промышленный колледж</td>
                       <td className='text-align-right fw-semi-bold'>1</td>
                       <td className='text-align-right fw-semi-bold'>7</td>
                       <td className='text-align-right fw-semi-bold'>0</td>                    
                     </tr>
                     <tr>
-                      <td>Томск</td>
+                      <td>Асиновский техникум промышленной индустрии и сервиса</td>
                       <td className='text-align-right fw-semi-bold'>70</td>
                       <td className='text-align-right fw-semi-bold'>673</td>
                       <td className='text-align-right fw-semi-bold'>16</td>                    
                     </tr>
                     <tr>
-                      <td>Северск</td>
+                      <td>Молчановский техникум отраслевых технологий</td>
                       <td className='text-align-right fw-semi-bold'>8</td>
                       <td className='text-align-right fw-semi-bold'>70</td>
                       <td className='text-align-right fw-semi-bold'>0</td>                    
                     </tr>
                     <tr>
-                      <td>Стрежевой</td>
+                      <td>Томский государственный педагогический колледж</td>
                       <td className='text-align-right fw-semi-bold'>0</td>
                       <td className='text-align-right fw-semi-bold'>2</td>
                       <td className='text-align-right fw-semi-bold'>0</td>                    
@@ -454,13 +492,13 @@ class Dashboard extends React.Component {
               bodyClass={'pt-2 px-0 py-0'}
             >              
               <div className='list-group fs-mini'>
-                <button className='list-group-item text-ellipsis'>
+                <button className='list-group-item text-ellipsis' onClick={() => this.generateExcel()}>
                   <span className='badge badge-pill badge-primary float-right'>
                     Excel
                   </span>
                   Сформировать сводную талицу
                 </button>
-                <button className='list-group-item text-ellipsis'>
+                <button className='list-group-item text-ellipsis' onClick={() => this.generate()}>
                   <span className='badge badge-pill badge-success float-right'>
                     doc
                   </span>
