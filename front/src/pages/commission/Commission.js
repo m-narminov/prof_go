@@ -44,13 +44,15 @@ class Commission extends React.Component {
     const lastName = this.state.data.lastName
     const firstName = this.state.data.firstName
     const middleName = this.state.data.middleName
+    const spo = this.state.data.spo
+    const phone = this.state.data.phone
     const toSendData = {
       ...this.state.data,
       fio: `${lastName} ${firstName} ${middleName}`
     }
     const data = JSON.stringify(toSendData)
 
-    fetch(`https://flask-hak.herokuapp.com/setmsg?msg=Новый абитуриет у вуза ${event.target.select1.value}! ${event.target.family.value} ${event.target.name.value} ${event.target.nameO.value}, телефон: ${event.target.phone.value}`)
+    fetch(`https://flask-hak.herokuapp.com/setmsg?msg=Новый абитуриент в ${spo}! ${lastName} ${firstName} ${middleName}, телефон: ${phone}`)
       .then(response => {
         return response.json()
       })
@@ -162,7 +164,7 @@ class Commission extends React.Component {
             </FormGroup>
             <FormGroup>
               <Label for="spo">Среднее профессиональное образование</Label>
-              <Input type="select" name="select1" id="spo" name="spo" onChange={this.onChange}>
+              <Input type="select" id="spo" name="spo" onChange={this.onChange}>
                 <option>Асиновский техникум промышленной индустрии и сервиса</option>
                 <option>Каргасокский техникум промышленности и речного транспорта</option>
                 <option>Кожевниковский техникум агробизнеса</option>
