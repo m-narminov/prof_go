@@ -6,7 +6,7 @@
             "location": "г. Ростов-на-Дону",
             "email": "123@mail.ru",
             "password": "123",
-            "genders": "male",
+            "gender": "male",
             "events": 11,
             "organization": "МГУ",
             "link": {
@@ -26,7 +26,7 @@
             "birthday": "1996-02-09",
             "location": "г. Екатеринбург",
             "email": "ivanov_ivan@mail.ru",
-            "genders": "male",
+            "gender": "male",
             "password": "123",
             "events": 3,
             "organization": "КГУ",
@@ -48,7 +48,7 @@
             "location": "г. Москва",
             "email": "petrov@yandex.ru",
             "password": "password",
-            "genders": "male",
+            "gender": "male",
             "events": 11,
             "organization": "РГУ",
             "link": {
@@ -70,7 +70,7 @@
             "description": "Краткое описание ведущего",
             "email": "nickt@google.com",
             "password": "password",
-            "genders": "male",
+            "gender": "male",
             "events": 222,
             "organization": "СГУ",
             "link": {
@@ -92,7 +92,7 @@
             "location": "г. Москва",
             "email": "admin@tomsk.ru",
             "password": "password",
-            "genders": "male",
+            "gender": "male",
             "events": 11,
             "organization": "ПГУ",
             "link": {

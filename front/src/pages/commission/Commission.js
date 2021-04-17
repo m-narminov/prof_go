@@ -15,19 +15,19 @@ class Commission extends React.Component {
       draggable: true,
     },
     data: {
-      lastName: '',
-      firstName: '',
-      middleName: '',
-      birthday: '',
-      spo: '',
-      specialization: '',
-      phone: '',
+      lastName: 'Петров',
+      firstName: 'Василий',
+      middleName: 'Василиевич',
+      birthday: '19.05.1999',
+      spo: 'Асиновский техникум промышленной индустрии и сервиса',
+      specialization: 'Информационные технологии',
+      phone: '+7 999 999 99 99',
       home_phone: '',
-      school: '',
-      certificate: '',
+      school: 'МОУ СОШ, Муниципальное общеобразовательное учреждение гимназия №1 имени А.С. Пушкина города Томска Томской области',
+      certificate: '70 АБ 002004',
       isParent: false,
       certificate_scan: '',
-      education_form: ''
+      education_form: 'Очная'
     },
     allowPersonal: false
   };
@@ -72,19 +72,19 @@ class Commission extends React.Component {
         console.log(data);
         this.setState({
           ...this.state, data: {
-            lastName: 'Петров',
-            firstName: 'Василий',
-            middleName: 'Василиевич',
-            birthday: '19.05.1999',
-            spo: 'Асиновский техникум промышленной индустрии и сервиса',
-            specialization: 'Информационные технологии',
-            phone: '+7 999 999 99 99',
+            lastName: '',
+            firstName: '',
+            middleName: '',
+            birthday: '',
+            spo: '',
+            specialization: '',
+            phone: '',
             home_phone: '',
-            school: 'МОУ СОШ, Муниципальное общеобразовательное учреждение гимназия №1 имени А.С. Пушкина города Томска Томской области',
-            certificate: '70 АБ 002004',
+            school: '',
+            certificate: '',
             isParent: false,
             certificate_scan: '',
-            education_form: 'Очная'
+            education_form: ''
           }
         })
       })

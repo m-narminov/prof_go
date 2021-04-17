@@ -11,7 +11,7 @@ const Info = props => {
     location: '',
     email: '',
     password: '',
-    genders: '',
+    gender: '',
     events: '',
     organization: '',
     link: {
@@ -36,7 +36,7 @@ const Info = props => {
       item => item.email === localStorage.getItem('email')
     );
     setUser(res);
-    document.getElementById('gender').value = res && res.genders;
+    document.getElementById('gender').value = res && res.gender;
     document.getElementById('education').value = res && res.statusStudy;
   }, [user]);
 
@@ -160,7 +160,7 @@ const Info = props => {
                   <select
                     name='gender'
                     id='gender'
-                    class='input-transparent pl-3 form-control'
+                    className='input-transparent pl-3 form-control'
                     onChange={changeField}
                   >
                     <option value='male'>Мужской</option>
@@ -186,7 +186,7 @@ const Info = props => {
               <select
                 name='education'
                 id='education'
-                class='input-transparent pl-3 form-control'
+                className='input-transparent pl-3 form-control'
                 onChange={changeField}
               >
                 <option value='1'>Школьник</option>
