@@ -50,11 +50,10 @@ class Commission extends React.Component {
     }
     const data = JSON.stringify(toSendData)
 
-    // fetch(`https://flask-hak.herokuapp.com/setmsg?msg=Новый абитуриет у вуза ${event.target.select1.value}! ${event.target.family.value} ${event.target.name.value} ${event.target.nameO.value}, телефон: ${event.target.phone.value}`)
-    //   .then(response => {
-    //     // return console.log('ok')
-    //     return response.json()
-    //   })
+    fetch(`https://flask-hak.herokuapp.com/setmsg?msg=Новый абитуриет у вуза ${event.target.select1.value}! ${event.target.family.value} ${event.target.name.value} ${event.target.nameO.value}, телефон: ${event.target.phone.value}`)
+      .then(response => {
+        return response.json()
+      })
 
     fetch('/api/statement', {
       method: 'POST',
