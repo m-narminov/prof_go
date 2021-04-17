@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { Row, Col, Table, Modal } from 'reactstrap';
 import ModalBody from 'reactstrap/lib/ModalBody';
 import Widget from '../../components/Widget';
@@ -41,12 +41,25 @@ const users = [
 ]
 
 const Staff = () => {
-
+  const [statements, setStatements] = useState([])
   const [isOpen, setIsOpen] = useState(false)
   const [activeNomber, setActiveNomber] = useState(users[0])
 
   const change = (e) => setActiveNomber(users[e - 1])
   const toggle = () => setIsOpen(!isOpen)
+
+  useEffect(() => {
+    fetch('/api/statement')
+      .then(res => res.json())
+      .then(result => {
+        setStatements(result.data)
+      })
+    return () => {
+
+    }
+  }, [])
+
+
 
   return (
     <div className={s.root}>
@@ -63,7 +76,7 @@ const Staff = () => {
                 </thead>
                 {/* eslint-disable */}
                 <tbody>
-                  {users.map(user =>
+                  {statements.map(user =>
                     <tr key={user.id} onClick={() => { change(user.id); toggle(); }}>
                       <td>{user.id}</td>
                       <td>{user.fio}</td>
@@ -106,8 +119,8 @@ const Staff = () => {
                               <td>
                                 <a href='#'>{activeNomber.email}</a>
                               </td>
-                              <td>{activeNomber.DateBirth}</td>
-                              <td>{activeNomber.education}</td>
+                              <td>{activeNomber.birthday}</td>
+                              <td>{activeNomber.education_form}</td>
                             </tr>
                           </tbody>
                         </Table>
