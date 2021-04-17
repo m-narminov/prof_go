@@ -28,10 +28,10 @@ class Commission extends React.Component {
   toSend(event) {
     event.preventDefault();
 
-   fetch(`https://flask-hak.herokuapp.com/setmsg?msg=Новый абитуриет у вуза ${event.target.select1.value}! ${event.target.family.value} ${event.target.name.value} ${event.target.nameO.value}, телефон: ${event.target.phone.value}`)
-    .then((response) => {
-      return console.log('ok')
-    })
+    fetch(`https://flask-hak.herokuapp.com/setmsg?msg=Новый абитуриет у вуза ${event.target.select1.value}! ${event.target.family.value} ${event.target.name.value} ${event.target.nameO.value}, телефон: ${event.target.phone.value}`)
+      .then((response) => {
+        return console.log('ok')
+      })
   }
 
   render() {
@@ -41,7 +41,7 @@ class Commission extends React.Component {
 
         <Widget title={<h6> Форма подачи </h6>} close collapse settings>
           <Form onSubmit={this.toSend}>
-            <FormGroup check style={{marginBottom: '30px'}}>
+            <FormGroup check style={{ marginBottom: '30px' }}>
               <Label check>
                 <Input type="checkbox" />{' '}
                 Я родитель
@@ -49,30 +49,30 @@ class Commission extends React.Component {
             </FormGroup>
             <FormGroup>
               <Label>Фамилия</Label>
-              <Input type="text" name="family" required placeholder="Петров" />              
+              <Input type="text" name="family" required placeholder="Петров" />
             </FormGroup>
             <FormGroup>
               <Label>Имя</Label>
-              <Input type="text" name="name" required placeholder="Василий" />              
-            </FormGroup>  
+              <Input type="text" name="name" required placeholder="Василий" />
+            </FormGroup>
             <FormGroup>
               <Label>Отчество</Label>
-              <Input type="text" name="nameO" required placeholder="Василиевич" />              
-            </FormGroup>  
+              <Input type="text" name="nameO" required placeholder="Василиевич" />
+            </FormGroup>
             <FormGroup>
               <Label>Дата рождения</Label>
-              <Input type="text" name="date" required placeholder="19.05.1999" />              
-            </FormGroup>             
+              <Input type="text" name="date" required placeholder="19.05.1999" />
+            </FormGroup>
             <FormGroup>
-              <Label for="exampleSelect">Вуз профессионального образования</Label>
+              <Label for="exampleSelect">Среднее профессиональное образование</Label>
               <Input type="select" name="select1" id="exampleSelect">
-                <option>1 технический</option>
-                <option>2 юридический</option>
-                <option>3 фермерское дело ГПос</option>
-                <option>4 лучший </option>
-                <option>5 филиал </option>
+                <option>Асиновский техникум промышленной индустрии и сервиса</option>
+                <option>Каргасокский техникум промышленности и речного транспорта</option>
+                <option>Кожевниковский техникум агробизнеса</option>
+                <option>Колледж индустрии питания, торговли и сферы услуг</option>
+                <option>Томский аграрный колледж</option>
               </Input>
-            </FormGroup>  
+            </FormGroup>
             <FormGroup>
               <Label for="exampleSelect">Специализация</Label>
               <Input type="select" name="select2" id="exampleSelect">
@@ -82,23 +82,23 @@ class Commission extends React.Component {
                 <option>Математика и естественные науки</option>
                 <option>Повар</option>
               </Input>
-            </FormGroup>            
+            </FormGroup>
             <FormGroup>
               <Label>Телефон</Label>
-              <Input type="text" name="phone"  required placeholder="+7 999 999 99 99" />              
-            </FormGroup>  
+              <Input type="text" name="phone" required placeholder="+7 999 999 99 99" />
+            </FormGroup>
             <FormGroup>
               <Label>Домашний телефон ( не обязательно )</Label>
-              <Input type="text" name="phoneD" placeholder="+4 999 999 99 99" />              
-            </FormGroup> 
+              <Input type="text" name="phoneD" placeholder="+4 999 999 99 99" />
+            </FormGroup>
             <FormGroup>
               <Label for="exampleText">Наименование школы</Label>
-              <Input type="textarea" name="text" required id="exampleText" placeholder="МОУ СОШ, Муниципальное общеобразовательное учреждение гимназия №1 имени А.С. Пушкина города Томска Томской области"/>
+              <Input type="textarea" name="text" required id="exampleText" placeholder="МОУ СОШ, Муниципальное общеобразовательное учреждение гимназия №1 имени А.С. Пушкина города Томска Томской области" />
             </FormGroup>
             <FormGroup>
               <Label>Номер аттестата</Label>
-              <Input type="text" name="attestat" required  placeholder="70 АБ 002004" />              
-            </FormGroup> 
+              <Input type="text" name="attestat" required placeholder="70 АБ 002004" />
+            </FormGroup>
             <FormGroup>
               <Label for="exampleFile">Скан аттестата</Label>
               <Input type="file" name="file" id="exampleFile" />
@@ -133,7 +133,7 @@ class Commission extends React.Component {
                 Согласен на обработку персональных данных
               </Label>
             </FormGroup>
-            <Button style={{marginTop: '10px', background: 'rgba(0,0,0,0.6)'}}>Отправить</Button>
+            <Button style={{ marginTop: '10px', background: 'rgba(0,0,0,0.6)' }}>Отправить</Button>
           </Form>
         </Widget>
       </div>
