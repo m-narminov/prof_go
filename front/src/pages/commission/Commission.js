@@ -72,19 +72,19 @@ class Commission extends React.Component {
         console.log(data);
         this.setState({
           ...this.state, data: {
-            lastName: '',
-            firstName: '',
-            middleName: '',
-            birthday: '',
-            spo: '',
-            specialization: '',
-            phone: '',
+            lastName: 'Петров',
+            firstName: 'Василий',
+            middleName: 'Василиевич',
+            birthday: '19.05.1999',
+            spo: 'Асиновский техникум промышленной индустрии и сервиса',
+            specialization: 'Информационные технологии',
+            phone: '+7 999 999 99 99',
             home_phone: '',
-            school: '',
-            certificate: '',
+            school: 'МОУ СОШ, Муниципальное общеобразовательное учреждение гимназия №1 имени А.С. Пушкина города Томска Томской области',
+            certificate: '70 АБ 002004',
             isParent: false,
             certificate_scan: '',
-            education_form: ''
+            education_form: 'Очная'
           }
         })
       })
@@ -175,7 +175,7 @@ class Commission extends React.Component {
             <FormGroup>
               <Label for="specialization">Специализация</Label>
               <Input type="select" name="specialization" id="specialization" onChange={this.onChange}>
-                <option>информационные технологии</option>
+                <option>Информационные технологии</option>
                 <option>Менеджмент</option>
                 <option>Фермер и слесарь</option>
                 <option>Математика и естественные науки</option>
