@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Row, Col, Progress, Table, Dropdown, DropdownToggle, DropdownMenu, DropdownItem, Button, Form, FormGroup, Label, Input, FormText  } from 'reactstrap';
+import React from 'react';
+import { Row, Col, Progress, Table, Dropdown, DropdownToggle, DropdownMenu, DropdownItem, Form, FormGroup, Label, Input } from 'reactstrap';
 
 import Widget from '../../components/Widget';
 
@@ -10,10 +10,6 @@ import AnimateNumber from 'react-animated-number';
 
 import s from './Dashboard.module.scss';
 
-import peopleA1 from '../../images/people/a1.jpg';
-import peopleA2 from '../../images/people/a2.jpg';
-import peopleA5 from '../../images/people/a5.jpg';
-import peopleA4 from '../../images/people/a4.jpg';
 
 class Dashboard extends React.Component {
   constructor(props) {
@@ -55,10 +51,10 @@ class Dashboard extends React.Component {
     });
   }
 
-  
-  
 
-  render() {   
+
+
+  render() {
 
     return (
       <div className={s.root}>
@@ -203,9 +199,9 @@ class Dashboard extends React.Component {
         <Row>
           <Col lg={12} xs={12}>
             <Widget title={<h6>Форма приведения и фильтры</h6>} close settings>
-                <div>
-                <Dropdown isOpen={this.state.dropdownOpen} toggle={() => this.setState({dropdownOpen: !this.state.dropdownOpen})}>  
-                  <DropdownToggle style={{background: 'rgba(0, 0, 0, 0.24)'}}  caret>
+              <div>
+                <Dropdown isOpen={this.state.dropdownOpen} toggle={() => this.setState({ dropdownOpen: !this.state.dropdownOpen })}>
+                  <DropdownToggle style={{ background: 'rgba(0, 0, 0, 0.24)' }} caret>
                     Тип формы
                   </DropdownToggle>
                   <DropdownMenu>
@@ -219,56 +215,56 @@ class Dashboard extends React.Component {
                     <DropdownItem>Трудоустройство ОВЗ</DropdownItem>
                   </DropdownMenu>
                 </Dropdown>
-                </div>
-                <Form className={s.form}>                  
-                  <FormGroup className={s.formgroup}>
-                    <Label for="exampleSelect">Количество обучающихся</Label>
-                    <Input type="select" name="select" id="exampleSelect">
-                      <option>Максимальное</option>
-                      <option>Минимальное</option>
-                      <option>По регионам</option>                      
-                    </Input>
-                  </FormGroup>                 
-                  <FormGroup className={s.formgroup}>
-                    <Label for="exampleSelectMulti">Выбор пола</Label>
-                    <Input type="select" name="selectMulti" id="exampleSelectMulti" multiple>
-                      <option>Мужской</option>
-                      <option>Женский</option>
-                    </Input>
-                  </FormGroup>                  
-                  <FormGroup className={s.formgroup} check>
-                    <Label check>
-                      <Input type="checkbox" />{' '}
+              </div>
+              <Form className={s.form}>
+                <FormGroup className={s.formgroup}>
+                  <Label for="exampleSelect">Количество обучающихся</Label>
+                  <Input type="select" name="select" id="exampleSelect">
+                    <option>Максимальное</option>
+                    <option>Минимальное</option>
+                    <option>По регионам</option>
+                  </Input>
+                </FormGroup>
+                <FormGroup className={s.formgroup}>
+                  <Label for="exampleSelectMulti">Выбор пола</Label>
+                  <Input type="select" name="selectMulti" id="exampleSelectMulti" multiple>
+                    <option>Мужской</option>
+                    <option>Женский</option>
+                  </Input>
+                </FormGroup>
+                <FormGroup className={s.formgroup} check>
+                  <Label check>
+                    <Input type="checkbox" />{' '}
                       Наличие водительских прав
                     </Label>
-                  </FormGroup>
-                  <FormGroup className={s.formgroup} check>
-                    <Label check>
-                      <Input type="checkbox" />{' '}
+                </FormGroup>
+                <FormGroup className={s.formgroup} check>
+                  <Label check>
+                    <Input type="checkbox" />{' '}
                       Сироты
                     </Label>
-                  </FormGroup>
-                  <FormGroup className={s.formgroup} check>
-                    <Label check>
-                      <Input type="checkbox" />{' '}
+                </FormGroup>
+                <FormGroup className={s.formgroup} check>
+                  <Label check>
+                    <Input type="checkbox" />{' '}
                       Инвалиды
                     </Label>
-                  </FormGroup>
-                  <FormGroup className={s.formgroup} check>
-                    <Label>Период</Label>
-                    <Input type="text" placeholder="2019" />
-                    <Input type="text" placeholder="2021" />
-                  </FormGroup>
-                  <FormGroup className={s.formgroup}>
-                    <Label for="exampleSelect">Форма обучения</Label>
-                    <Input type="select" name="select" id="exampleSelect">
-                      <option>Очная</option>
-                      <option>Заочная</option>
-                      <option>Очно-Заочная</option>                      
-                    </Input>
-                  </FormGroup>   
-                  {/* <Button>Submit</Button> */}
-                </Form>
+                </FormGroup>
+                <FormGroup className={s.formgroup} check>
+                  <Label>Период</Label>
+                  <Input type="text" placeholder="2019" />
+                  <Input type="text" placeholder="2021" />
+                </FormGroup>
+                <FormGroup className={s.formgroup}>
+                  <Label for="exampleSelect">Форма обучения</Label>
+                  <Input type="select" name="select" id="exampleSelect">
+                    <option>Очная</option>
+                    <option>Заочная</option>
+                    <option>Очно-Заочная</option>
+                  </Input>
+                </FormGroup>
+                {/* <Button>Submit</Button> */}
+              </Form>
 
             </Widget>
           </Col>
@@ -343,37 +339,37 @@ class Dashboard extends React.Component {
             <Widget
               title={
                 <h6>
-                  <span className='badge badge-success'>%</span> трудоустроенных выпускников 
+                  <span className='badge badge-success'>%</span> трудоустроенных выпускников
                 </h6>
               }
               refresh
               close
             >
 
-<div className={`widget-table-overflow ${s.table}`}>
+              <div className={`widget-table-overflow ${s.table}`}>
                 <Table striped size='sm'>
                   <thead className='no-bd'>
                     <tr>
                       <th>Населенный пункт</th>
                       <th>ППКРС (бюджет)%</th>
-                      <th>ППСС3 (бюджет)%</th>                      
+                      <th>ППСС3 (бюджет)%</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
                       <td>Верхнекетский</td>
                       <td className='text-align-right fw-semi-bold'>4</td>
-                      <td className='text-align-right fw-semi-bold'>40</td>                      
+                      <td className='text-align-right fw-semi-bold'>40</td>
                     </tr>
                     <tr>
                       <td>Каргасокский</td>
                       <td className='text-align-right fw-semi-bold'>1</td>
-                      <td className='text-align-right fw-semi-bold'>7</td>                      
-                    </tr>                    
+                      <td className='text-align-right fw-semi-bold'>7</td>
+                    </tr>
                   </tbody>
                 </Table>
               </div>
-              
+
             </Widget>
           </Col>
 
@@ -395,7 +391,7 @@ class Dashboard extends React.Component {
                       <th>Населенный пункт</th>
                       <th>ППКРС (бюджет)</th>
                       <th>ППСС3 (бюджет)</th>
-                      <th>ППКРС (внебюджет)</th>                      
+                      <th>ППКРС (внебюджет)</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -403,32 +399,32 @@ class Dashboard extends React.Component {
                       <td>Верхнекетский</td>
                       <td className='text-align-right fw-semi-bold'>4</td>
                       <td className='text-align-right fw-semi-bold'>40</td>
-                      <td className='text-align-right fw-semi-bold'>0</td>                      
+                      <td className='text-align-right fw-semi-bold'>0</td>
                     </tr>
                     <tr>
                       <td>Каргасокский</td>
                       <td className='text-align-right fw-semi-bold'>1</td>
                       <td className='text-align-right fw-semi-bold'>7</td>
-                      <td className='text-align-right fw-semi-bold'>0</td>                    
+                      <td className='text-align-right fw-semi-bold'>0</td>
                     </tr>
                     <tr>
                       <td>Томск</td>
                       <td className='text-align-right fw-semi-bold'>70</td>
                       <td className='text-align-right fw-semi-bold'>673</td>
-                      <td className='text-align-right fw-semi-bold'>16</td>                    
+                      <td className='text-align-right fw-semi-bold'>16</td>
                     </tr>
                     <tr>
                       <td>Северск</td>
                       <td className='text-align-right fw-semi-bold'>8</td>
                       <td className='text-align-right fw-semi-bold'>70</td>
-                      <td className='text-align-right fw-semi-bold'>0</td>                    
+                      <td className='text-align-right fw-semi-bold'>0</td>
                     </tr>
                     <tr>
                       <td>Стрежевой</td>
                       <td className='text-align-right fw-semi-bold'>0</td>
                       <td className='text-align-right fw-semi-bold'>2</td>
-                      <td className='text-align-right fw-semi-bold'>0</td>                    
-                    </tr>                    
+                      <td className='text-align-right fw-semi-bold'>0</td>
+                    </tr>
                   </tbody>
                 </Table>
               </div>
@@ -442,7 +438,7 @@ class Dashboard extends React.Component {
               close
               bodyClass={'pt-2 px-0 py-0'}
             >
-              <Calendar />              
+              <Calendar />
             </Widget>
           </Col>
 
@@ -452,7 +448,7 @@ class Dashboard extends React.Component {
               settings
               close
               bodyClass={'pt-2 px-0 py-0'}
-            >              
+            >
               <div className='list-group fs-mini'>
                 <button className='list-group-item text-ellipsis'>
                   <span className='badge badge-pill badge-primary float-right'>

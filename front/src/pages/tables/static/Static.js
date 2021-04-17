@@ -191,7 +191,7 @@ const Static = () => {
                   <ModalBody>
                     <Row>
                       <Col xs={12} md={1}>
-                        <img src="/static/media/a5.jpg" style={{ width: "170%", height: "auto", objectFit: "contain" }}></img>
+                        <img src="/static/media/a5.jpg" style={{ width: "170%", height: "auto", objectFit: "contain" }} alt="photo"></img>
                       </Col>
                       <Col xs={12} md={11}>
                         <Table className='table-hover'>

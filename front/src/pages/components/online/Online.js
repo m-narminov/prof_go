@@ -11,8 +11,6 @@ import {
 } from 'reactstrap';
 import moment from 'moment';
 import classnames from 'classnames';
-import { toast } from 'react-toastify';
-import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 import data from '../../../data.json';
 import s from './Icons.module.scss';
@@ -104,7 +102,7 @@ class Online extends React.Component {
                   2,
                   '0'
                 )}:${meetupDate.getMinutes().toString().padStart(2, '0')}`;
-              const linkCellId = `${this.state.page}-${tab.id}-${meetup.id}`;
+              // const linkCellId = `${this.state.page}-${tab.id}-${meetup.id}`;
 
               return (
                 <Row className='icon-list' key={`meetup${tab.id}-${meetup.id}`}>
