@@ -84,21 +84,15 @@ const Static = () => {
               </Input>
             </FormGroup>
           </Col>
-          <Col sm={2} lg={2}>
+          <Col sm={4} lg={4}>
             <FormGroup>
-              <Label for="exampleSelect">Инвалидность</Label>
-              <Input type="select" name="select1" id="exampleSelect">
-                <option>Нет</option>
-                <option>Да</option>
-              </Input>
-            </FormGroup>
-          </Col>
-          <Col sm={2} lg={2}>
-            <FormGroup>
-              <Label for="exampleSelect">Многодентная семья</Label>
-              <Input type="select" name="select1" id="exampleSelect">
-                <option>Нет</option>
-                <option>Да</option>
+              <Label for="specialization">Специализация</Label>
+              <Input type="select" name="specialization" id="specialization">
+                <option>информационные технологии</option>
+                <option>Менеджмент</option>
+                <option>Фермер и слесарь</option>
+                <option>Математика и естественные науки</option>
+                <option>Повар</option>
               </Input>
             </FormGroup>
           </Col>
@@ -137,6 +131,26 @@ const Static = () => {
               <Input type="select" name="select1" id="exampleSelect">
                 <option>Полная</option>
                 <option>Неполная</option>
+              </Input>
+            </FormGroup>
+          </Col>
+        </Row>
+        <Row>
+          <Col sm={2} lg={2}>
+            <FormGroup>
+              <Label for="exampleSelect">Инвалидность</Label>
+              <Input type="select" name="select1" id="exampleSelect">
+                <option>Нет</option>
+                <option>Да</option>
+              </Input>
+            </FormGroup>
+          </Col>
+          <Col sm={2} lg={2}>
+            <FormGroup>
+              <Label for="exampleSelect">Многодентная семья</Label>
+              <Input type="select" name="select1" id="exampleSelect">
+                <option>Нет</option>
+                <option>Да</option>
               </Input>
             </FormGroup>
           </Col>

@@ -69,21 +69,23 @@ class Commission extends React.Component {
       })
       .then(data => {
         console.log(data);
-        this.setState({ ...this.state, data: {
-          lastName: '',
-          firstName: '',
-          middleName: '',
-          birthday: '',
-          spo: '',
-          specialization: '',
-          phone: '',
-          home_phone: '',
-          school: '',
-          certificate: '',
-          isParent: false,
-          certificate_scan: '',
-          education_form: ''
-        }})
+        this.setState({
+          ...this.state, data: {
+            lastName: '',
+            firstName: '',
+            middleName: '',
+            birthday: '',
+            spo: '',
+            specialization: '',
+            phone: '',
+            home_phone: '',
+            school: '',
+            certificate: '',
+            isParent: false,
+            certificate_scan: '',
+            education_form: ''
+          }
+        })
       })
       .catch(err => {
         console.log(err);
@@ -110,8 +112,8 @@ class Commission extends React.Component {
             <FormGroup check style={{ marginBottom: '30px' }}>
               <Label check>
                 <Input type="checkbox" onChange={() =>
-                  this.setState({...this.state, data: { ...this.state.data, isParent: !this.state.data.isParent}})
-                }/>{' '}
+                  this.setState({ ...this.state, data: { ...this.state.data, isParent: !this.state.data.isParent } })
+                } />{' '}
                 Я родитель
               </Label>
             </FormGroup>
@@ -280,7 +282,7 @@ class Commission extends React.Component {
               </Label>
             </FormGroup>
             <Button
-              style={{ marginTop: '10px', background: 'rgba(0,0,0,0.6)' }}
+              style={{ marginTop: '10px' }}
               disabled={!this.state.allowPersonal}
             >Отправить</Button>
           </Form>
