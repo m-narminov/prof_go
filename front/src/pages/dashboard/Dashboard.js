@@ -75,8 +75,8 @@ class Dashboard extends React.Component {
     window.open('/doc/template.xls','_blank')
   }
 
-  
-  
+
+
 
 
 
@@ -241,26 +241,26 @@ class Dashboard extends React.Component {
                     <DropdownItem>Трудоустройство ОВЗ</DropdownItem>
                   </DropdownMenu>
                 </Dropdown>
-                </div>
-                <Form className={s.form}>                  
-                  <FormGroup className={s.formgroup}>
-                    <Label for="exampleSelect">Количество обучающихся</Label>
-                    <Input type="select" name="select" id="exampleSelect">
-                      <option>Максимальное</option>
-                      <option>Минимальное</option>
-                      <option>По регионам</option>                      
-                    </Input>
-                  </FormGroup>                 
-                  <FormGroup className={s.formgroup}>
-                    <Label for="exampleSelectMulti">Выбор пола</Label>
-                    <Input className={s.formselect} type="select" name="selectMulti" id="exampleSelectMulti" multiple>
-                      <option>Мужской</option>
-                      <option>Женский</option>
-                    </Input>
-                  </FormGroup>                  
-                  <FormGroup className={s.formgroup} check>
-                    <Label check>
-                      <Input type="checkbox" />{' '}
+              </div>
+              <Form className={s.form}>
+                <FormGroup className={s.formgroup}>
+                  <Label for="exampleSelect">Количество обучающихся</Label>
+                  <Input type="select" name="select" id="exampleSelect">
+                    <option>Максимальное</option>
+                    <option>Минимальное</option>
+                    <option>По регионам</option>
+                  </Input>
+                </FormGroup>
+                <FormGroup className={s.formgroup}>
+                  <Label for="exampleSelectMulti">Выбор пола</Label>
+                  <Input className={s.formselect} type="select" name="selectMulti" id="exampleSelectMulti" multiple>
+                    <option>Мужской</option>
+                    <option>Женский</option>
+                  </Input>
+                </FormGroup>
+                <FormGroup className={s.formgroup} check>
+                  <Label check>
+                    <Input type="checkbox" />{' '}
                       Наличие водительских прав
                     </Label>
                 </FormGroup>
@@ -275,24 +275,24 @@ class Dashboard extends React.Component {
                     <Input type="checkbox" />{' '}
                       Инвалиды
                     </Label>
-                  </FormGroup>
-                  <FormGroup className={s.formgroup} check>
-                    <Label>Период</Label>
-                    <Input type="text" placeholder="2019" />
-                    <Input type="text" placeholder="2021" />
-                  </FormGroup>
-                  <FormGroup className={s.formgroup}>
-                    <Label for="exampleSelect">Форма обучения</Label>
-                    <Input type="select" name="select" id="exampleSelect">
-                      <option>Очная</option>
-                      <option>Заочная</option>
-                      <option>Очно-Заочная</option>                      
-                    </Input>
-                  </FormGroup>   
-                  {/* <Button>Submit</Button> */}
-                </Form>
-                <div className={s.more}>
-                  Большей фильтров
+                </FormGroup>
+                <FormGroup className={s.formgroup} check>
+                  <Label>Период</Label>
+                  <Input type="text" placeholder="2019" />
+                  <Input type="text" placeholder="2021" />
+                </FormGroup>
+                <FormGroup className={s.formgroup}>
+                  <Label for="exampleSelect">Форма обучения</Label>
+                  <Input type="select" name="select" id="exampleSelect">
+                    <option>Очная</option>
+                    <option>Заочная</option>
+                    <option>Очно-Заочная</option>
+                  </Input>
+                </FormGroup>
+                {/* <Button>Submit</Button> */}
+              </Form>
+              <div className={s.more}>
+                Большей фильтров
                 </div>
             </Widget>
           </Col>
@@ -416,7 +416,7 @@ class Dashboard extends React.Component {
                 <Table striped size='sm'>
                   <thead className='no-bd'>
                     <tr>
-                      <th>Населенный пункт</th>
+                      <th>Учебное учреждение</th>
                       <th>ППКРС (бюджет)</th>
                       <th>ППСС3 (бюджет)</th>
                       <th>ППКРС (внебюджет)</th>
