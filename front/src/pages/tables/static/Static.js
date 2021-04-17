@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Row, Col, Table, Modal } from 'reactstrap';
+import { InputGroup, InputGroupAddon, InputGroupText, Input, FormGroup, Label, Button } from 'reactstrap';
 import ModalBody from 'reactstrap/lib/ModalBody';
 import ModalFooter from 'reactstrap/lib/ModalFooter';
 import ModalHeader from 'reactstrap/lib/ModalHeader';
@@ -53,10 +54,101 @@ const Static = () => {
 
   return (
     <div className={s.root}>
-      <h2 className='page-title'>Пользователи</h2>
+      <h2 className='page-title'>Студенты</h2>
+      <Widget title={<h5>Поиск студентов</h5>}>
+        <Row>
+          <Col sm={4} lg={4}>
+            <FormGroup>
+              <Label>Введите ФИО</Label>
+              <InputGroup className='input-group-no-border'>
+                <InputGroupAddon addonType='prepend'>
+                  <InputGroupText>
+                    <i className='fa fa-search text-white' />
+                  </InputGroupText>
+                </InputGroupAddon>
+                <Input
+                  id='search-input'
+                  className='input-transparent'
+                  placeholder='Найти'
+                />
+              </InputGroup>
+            </FormGroup>
+          </Col>
+          <Col sm={4} lg={4}>
+            <FormGroup>
+              <Label for="exampleSelect">Среднее профессиональное образование</Label>
+              <Input type="select" name="select1" id="exampleSelect">
+                <option>Асиновский техникум промышленной индустрии и сервиса</option>
+                <option>Каргасокский техникум промышленности и речного транспорта</option>
+                <option>Кожевниковский техникум агробизнеса</option>
+                <option>Колледж индустрии питания, торговли и сферы услуг</option>
+                <option>Томский аграрный колледж</option>
+              </Input>
+            </FormGroup>
+          </Col>
+          <Col sm={2} lg={2}>
+            <FormGroup>
+              <Label for="exampleSelect">Инвалидность</Label>
+              <Input type="select" name="select1" id="exampleSelect">
+                <option>Нет</option>
+                <option>Да</option>
+              </Input>
+            </FormGroup>
+          </Col>
+          <Col sm={2} lg={2}>
+            <FormGroup>
+              <Label for="exampleSelect">Многодентная семья</Label>
+              <Input type="select" name="select1" id="exampleSelect">
+                <option>Нет</option>
+                <option>Да</option>
+              </Input>
+            </FormGroup>
+          </Col>
+        </Row>
+        <Row>
+          <Col sm={3} lg={3}>
+            <FormGroup>
+              <Label for="exampleSelect">Получают категорию "B"</Label>
+              <Input type="select" name="select1" id="exampleSelect">
+                <option>Нет</option>
+                <option>Да</option>
+              </Input>
+            </FormGroup>
+          </Col>
+          <Col sm={3} lg={3}>
+            <FormGroup>
+              <Label for="exampleSelect">С инвалидностью</Label>
+              <Input type="select" name="select1" id="exampleSelect">
+                <option>Нет</option>
+                <option>Да</option>
+              </Input>
+            </FormGroup>
+          </Col>
+          <Col sm={3} lg={3}>
+            <FormGroup>
+              <Label for="exampleSelect">Сироты</Label>
+              <Input type="select" name="select1" id="exampleSelect">
+                <option>Нет</option>
+                <option>Да</option>
+              </Input>
+            </FormGroup>
+          </Col>
+          <Col sm={3} lg={3}>
+            <FormGroup>
+              <Label for="exampleSelect">Семья</Label>
+              <Input type="select" name="select1" id="exampleSelect">
+                <option>Полная</option>
+                <option>Неполная</option>
+              </Input>
+            </FormGroup>
+          </Col>
+        </Row>
+        <Button style={{ background: 'rgba(0,0,0,0.6)', float: 'right' }}>Фильтровать</Button>
+      </Widget>
       <Row>
         <Col lg={12}>
-          <Widget title={<h5>Все пользователи</h5>} settings close>
+          <Widget title={<h5>Все студенты</h5>} settings close>
+            <Button style={{ background: 'rgba(0,0,0,0.6)', float: 'right' }}>Добавить студента</Button>
             <div className='table-responsive'>
               <Table className='table-hover'>
                 <thead>

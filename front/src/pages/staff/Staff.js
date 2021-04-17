@@ -96,19 +96,19 @@ const Staff = () => {
                 <Modal isOpen={isOpen} toggle={toggle} style={{ maxWidth: "1100px" }}>
                   <ModalBody>
                     <Row>
-                      <Col xs={12} md={1}>
+                      {/* <Col xs={12} md={1}>
                         <img src="/static/media/a5.jpg" style={{ width: "170%", height: "auto", objectFit: "contain" }}></img>
-                      </Col>
-                      <Col xs={12} md={11}>
+                      </Col> */}
+                      <Col xs={12} md={12}>
                         <Table className='table-hover'>
                           <thead>
                             <tr>
                               {thead.map((el, index) => <th key={index}>{el}</th>)}
                               <th>Специализация</th>
-                              <th>Домашний телефон</th>
+                              {/* <th>Домашний телефон</th>
                               <th>Наименование школы</th>
                               <th>Номер аттестата</th>
-                              <th>Форма обучения</th>
+                              <th>Форма обучения</th> */}
                             </tr>
                           </thead>
                           <tbody>
