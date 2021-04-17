@@ -28,7 +28,7 @@ class Offline extends React.Component {
   }
   componentDidMount() {
     const user = data.users.find(
-      item => item.email === localStorage.getItem('ElbrusEmail')
+      item => item.email === localStorage.getItem('email')
     );
     const tabs = data.pages[this.state.page].tabs;
     this.setState({ tabs, user });

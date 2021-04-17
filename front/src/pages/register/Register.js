@@ -105,7 +105,7 @@ class Register extends React.Component {
     return (
       <div className='auth-page'>
         <a
-          href='https://club-elbrus.ru/'
+          href='http://unpo.tomsk.gov.ru/'
           target='_blank'
           rel='noopener noreferrer'
         >

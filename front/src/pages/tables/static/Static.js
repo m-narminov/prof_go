@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import { Row, Col, Table, Modal } from 'reactstrap';
 import { InputGroup, InputGroupAddon, InputGroupText, Input, FormGroup, Label, Button } from 'reactstrap';
 import ModalBody from 'reactstrap/lib/ModalBody';
-import ModalFooter from 'reactstrap/lib/ModalFooter';
-import ModalHeader from 'reactstrap/lib/ModalHeader';
 
 import Widget from '../../../components/Widget';
 import s from './Static.module.scss';

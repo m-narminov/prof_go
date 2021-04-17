@@ -31,7 +31,7 @@ app.get('/api/statement', async (req, res) => {
 		const statements = await Statement.findAll()
 		res.send({ data: statements })
 	} catch (err) {
-
+		res.status(500).send({ err })
 	}
 })
 

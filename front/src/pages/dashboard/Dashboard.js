@@ -1,5 +1,5 @@
-import React from 'react';
-import { Row, Col, Progress, Table } from 'reactstrap';
+import React, { useState } from 'react';
+import { Row, Col, Progress, Table, Dropdown, DropdownToggle, DropdownMenu, DropdownItem, Button, Form, FormGroup, Label, Input, FormText  } from 'reactstrap';
 
 import Widget from '../../components/Widget';
 
@@ -21,8 +21,11 @@ class Dashboard extends React.Component {
     this.state = {
       graph: null,
       checkedArr: [false, false, false],
+      dropdownOpen: false
     };
     this.checkTable = this.checkTable.bind(this);
+
+
   }
 
   checkTable(id) {
@@ -52,11 +55,15 @@ class Dashboard extends React.Component {
     });
   }
 
-  render() {
+  
+  
+
+  render() {   
+
     return (
       <div className={s.root}>
         <h1 className='page-title'>
-          Главная
+          Работа с контингентом
         </h1>
 
         <Row>
@@ -71,7 +78,7 @@ class Dashboard extends React.Component {
               className='bg-transparent'
               title={
                 <h5>
-                  <span className='fw-semi-bold'>Статистика по Томской области</span>
+                  <span className='fw-semi-bold'>Численность обучающихся на 01.01.2021 года</span>
                 </h5>
               }
               settings
@@ -82,7 +89,7 @@ class Dashboard extends React.Component {
                 <span className='circle bg-default text-white'>
                   <i className='fa fa-map-marker' />
                 </span>{' '}
-                &nbsp; 6 городов, 17 районов
+                &nbsp; 6 городов, 21 район
               </p>
               <div className='row progress-stats'>
                 <div className='col-md-9 col-12'>
@@ -96,7 +103,7 @@ class Dashboard extends React.Component {
                 <div className='col-md-3 col-12 text-center'>
                   <span className='status rounded rounded-lg bg-default text-light'>
                     <small>
-                      <AnimateNumber value={40} />%
+                      <AnimateNumber value={500} />ч.
                     </small>
                   </span>
                 </div>
@@ -113,7 +120,7 @@ class Dashboard extends React.Component {
                 <div className='col-md-3 col-12 text-center'>
                   <span className='status rounded rounded-lg bg-default text-light'>
                     <small>
-                      <AnimateNumber value={36} />%
+                      <AnimateNumber value={300} />ч.
                     </small>
                   </span>
                 </div>
@@ -131,7 +138,7 @@ class Dashboard extends React.Component {
                 <div className='col-md-3 col-12 text-center'>
                   <span className='status rounded rounded-lg bg-default text-light'>
                     <small>
-                      <AnimateNumber value={24} />%
+                      <AnimateNumber value={242} />ч.
                     </small>
                   </span>
                 </div>
@@ -149,7 +156,7 @@ class Dashboard extends React.Component {
                 <div className='col-md-3 col-12 text-center'>
                   <span className='status rounded rounded-lg bg-default text-light'>
                     <small>
-                      <AnimateNumber value={24} />%
+                      <AnimateNumber value={240} />ч.
                     </small>
                   </span>
                 </div>
@@ -167,7 +174,7 @@ class Dashboard extends React.Component {
                 <div className='col-md-3 col-12 text-center'>
                   <span className='status rounded rounded-lg bg-default text-light'>
                     <small>
-                      <AnimateNumber value={24} />%
+                      <AnimateNumber value={238} />ч.
                     </small>
                   </span>
                 </div>
@@ -185,7 +192,7 @@ class Dashboard extends React.Component {
                 <div className='col-md-3 col-12 text-center'>
                   <span className='status rounded rounded-lg bg-default text-light'>
                     <small>
-                      <AnimateNumber value={24} />%
+                      <AnimateNumber value={245} />ч.
                     </small>
                   </span>
                 </div>
@@ -193,7 +200,79 @@ class Dashboard extends React.Component {
             </Widget>
           </Col>
         </Row>
+        <Row>
+          <Col lg={12} xs={12}>
+            <Widget title={<h6>Форма приведения и фильтры</h6>} close settings>
+                <div>
+                <Dropdown isOpen={this.state.dropdownOpen} toggle={() => this.setState({dropdownOpen: !this.state.dropdownOpen})}>  
+                  <DropdownToggle style={{background: 'rgba(0, 0, 0, 0.24)'}}  caret>
+                    Тип формы
+                  </DropdownToggle>
+                  <DropdownMenu>
+                    <DropdownItem header>Интересуемая форма</DropdownItem>
+                    <DropdownItem>ППСС3</DropdownItem>
+                    <DropdownItem text>Сироты-инв ППКРС</DropdownItem>
+                    <DropdownItem disabled>Выпуск ППКРС (недоступно)</DropdownItem>
+                    <DropdownItem divider />
+                    <DropdownItem disabled>Трудоустройство ППСС3</DropdownItem>
+                    <DropdownItem>Контр. ППКРС</DropdownItem>
+                    <DropdownItem>Трудоустройство ОВЗ</DropdownItem>
+                  </DropdownMenu>
+                </Dropdown>
+                </div>
+                <Form className={s.form}>                  
+                  <FormGroup className={s.formgroup}>
+                    <Label for="exampleSelect">Количество обучающихся</Label>
+                    <Input type="select" name="select" id="exampleSelect">
+                      <option>Максимальное</option>
+                      <option>Минимальное</option>
+                      <option>По регионам</option>                      
+                    </Input>
+                  </FormGroup>                 
+                  <FormGroup className={s.formgroup}>
+                    <Label for="exampleSelectMulti">Выбор пола</Label>
+                    <Input type="select" name="selectMulti" id="exampleSelectMulti" multiple>
+                      <option>Мужской</option>
+                      <option>Женский</option>
+                    </Input>
+                  </FormGroup>                  
+                  <FormGroup className={s.formgroup} check>
+                    <Label check>
+                      <Input type="checkbox" />{' '}
+                      Наличие водительских прав
+                    </Label>
+                  </FormGroup>
+                  <FormGroup className={s.formgroup} check>
+                    <Label check>
+                      <Input type="checkbox" />{' '}
+                      Сироты
+                    </Label>
+                  </FormGroup>
+                  <FormGroup className={s.formgroup} check>
+                    <Label check>
+                      <Input type="checkbox" />{' '}
+                      Инвалиды
+                    </Label>
+                  </FormGroup>
+                  <FormGroup className={s.formgroup} check>
+                    <Label>Период</Label>
+                    <Input type="text" placeholder="2019" />
+                    <Input type="text" placeholder="2021" />
+                  </FormGroup>
+                  <FormGroup className={s.formgroup}>
+                    <Label for="exampleSelect">Форма обучения</Label>
+                    <Input type="select" name="select" id="exampleSelect">
+                      <option>Очная</option>
+                      <option>Заочная</option>
+                      <option>Очно-Заочная</option>                      
+                    </Input>
+                  </FormGroup>   
+                  {/* <Button>Submit</Button> */}
+                </Form>
 
+            </Widget>
+          </Col>
+        </Row>
         <Row>
           <Col lg={4} xs={12}>
             <Widget title={<h6>Информация об образовательной программе</h6>} close settings>
@@ -264,87 +343,37 @@ class Dashboard extends React.Component {
             <Widget
               title={
                 <h6>
-                  <span className='badge badge-success'>Новые</span> Сообщения
+                  <span className='badge badge-success'>%</span> трудоустроенных выпускников 
                 </h6>
               }
               refresh
               close
             >
-              <div className='widget-body undo_padding'>
-                <div className='list-group list-group-lg'>
-                  <button className='list-group-item text-left'>
-                    <span className='thumb-sm float-left mr'>
-                      <img
-                        className='rounded-circle'
-                        src={peopleA2}
-                        alt='...'
-                      />
-                      <i className='status status-bottom bg-success' />
-                    </span>
-                    <div>
-                      <h6 className='m-0'>Калинюк Юрий Владимирович</h6>
-                      <p className='help-block text-ellipsis m-0'>
-                        Добрый день! Пожалуйста, не забудьте проверять почту!
-                      </p>
-                    </div>
-                  </button>
-                  <button className='list-group-item text-left'>
-                    <span className='thumb-sm float-left mr'>
-                      <img
-                        className='rounded-circle'
-                        src={peopleA4}
-                        alt='...'
-                      />
-                      <i className='status status-bottom bg-success' />
-                    </span>
-                    <div>
-                      <h6 className='m-0'>Щербаков Василий Николаевич</h6>
-                      <p className='help-block text-ellipsis m-0'>
-                        Здравствуйте, отправил нововедения по приемной кампании всем учреждениям
-                      </p>
-                    </div>
-                  </button>
-                  <button className='list-group-item text-left'>
-                    <span className='thumb-sm float-left mr'>
-                      <img
-                        className='rounded-circle'
-                        src={peopleA1}
-                        alt='...'
-                      />
-                      <i className='status status-bottom bg-default' />
-                    </span>
-                    <div>
-                      <h6 className='m-0'>Ларионова Надежда Анатольевна</h6>
-                      <p className='help-block text-ellipsis m-0'>
-                        Завтра жду в деканате всех.
-                      </p>
-                    </div>
-                  </button>
-                  <button className='list-group-item text-left'>
-                    <span className='thumb-sm float-left mr'>
-                      <img
-                        className='rounded-circle'
-                        src={peopleA5}
-                        alt='...'
-                      />
-                      <i className='status status-bottom bg-danger' />
-                    </span>
-                    <div>
-                      <h6 className='m-0'>Микляева Оксана Владимировна</h6>
-                      <p className='help-block text-ellipsis m-0'>
-                        Привет, как ваши успехи?
-                      </p>
-                    </div>
-                  </button>
-                </div>
+
+<div className={`widget-table-overflow ${s.table}`}>
+                <Table striped size='sm'>
+                  <thead className='no-bd'>
+                    <tr>
+                      <th>Населенный пункт</th>
+                      <th>ППКРС (бюджет)%</th>
+                      <th>ППСС3 (бюджет)%</th>                      
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Верхнекетский</td>
+                      <td className='text-align-right fw-semi-bold'>4</td>
+                      <td className='text-align-right fw-semi-bold'>40</td>                      
+                    </tr>
+                    <tr>
+                      <td>Каргасокский</td>
+                      <td className='text-align-right fw-semi-bold'>1</td>
+                      <td className='text-align-right fw-semi-bold'>7</td>                      
+                    </tr>                    
+                  </tbody>
+                </Table>
               </div>
-              <footer className='bg-widget-transparent mt'>
-                <input
-                  type='search'
-                  className='form-control form-control-sm bg-custom-dark border-0'
-                  placeholder='Найти'
-                />
-              </footer>
+              
             </Widget>
           </Col>
 
@@ -366,8 +395,7 @@ class Dashboard extends React.Component {
                       <th>Населенный пункт</th>
                       <th>ППКРС (бюджет)</th>
                       <th>ППСС3 (бюджет)</th>
-                      <th>ППКРС (внебюджет)</th>
-                      <th>ППСС3 (внебюджет)</th>
+                      <th>ППКРС (внебюджет)</th>                      
                     </tr>
                   </thead>
                   <tbody>
@@ -375,44 +403,32 @@ class Dashboard extends React.Component {
                       <td>Верхнекетский</td>
                       <td className='text-align-right fw-semi-bold'>4</td>
                       <td className='text-align-right fw-semi-bold'>40</td>
-                      <td className='text-align-right fw-semi-bold'>0</td>
-                      <td className='text-align-right fw-semi-bold'>1</td>
+                      <td className='text-align-right fw-semi-bold'>0</td>                      
                     </tr>
                     <tr>
                       <td>Каргасокский</td>
                       <td className='text-align-right fw-semi-bold'>1</td>
                       <td className='text-align-right fw-semi-bold'>7</td>
-                      <td className='text-align-right fw-semi-bold'>0</td>
-                      <td className='text-align-right fw-semi-bold'>1</td>
+                      <td className='text-align-right fw-semi-bold'>0</td>                    
                     </tr>
                     <tr>
                       <td>Томск</td>
                       <td className='text-align-right fw-semi-bold'>70</td>
                       <td className='text-align-right fw-semi-bold'>673</td>
-                      <td className='text-align-right fw-semi-bold'>16</td>
-                      <td className='text-align-right fw-semi-bold'>98</td>
+                      <td className='text-align-right fw-semi-bold'>16</td>                    
                     </tr>
                     <tr>
                       <td>Северск</td>
                       <td className='text-align-right fw-semi-bold'>8</td>
                       <td className='text-align-right fw-semi-bold'>70</td>
-                      <td className='text-align-right fw-semi-bold'>0</td>
-                      <td className='text-align-right fw-semi-bold'>15</td>
+                      <td className='text-align-right fw-semi-bold'>0</td>                    
                     </tr>
                     <tr>
                       <td>Стрежевой</td>
                       <td className='text-align-right fw-semi-bold'>0</td>
                       <td className='text-align-right fw-semi-bold'>2</td>
-                      <td className='text-align-right fw-semi-bold'>0</td>
-                      <td className='text-align-right fw-semi-bold'>0</td>
-                    </tr>
-                    <tr>
-                      <td>Из других областей РФ</td>
-                      <td className='text-align-right fw-semi-bold'>17</td>
-                      <td className='text-align-right fw-semi-bold'>248</td>
-                      <td className='text-align-right fw-semi-bold'>5</td>
-                      <td className='text-align-right fw-semi-bold'>34</td>
-                    </tr>
+                      <td className='text-align-right fw-semi-bold'>0</td>                    
+                    </tr>                    
                   </tbody>
                 </Table>
               </div>
@@ -421,24 +437,34 @@ class Dashboard extends React.Component {
 
           <Col lg={4} xs={12}>
             <Widget
-              title={<h6>Календарь</h6>}
+              title={<h6>Период</h6>}
               settings
               close
               bodyClass={'pt-2 px-0 py-0'}
             >
-              <Calendar />
+              <Calendar />              
+            </Widget>
+          </Col>
+
+          <Col lg={4} xs={12}>
+            <Widget
+              title={<h6>Генерировать отчёт</h6>}
+              settings
+              close
+              bodyClass={'pt-2 px-0 py-0'}
+            >              
               <div className='list-group fs-mini'>
                 <button className='list-group-item text-ellipsis'>
                   <span className='badge badge-pill badge-primary float-right'>
-                    7:45
+                    Excel
                   </span>
-                  Записать задачи на неделю
+                  Сформировать сводную талицу
                 </button>
                 <button className='list-group-item text-ellipsis'>
                   <span className='badge badge-pill badge-success float-right'>
-                    9:40
+                    doc
                   </span>
-                  Еженедельная планерка
+                  Сформировать отчёт
                 </button>
               </div>
             </Widget>

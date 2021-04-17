@@ -18,13 +18,13 @@ class Am4chartMap extends Component {
     map.projection = new am4maps.projections.NaturalEarth1();
     let polygonSeries = map.series.push(new am4maps.MapPolygonSeries());
     polygonSeries.useGeodata = true;
-    map.homeGeoPoint = { latitude: 60.717079, longitude: 84.00116 };
-    map.homeZoomLevel = 2;
+    map.homeGeoPoint = { latitude: 57.717079, longitude: 85.00116 };
+    map.homeZoomLevel = 15;
     map.zoomControl = new am4maps.ZoomControl();
     map.zoomControl.layout = 'horizontal';
     map.zoomControl.align = 'left';
     map.zoomControl.valign = 'bottom';
-    map.zoomControl.dy = -10;
+    map.zoomControl.dy = -5;
     map.zoomControl.contentHeight = 20;
     map.zoomControl.minusButton.background.fill = am4core.color('#C7D0FF');
     map.zoomControl.minusButton.background.stroke = am4core.color('#6979C9');
@@ -50,7 +50,7 @@ class Am4chartMap extends Component {
     );
     minusButtonHoverState.properties.fill = am4core.color('#354D84');
     let polygonTemplate = polygonSeries.mapPolygons.template;
-    polygonTemplate.tooltipText = '{name}';
+    polygonTemplate.tooltipText = 'Томская область';
     polygonTemplate.fill = am4core.color('#474D84');
     polygonTemplate.stroke = am4core.color('#6979C9');
     let hs = polygonTemplate.states.create('hover');
